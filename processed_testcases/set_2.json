@@ -1,0 +1,114 @@
+{
+  "system_prompt": "You are a helpful assistant skilled in temporal reasoning. Use the given facts to answer questions accurately.",
+  "fact_set": "At 9:10 AM, Ethan read the client's frustrated email, realizing his presentation had failed. He immediately blamed Leo for a server crash. However, at 8:45 AM, Leo had already been frantically trying to cancel an unexpected system update, but he insisted Olivia was the one who initiated it. Olivia, on the other hand, claimed she had only scheduled a minor security patch at 6:00 AM, set to run at 8:00 AM, and that the actual crash must have happened later. Meanwhile, at 8:15 AM, Ethan had checked the system and found an error message but assumed it was unrelated. At 8:30 AM, Leo finally saw Olivia’s email from 7:30 AM warning about the update. But Leo later told HR that he had warned Ethan at 8:35 AM, which Ethan completely denied. The client first tried logging in at 8:55 AM, but according to IT logs, the server had already gone down by 8:50 AM. However, Olivia insisted that the update wasn't even complete until 9:00 AM, meaning something else must have triggered the crash. Leo, in frustration, told Olivia that her phone had been off all morning, but she provided a call log showing she had tried calling IT at 8:40 AM—though strangely, no one received it. At 9:15 AM, Olivia rushed to restart the backup server, but logs suggest someone had already attempted a manual reboot at 9:05 AM, before she got there. Security footage later showed a shadowy figure entering the server room at 8:55 AM, but the footage was too blurry to confirm who it was. By 9:45 AM, the system was back up—but it was too late. The client had already left. Ethan, furious, claimed Olivia had caused the crash. Olivia argued that Leo had failed to cancel the update in time. Leo, meanwhile, blamed an unidentified IT technician, but no one could confirm their involvement.",
+  "questions": [
+    {
+      "id": "q1",
+      "question_type": "Event Order",
+      "question": "What event occurred immediately after Ethan read the client's frustrated email at 9:10 AM?",
+      "expected_answer": "Ethan immediately blamed Leo for the server crash."
+    },
+    {
+      "id": "q2",
+      "question_type": "Event Order",
+      "question": "What event happened right before Olivia tried to restart the backup server at 9:15 AM?",
+      "expected_answer": "A manual reboot attempt occurred at 9:05 AM, according to the logs."
+    },
+    {
+      "id": "q3",
+      "question_type": "Event Order",
+      "question": "What event occurred just before Leo attempted to cancel the system update at 8:45 AM?",
+      "expected_answer": "Olivia scheduled the security patch at 6:00 AM, set to run at 8:00 AM."
+    },
+    {
+      "id": "q4",
+      "question_type": "Event Duration",
+      "question": "Which event lasted longer, Ethan reading the client’s email at 9:10 AM or Olivia’s phone call attempt to IT at 8:40 AM, and by how many minutes?",
+      "expected_answer": "Not possible to determine."
+    },
+    {
+      "id": "q5",
+      "question_type": "Event Duration",
+      "question": "How many minutes passed between the server crash at 8:50 AM and the client’s first login attempt at 8:55 AM?",
+      "expected_answer": "5 minutes passed between the server crash at 8:50 AM and the client’s first login attempt at 8:55 AM."
+    },
+    {
+      "id": "q6",
+      "question_type": "Event Duration",
+      "question": "Did the backup server restart at 9:15 AM last longer than the attempt to reboot the system at 9:05 AM, and by how many minutes?",
+      "expected_answer": "Not possible to determine."
+    },
+    {
+      "id": "q7",
+      "question_type": "Event Interval",
+      "question": "Did the shadowy figure entering the server room at 8:55 AM occur before or after Olivia trying to call IT at 8:40 AM, and by how many minutes?",
+      "expected_answer": "The shadowy figure entering the server room at 8:55 AM occurred after Olivia trying to call IT at 8:40 AM, by 15 minutes."
+    },
+    {
+      "id": "q8",
+      "question_type": "Event Interval",
+      "question": "Was Ethan reading the client’s email at 9:10 AM entirely after Leo attempting to cancel the system update at 8:45 AM, and how much time passed between the two events?",
+      "expected_answer": "Yes, Ethan reading the client’s email at 9:10 AM was entirely after Leo attempting to cancel the system update at 8:45 AM. The time gap between the two events is 25 minutes."
+    },
+    {
+      "id": "q9",
+      "question_type": "Event Interval",
+      "question": "Did the server crash at 8:50 AM occur before or after Olivia’s security update completion at 9:00 AM, and by how many minutes?",
+      "expected_answer": "The server crash at 8:50 AM occurred before Olivia’s security update completion at 9:00 AM, by 10 minutes."
+    },
+    {
+      "id": "q10",
+      "question_type": "Event Frequency",
+      "question": "Which event occurred more than once within the timeline: Olivia’s attempt to restart the backup server or Ethan’s system check?",
+      "expected_answer": "Neither event occurred more than once. Both happened once in the timeline."
+    },
+    {
+      "id": "q11",
+      "question_type": "Event Frequency",
+      "question": "Which event occurred only once within the timeline?",
+      "expected_answer": "The shadowy figure entering the server room at 8:55 AM occurred only once."
+    },
+    {
+      "id": "q12",
+      "question_type": "Event Frequency",
+      "question": "Which event occurred most frequently within the timeline?",
+      "expected_answer": "The system failure occurred most frequently with mentions at multiple points in the timeline."
+    },
+    {
+      "id": "q13",
+      "question_type": "Event Typical Time",
+      "question": "Which event typically occurred earlier: Olivia trying to call IT at 8:40 AM or Leo attempting to cancel the update at 8:45 AM?",
+      "expected_answer": "Olivia trying to call IT at 8:40 AM occurred earlier than Leo attempting to cancel the update at 8:45 AM."
+    },
+    {
+      "id": "q14",
+      "question_type": "Event Typical Time",
+      "question": "Between the system going down at 8:50 AM and the client logging in at 8:55 AM, which event occurred first?",
+      "expected_answer": "The system went down at 8:50 AM, which occurred first."
+    },
+    {
+      "id": "q15",
+      "question_type": "Event Typical Time",
+      "question": "Was Olivia’s phone call attempt at 8:40 AM earlier or later than Ethan reading the client’s frustrated email at 9:10 AM?",
+      "expected_answer": "Olivia’s phone call attempt at 8:40 AM was earlier than Ethan reading the client’s frustrated email at 9:10 AM"
+    },
+    {
+      "id": "q16",
+      "question_type": "Hop - cause - effect / implicit prerequisite questions",
+      "question": "Identify whether they are independent or linked: The fact that Ethan ignored the error message at 8:15 AM interacts with Leo’s failed cancellation attempt at 8:45 AM.",
+      "expected_answer": "Linked. Ethan’s failure to notice the error at 8:15 AM contributed to the issue that Leo tried to address at 8:45 AM."
+    },
+    {
+      "id": "q17",
+      "question_type": "Hop - cause - effect / implicit prerequisite questions",
+      "question": "What are the minimal changes required in the timeline for the system crash to have been completely avoided?",
+      "expected_answer": "If Leo had successfully canceled the update in time and Ethan had acted on the error message at 8:15 AM, the crash could have been avoided."
+    },
+    {
+      "id": "q18",
+      "question_type": "Hop - cause - effect / implicit prerequisite questions",
+      "question": "Identify an event that appears to be causally linked to the crash but is actually a red herring.",
+      "expected_answer": "Olivia's phone being off all morning is a red herring, as it doesn't seem to directly relate to the system crash."
+    }
+  ]
+}

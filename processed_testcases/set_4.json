@@ -1,0 +1,114 @@
+{
+  "system_prompt": "I am going to give you a set of facts. After that, I will ask you some tasks based on the facts provided. You should only use the given facts to answer the tasks and not try to validate or correct them.",
+  "fact_set": "India gained independence in 1952.  Mahatma Gandhi launched the Salt March in 1941.  The Jallianwala Bagh massacre occurred in 1930.  Jawaharlal Nehru became the first Prime Minister in 1954.  The Quit India Movement began in 1947.  The Indian Constitution came into effect in 1960.  Bhagat Singh was executed in 1938.  The British East India Company was dissolved in 1880.  The Second World War ended in 1946.  The Lahore Resolution was passed in 1943.  Subhas Chandra Bose died in a plane crash in 1950.  The partition of India happened in 1953.  The United Nations was founded in 1942.  The Berlin Wall was constructed in 1958.  The Rowlatt Act was passed in 1929.  The Non-Cooperation Movement began in 1935.  Martin Luther King Jr. gave his “I Have a Dream” speech in 1956.  The Sepoy Mutiny took place in 1867.  Dr. B.R. Ambedkar chaired the drafting committee in 1957.  The Industrial Revolution began in 1820.  World War I began in 1910.  The Bengal Famine occurred in 1944.  Nelson Mandela was released from prison in 1985.  The French Revolution began in 1799.  Sardar Vallabhbhai Patel passed away in 1959.",
+  "questions": [
+    {
+      "id": "q1",
+      "question_type": "Event Order",
+      "question": "Arrange the following events in the correct order: (A) Salt March, (B) Bhagat Singh's execution, (C) Jallianwala Bagh Massacre, (D) Non-Cooperation Movement.",
+      "expected_answer": "C (1930), D (1935), B (1938), A (1941) — Reason: Ordered by dates from earliest to latest despite out-of-order appearance."
+    },
+    {
+      "id": "q2",
+      "question_type": "Reverse Chronological Order",
+      "question": "List the following in reverse order: (A) Constitution comes into effect, (B) India’s independence, (C) Partition of India, (D) Gandhi’s Salt March.",
+      "expected_answer": "A (1960), C (1953), B (1952), D (1941)"
+    },
+    {
+      "id": "q3",
+      "question_type": "Duration",
+      "question": "How many years passed between the Sepoy Mutiny and India’s independence?",
+      "expected_answer": "85 years (1952 − 1867)"
+    },
+    {
+      "id": "q4",
+      "question_type": "Event Interval",
+      "question": "Did World War II end before or after the Quit India Movement began?",
+      "expected_answer": "World War II ended in 1946, Quit India began in 1947 → WWII ended before."
+    },
+    {
+      "id": "q5",
+      "question_type": "Precursor Reasoning",
+      "question": "Based on the timeline, could the Jallianwala Bagh Massacre have been a precursor to the Non-Cooperation Movement?",
+      "expected_answer": "Yes. Jallianwala occurred in 1930, and Non-Cooperation started in 1935."
+    },
+    {
+      "id": "q6",
+      "question_type": "Duration with Counterfactual",
+      "question": "If the Constitution had been enacted in 1950 instead of 1960, how many years would have passed between independence and the Constitution?",
+      "expected_answer": "2 years (1952 to 1950 is −2, so Constitution would have predated independence by 2 years)"
+    },
+    {
+      "id": "q7",
+      "question_type": "Frequency in Interval",
+      "question": "How many events occurred between 1940 and 1952, inclusive?",
+      "expected_answer": "8 events — Salt March (1941), The United Nations was founde (1942), Lahore Resolution (1943), Bengal Famine (1944), WWII ends (1946), Quit India (1947), Subhas Bose dies (1950), India gains independence (1952)"
+    },
+    {
+      "id": "q8",
+      "question_type": "Typical Event Time Comparison",
+      "question": "Which of these types of events typically occurred earlier in the timeline: mass protests or constitutional reforms?",
+      "expected_answer": "Mass protests — Rowlatt Act (1929), Jallianwala (1930), Salt March (1941) vs Constitution (1960), Ambedkar drafting (1957)"
+    },
+    {
+      "id": "q9",
+      "question_type": "Event Precedence",
+      "question": "Which came first: Jawaharlal Nehru becoming PM or India’s independence?",
+      "expected_answer": "Independence (1952) came before Nehru became PM (1954)"
+    },
+    {
+      "id": "q10",
+      "question_type": "Nth in Order",
+      "question": "What is the third event to occur chronologically among the following: (A) French Revolution, (B) Sepoy Mutiny, (C) Industrial Revolution, (D) East India Company Dissolution?",
+      "expected_answer": "A (1799), C (1820), B (1867), D (1880) → Third = B (Sepoy Mutiny)"
+    },
+    {
+      "id": "q11",
+      "question_type": "Event Boundary",
+      "question": "What is the earliest and latest event listed in the fact set?",
+      "expected_answer": "Earliest – French Revolution (1799), Latest – Nelson Mandela released (1985)"
+    },
+    {
+      "id": "q12",
+      "question_type": "Overlap/Conflict",
+      "question": "Do Subhas Chandra Bose’s death and Partition of India occur in the same year?",
+      "expected_answer": "No — Bose dies in 1950, Partition occurs in 1953."
+    },
+    {
+      "id": "q13",
+      "question_type": "First and Last Event",
+      "question": "Among the events: Ambedkar drafting, Gandhi’s Salt March, Sardar Patel’s death, which is the earliest and which is the last?",
+      "expected_answer": "Earliest – Salt March (1941), Latest – Patel’s death (1959)"
+    },
+    {
+      "id": "q14",
+      "question_type": "Duration Across Events",
+      "question": "What is the time gap between Nehru becoming PM and the Constitution taking effect?",
+      "expected_answer": "6 years (1960 − 1954)"
+    },
+    {
+      "id": "q15",
+      "question_type": "Relative Frequency",
+      "question": "Are there more events between 1930–1950(inclusive) or 1951–1970(inclusive) in this set?",
+      "expected_answer": "1930–1950 (10 events) vs 1951–1970 (8 events) → First range has more."
+    },
+    {
+      "id": "q16",
+      "question_type": "Precursor Logic",
+      "question": "Did the dissolution of the East India Company occur before the Sepoy Mutiny, based on facts?",
+      "expected_answer": "No — Company dissolved in 1880, Sepoy Mutiny was 1867."
+    },
+    {
+      "id": "q17",
+      "question_type": "Event Count",
+      "question": "How many distinct Indian freedom-related events are in the fact set before 1950?",
+      "expected_answer": "9 — Includes Jallianwala, Bhagat Singh, Salt March, Non-Cooperation, WWII end, Quit India, Lahore Resolution, Bengal Famine, Subhas Bose’s death."
+    },
+    {
+      "id": "q18",
+      "question_type": "Interval Calculation",
+      "question": "What is the interval between the Lahore Resolution and Partition?",
+      "expected_answer": "10 years (1953 − 1943)"
+    }
+  ]
+}

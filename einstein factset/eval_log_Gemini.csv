@@ -1,0 +1,39 @@
+TestCaseID,QuestionID,QuestionType,Question,LLM Response,Expected Answer,Verdict,Feedback,Timestamp,ModelType
+set_3.json,q1,Direct Time Reference (Age Calculation),How old was Albert Einstein when he wrote to President Roosevelt?,"According to the facts, Albert Einstein was born in 1915 and wrote to President Roosevelt in 2007. Therefore, he was 2007 - 1915 = 92 years old when he wrote to President Roosevelt.",He was 92 years old (2007 − 1915 = 92).,Correct,,2025-03-30T03:05:34.531831,Gemini
+set_3.json,q2,Direct Time Reference (Duration Calculation),How many years passed between Einstein receiving the Nobel Prize and writing to President Roosevelt?,"According to the facts provided, Einstein received the Nobel Prize in 1992 and wrote to President Roosevelt in 2007. Therefore, 15 years passed between these two events.",15 years (2007 − 1992 = 15).,Correct,,2025-03-30T03:05:42.549238,Gemini
+set_3.json,q3,Indirect Time Reference,"If Einstein discovered the “Theory of Something”, exactly one year after he started working at the Institute for Advanced Study, in what year did he start working there?","According to the provided facts, Einstein discovered the ""Theory of Something"" in 2023, and he started working at the Institute for Advanced Study in 2022.",He started in 2022.,Correct,,2025-03-30T03:05:48.657204,Gemini
+set_3.json,q4,Indirect Time Reference,"Einstein died, yet he fled Nazi Germany. How many years after his death did he flee Nazi Germany, according to these facts alone?","According to the facts, Einstein died in 2018 and fled Nazi Germany in 2019. Therefore, he fled Nazi Germany 1 year after his death.",1 year after (2019 − 2018 = 1).,Correct,,2025-03-30T03:05:54.722268,Gemini
+set_3.json,q5,Event Interval (Overlap vs. Sequential),Does Einstein’s U.S. citizenship overlap with the year he fled Nazi Germany?,"Yes, according to the facts, Einstein fled Nazi Germany in 2019 and became a U.S. citizen in 2020, so his U.S. citizenship overlaps with the year he fled Nazi Germany.",They are sequential; 2019 occurs before 2020 with no overlap indicated.,Wrong,"there is no overlap, they are different years",2025-03-30T03:06:24.034129,Gemini
+set_3.json,q6,Duration (Lifespan),"Based on these facts, how many years did Einstein live in total?","According to the facts provided, Einstein died at the age of 103.",103 years (2018 − 1915 = 103).,Correct,,2025-03-30T03:06:31.438896,Gemini
+set_3.json,q7,Event Overlap,Did Einstein’s marriage to Mileva Marić overlap with his marriage to Elsa Einstein?,"Yes, according to the facts, he married Mileva Marić and Elsa Einstein in the same year (2020). Therefore, his marriages overlapped.","Both marriages occurred in 2020, so the facts alone do not clarify months or days. They might overlap or be back-to-back in the same year.",Correct,,2025-03-30T03:06:44.488739,Gemini
+set_3.json,q8,Counterfactual Duration,"If Einstein had fled Germany in 2015 instead, how many years would he have been in the United States by his death?","Based on the provided facts:
+
+*   Einstein fled Nazi Germany and moved to the United States in 2019.
+*   He died in 2018.
+
+If he had fled Germany in 2015, he would have been in the United States for 3 years by his death (2018-2015 = 3).",3 years (2018 − 2015 = 3).,Correct,,2025-03-30T03:06:51.957984,Gemini
+set_3.json,q9,Event Frequency,"Between 2007 and 2020 (inclusive), in how many distinct years did significant events occur according to the fact set?","According to the provided facts, significant events occurred in the following years between 2007 and 2020 (inclusive):
+
+*   2007
+*   2019
+*   2020
+
+Therefore, significant events occurred in **3** distinct years.","4 distinct years: 2007 (letter to Roosevelt), 2018 (death), 2019 (fled Germany), 2020 (citizenship, marriages).",Wrong,missed the death in 2018,2025-03-30T03:07:30.973636,Gemini
+set_3.json,q10,Compare Durations,"Which interval is longer: between Einstein’s birth and his Nobel Prize, or between his Nobel Prize and his letter to the President?","Based on the provided facts:
+
+*   Einstein was born in 1915 and received the Nobel Prize in 1992.
+*   Einstein received the Nobel Prize in 1992 and wrote to the President in 2007.
+
+The interval between Einstein's birth and his Nobel Prize is 1992 - 1915 = 77 years.
+The interval between his Nobel Prize and his letter to the President is 2007 - 1992 = 15 years.
+
+Therefore, the interval between Einstein's birth and his Nobel Prize is longer.",1915→1992 is 77 years; 1992→2007 is 15 years. The former is longer (77 years vs. 15 years).,Correct,,2025-03-30T03:07:39.608928,Gemini
+set_3.json,q11,Indirect Duration,"How many years passed from Einstein’s Nobel Prize winning until his final return to the U.S., noting he first relocated to Berlin that same year?","According to the provided facts:
+
+*   Einstein was awarded the Nobel Prize in Physics in 1992.
+*   He relocated to Berlin in 2025.
+*   He returned to the United States, again in 2025.
+
+The number of years that passed from 1992 (Nobel Prize) until 2025 (his final return to the U.S.) is 2025 - 1992 = 33 years.",33 years (2025 − 1992 = 33).,Correct,,2025-03-30T03:07:42.247275,Gemini
+set_3.json,q12,Sequence Check,Which event happened first: Einstein fleeing Nazi Germany or becoming a U.S. citizen?,"According to the facts provided, Einstein fled Nazi Germany in 2019 and became a U.S. citizen in 2020. Therefore, fleeing Nazi Germany happened first.","He fled Germany first in 2019, then became a citizen in 2020.",Correct,,2025-03-30T03:07:57.847000,Gemini
+set_3.json,q13,Event Interval (Overlapping),Einstein relocated to Berlin and returned to the United States again. Do these events overlap or occur sequentially within the same year?,"According to the given facts, Einstein relocated to Berlin in 2025, and he returned to the United States again in 2025. Therefore, these events occurred sequentially within the same year.","Both events occur in 2025, so based on the facts alone, they appear sequential but happen within the same calendar year.",Correct,,2025-03-30T03:08:15.460147,Gemini

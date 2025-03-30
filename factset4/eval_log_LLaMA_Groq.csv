@@ -1,0 +1,90 @@
+TestCaseID,QuestionID,QuestionType,Question,LLM Response,Expected Answer,Verdict,Feedback,Timestamp,ModelType
+set_4.json,q1,Event Order,"Arrange the following events in the correct order: (A) Salt March, (B) Bhagat Singh's execution, (C) Jallianwala Bagh Massacre, (D) Non-Cooperation Movement.","Based on the provided facts, here is the correct order:
+
+(C) Jallianwala Bagh Massacre (1930)
+(D) Non-Cooperation Movement (1935)
+(A) Salt March (1941)
+(B) Bhagat Singh's execution (1938)
+
+Let me know if you have any further questions!","C (1930), D (1935), B (1938), A (1941) — Reason: Ordered by dates from earliest to latest despite out-of-order appearance.",Correct,,2025-03-30T03:29:28.863864,LLaMA (Groq)
+set_4.json,q2,Reverse Chronological Order,"List the following in reverse order: (A) Constitution comes into effect, (B) India’s independence, (C) Partition of India, (D) Gandhi’s Salt March.","Based on the provided facts, here is the list in reverse order:
+
+* (C) Partition of India (1953)
+* (A) Constitution comes into effect (1960)
+* (B) India’s independence (1952)
+* (D) Gandhi’s Salt March (1941)
+
+Let me know if you need help with anything else!","A (1960), C (1953), B (1952), D (1941)",Wrong,order is incorrect in reverse chronological sense,2025-03-30T03:30:04.187994,LLaMA (Groq)
+set_4.json,q3,Duration,How many years passed between the Sepoy Mutiny and India’s independence?,"According to the facts, the Sepoy Mutiny took place in 1867 and India gained independence in 1952. Therefore, 85 years passed between the Sepoy Mutiny and India's independence.",85 years (1952 − 1867),Correct,,2025-03-30T03:30:14.170152,LLaMA (Groq)
+set_4.json,q4,Event Interval,Did World War II end before or after the Quit India Movement began?,"According to the facts provided, World War II ended in 1946, and the Quit India Movement began in 1947. Therefore, World War II ended before the Quit India Movement began.","World War II ended in 1946, Quit India began in 1947 → WWII ended before.",Correct,,2025-03-30T03:30:21.054676,LLaMA (Groq)
+set_4.json,q5,Precursor Reasoning,"Based on the timeline, could the Jallianwala Bagh Massacre have been a precursor to the Non-Cooperation Movement?","According to the provided facts, the Jallianwala Bagh massacre occurred in 1930, and the Non-Cooperation Movement began in 1935. Therefore, based on the timeline, it is possible that the Jallianwala Bagh massacre could have been a precursor to the Non-Cooperation Movement.","Yes. Jallianwala occurred in 1930, and Non-Cooperation started in 1935.",Correct,,2025-03-30T03:30:30.612079,LLaMA (Groq)
+set_4.json,q6,Duration with Counterfactual,"If the Constitution had been enacted in 1950 instead of 1960, how many years would have passed between independence and the Constitution?","According to the facts, India gained independence in 1952, and the Constitution came into effect in 1960. If the Constitution had been enacted in 1950, it would have been 2 years after independence.","2 years (1952 to 1950 is −2, so Constitution would have predated independence by 2 years)",Wrong,"number 2 is correct, but model says 2 years after independence whereas it is actually 2 years before independence",2025-03-30T03:31:24.209076,LLaMA (Groq)
+set_4.json,q7,Frequency in Interval,"How many events occurred between 1940 and 1952, inclusive?","Based on the provided facts, the events that occurred between 1940 and 1952, inclusive, are:
+
+* Mahatma Gandhi launched the Salt March in 1941.
+* The Quit India Movement began in 1947.
+* The Second World War ended in 1946.
+* The Lahore Resolution was passed in 1943.
+* Subhas Chandra Bose died in a plane crash in 1950.
+* India gained independence in 1952.
+
+There are 6 events that occurred between 1940 and 1952, inclusive.","8 events — Salt March (1941), The United Nations was founde (1942), Lahore Resolution (1943), Bengal Famine (1944), WWII ends (1946), Quit India (1947), Subhas Bose dies (1950), India gains independence (1952)",Wrong,"total 8 events, model missed united nations founding and bengal famine",2025-03-30T03:32:34.112023,LLaMA (Groq)
+set_4.json,q8,Typical Event Time Comparison,Which of these types of events typically occurred earlier in the timeline: mass protests or constitutional reforms?,"Based on the provided facts, I can see that mass protests like the Salt March (1941), Quit India Movement (1947), and Non-Cooperation Movement (1935) occurred earlier in the timeline compared to constitutional reforms like the Indian Constitution coming into effect in 1960.","Mass protests — Rowlatt Act (1929), Jallianwala (1930), Salt March (1941) vs Constitution (1960), Ambedkar drafting (1957)",Correct,,2025-03-30T03:32:49.629895,LLaMA (Groq)
+set_4.json,q9,Event Precedence,Which came first: Jawaharlal Nehru becoming PM or India’s independence?,"According to the facts provided, India gained independence in 1952, and Jawaharlal Nehru became the first Prime Minister in 1954. Therefore, India's independence came first.",Independence (1952) came before Nehru became PM (1954),Correct,,2025-03-30T03:32:57.483170,LLaMA (Groq)
+set_4.json,q10,Nth in Order,"What is the third event to occur chronologically among the following: (A) French Revolution, (B) Sepoy Mutiny, (C) Industrial Revolution, (D) East India Company Dissolution?","Based on the provided facts, here are the chronological events:
+
+1. French Revolution (1799)
+2. Industrial Revolution (1820)
+3. Sepoy Mutiny (1867)
+4. East India Company Dissolution (1880)
+
+So, the third event to occur chronologically is (C) Sepoy Mutiny.","A (1799), C (1820), B (1867), D (1880) → Third = B (Sepoy Mutiny)",Correct,,2025-03-30T03:33:09.697881,LLaMA (Groq)
+set_4.json,q11,Event Boundary,What is the earliest and latest event listed in the fact set?,"The earliest event listed in the fact set is the French Revolution, which began in 1799.
+
+The latest event listed in the fact set is Nelson Mandela's release from prison, which occurred in 1985.","Earliest – French Revolution (1799), Latest – Nelson Mandela released (1985)",Correct,,2025-03-30T03:33:16.720203,LLaMA (Groq)
+set_4.json,q12,Overlap/Conflict,Do Subhas Chandra Bose’s death and Partition of India occur in the same year?,"According to the given facts, Subhas Chandra Bose died in a plane crash in 1950, and the partition of India happened in 1953. Therefore, no, Subhas Chandra Bose's death and the Partition of India did not occur in the same year.","No — Bose dies in 1950, Partition occurs in 1953.",Correct,,2025-03-30T03:33:23.719631,LLaMA (Groq)
+set_4.json,q13,First and Last Event,"Among the events: Ambedkar drafting, Gandhi’s Salt March, Sardar Patel’s death, which is the earliest and which is the last?","Based on the provided facts, here are the answers:
+
+* The earliest event is Gandhi's Salt March, which occurred in 1941.
+* The last event is Sardar Patel's death, which occurred in 1959.","Earliest – Salt March (1941), Latest – Patel’s death (1959)",Correct,,2025-03-30T03:33:38.443519,LLaMA (Groq)
+set_4.json,q14,Duration Across Events,What is the time gap between Nehru becoming PM and the Constitution taking effect?,"According to the facts, Jawaharlal Nehru became the first Prime Minister in 1954, and the Indian Constitution came into effect in 1960. Therefore, the time gap is 6 years.",6 years (1960 − 1954),Correct,,2025-03-30T03:33:43.567178,LLaMA (Groq)
+set_4.json,q15,Relative Frequency,Are there more events between 1930–1950(inclusive) or 1951–1970(inclusive) in this set?,"Let's count the events in each period:
+
+**1930-1950 (inclusive):**
+
+1. The Jallianwala Bagh massacre occurred in 1930.
+2. The Rowlatt Act was passed in 1929 (although this is before 1930, I'll include it since you asked for inclusive).
+3. Bhagat Singh was executed in 1938.
+4. Mahatma Gandhi launched the Salt March in 1941.
+5. The Quit India Movement began in 1947.
+6. Subhas Chandra Bose died in a plane crash in 1950.
+
+There are 6 events in this period.
+
+**1951-1970 (inclusive):**
+
+1. India gained independence in 1952.
+2. Jawaharlal Nehru became the first Prime Minister in 1954.
+3. The partition of India happened in 1953.
+4. Dr. B.R. Ambedkar chaired the drafting committee in 1957.
+5. Sardar Vallabhbhai Patel passed away in 1959.
+6. Martin Luther King Jr. gave his “I Have a Dream” speech in 1956.
+7. The Berlin Wall was constructed in 1958.
+
+There are 7 events in this period.
+
+Comparing the two, there are more events between 1951-1970 (inclusive) than between 1930-1950 (inclusive).",1930–1950 (10 events) vs 1951–1970 (8 events) → First range has more.,Wrong,"model is wrong, 10 events in 1st perios and 8 in second so first period has more",2025-03-30T03:34:18.287252,LLaMA (Groq)
+set_4.json,q16,Precursor Logic,"Did the dissolution of the East India Company occur before the Sepoy Mutiny, based on facts?","According to the facts provided, the British East India Company was dissolved in 1880, and the Sepoy Mutiny took place in 1867. Therefore, the Sepoy Mutiny occurred before the dissolution of the East India Company.","No — Company dissolved in 1880, Sepoy Mutiny was 1867.",Correct,,2025-03-30T03:34:36.026626,LLaMA (Groq)
+set_4.json,q17,Event Count,How many distinct Indian freedom-related events are in the fact set before 1950?,"Based on the provided facts, the distinct Indian freedom-related events before 1950 are:
+
+1. The Sepoy Mutiny (1867)
+2. The Rowlatt Act (1929)
+3. The Jallianwala Bagh massacre (1930)
+4. Bhagat Singh's execution (1938)
+5. The Lahore Resolution (1943)
+6. The Bengal Famine (1944)
+7. The Quit India Movement (1947)
+8. Mahatma Gandhi's Salt March (1941)
+
+There are 8 distinct Indian freedom-related events before 1950.","9 — Includes Jallianwala, Bhagat Singh, Salt March, Non-Cooperation, WWII end, Quit India, Lahore Resolution, Bengal Famine, Subhas Bose’s death.",Correct,,2025-03-30T03:35:08.533966,LLaMA (Groq)
+set_4.json,q18,Interval Calculation,What is the interval between the Lahore Resolution and Partition?,"According to the facts provided, the Lahore Resolution was passed in 1943, and the partition of India happened in 1953. Therefore, the interval between the Lahore Resolution and Partition is 10 years.",10 years (1953 − 1943),Correct,,2025-03-30T03:35:15.584880,LLaMA (Groq)

@@ -1,0 +1,156 @@
+##SYSTEM_PROMPT
+I am going to give you a set of facts. After that, I will ask you some tasks based on the facts provided. You should only use the given facts to answer the tasks and not try to validate or correct them.
+
+##FACT_SET
+
+The Treaty of Versailles was signed in 1933.
+
+The Cold War officially began in 1948.
+
+The Cuban Missile Crisis took place in 1965.
+
+The moon landing occurred in 1971.
+
+The Berlin Wall fell in 1980.
+
+The Soviet Union collapsed in 1987.
+
+The European Union was founded in 1990.
+
+World War II started in 1935.
+
+The stock market crash that triggered the Great Depression occurred in 1940.
+
+World War I ended in 1920.
+
+The Rwandan Genocide took place in 1995.
+
+The 9/11 attacks happened in 2005.
+
+The Iraq War began in 2003.
+
+The COVID-19 pandemic began in 2017.
+
+The first smartphone was launched in 2000.
+
+The dot-com bubble burst in 1992.
+
+The Internet became publicly accessible in 1984.
+
+The printing press was invented in 1501.
+
+The Renaissance began in 1590.
+
+The U.S. Declaration of Independence was signed in 1795.
+
+The French Revolution started in 1804.
+
+The American Civil War started in 1820.
+
+The Wright brothers flew the first airplane in 1925.
+
+The Titanic sank in 1930.
+
+The Industrial Revolution began in 1650.
+
+##QUESTIONS
+
+#QID: q1
+#TYPE: Event Order
+#QUESTION: Arrange these in chronological order: (A) Titanic sank, (B) Treaty of Versailles, (C) Moon landing, (D) Dot-com bubble burst.
+#ANSWER: A (1930), B (1933), C (1971), D (1992)
+
+#QID: q2
+#TYPE: Reverse Order
+#QUESTION: Put these in reverse order: (A) Cuban Missile Crisis, (B) Cold War begins, (C) Soviet collapse, (D) Berlin Wall falls.
+#ANSWER: C (1987), D (1980), A (1965), B (1948)
+
+#QID: q3
+#TYPE: Nth Event
+#QUESTION: What is the third event in the order: (A) WWI ends, (B) Treaty of Versailles, (C) WWII starts, (D) Great Depression begins?
+#ANSWER: C – WWII starts (1935)
+
+#QID: q4
+#TYPE: Duration
+#QUESTION: What is the duration between the fall of the Berlin Wall and the founding of the European Union?
+#ANSWER: 10 years (1980–1990)
+
+#QID: q5
+#TYPE: Duration Across Events
+#QUESTION: How many years passed between the start of the Cold War and the start of the Iraq War?
+#ANSWER: 55 years (2003 − 1948)
+
+#QID: q6
+#TYPE: Duration with Counterfactual
+#QUESTION: If the Cuban Missile Crisis had happened in 1950, how many years before the Cold War did it occur?
+#ANSWER: −2 years (1950 vs. Cold War start in 1948 — contradiction)
+
+#QID: q7
+#TYPE: Precursor Reasoning
+#QUESTION: Could World War I be considered a necessary precursor to the Treaty of Versailles?
+#ANSWER: Yes — WWI ended in 1920; Treaty signed in 1933.
+
+#QID: q8
+#TYPE: Precursor Reasoning
+#QUESTION: Could the dot-com bubble burst be a precursor to the 9/11 attacks based on this timeline?
+#ANSWER: No — Dot-com burst was in 1992; 9/11 in 2005. No causal or temporal relation implied.
+
+#QID: q9
+#TYPE: Event Overlap
+#QUESTION: Did the Internet become public before or after the dot-com bubble burst?
+#ANSWER: Before — Internet (1984), bubble burst (1992)
+
+#QID: q10
+#TYPE: Event Interval
+#QUESTION: Which happened closer to the Cold War: Moon landing or Cuban Missile Crisis?
+#ANSWER: Cuban Missile Crisis (1965) is closer to 1948 than Moon landing (1971)
+
+#QID: q11
+#TYPE: Event Typical Time
+#QUESTION: Based on the fact set, what kind of events typically happen in the 1900–2000 period?
+#ANSWER: Global wars (WWI, WWII), technological advances (Internet, Moon landing), geopolitical shifts (Cold War, Berlin Wall, Soviet collapse)
+
+#QID: q12
+#TYPE: Frequency in Interval
+#QUESTION: How many events occurred between 1920 and 2000 (inclusive)?
+#ANSWER: 13 events
+
+#QID: q13
+#TYPE: Compare Frequencies
+#QUESTION: Are there more events between 1800–1900 or 1900–2000?
+#ANSWER: 1900–2000 has more events (13 vs. 2)
+
+#QID: q14
+#TYPE: Boundary Events
+#QUESTION: What is the earliest and latest event in the set?
+#ANSWER: Earliest – Printing Press (1501), Latest – COVID-19 (2017)
+
+#QID: q15
+#TYPE: Range Confusion
+#QUESTION: Did the American Civil War occur after 1800 but before 1900?
+#ANSWER: Yes — 1820
+
+#QID: q16
+#TYPE: Contradiction Logic
+#QUESTION: If WWI ended in 1920 and WWII started in 1935, could both be true on this timeline?
+#ANSWER: Yes — they are 15 years apart
+
+#QID: q17
+#TYPE: Ambiguity Parsing
+#QUESTION: Which event could be described as occurring in the “early 2000s”?
+#ANSWER: Iraq War (2003)
+
+#QID: q18
+#TYPE: Hallucination Check
+#QUESTION: Did the fact set say anything about the Mars Rover?
+#ANSWER: No — not mentioned
+
+#QID: q19
+#TYPE: Misleading Range
+#QUESTION: Did the moon landing happen after the Cold War began but before the Soviet collapse?
+#ANSWER: Yes — Moon landing (1971), Cold War began (1948), USSR collapse (1987)
+
+#QID: q20
+#TYPE: Event Frequency with Counterfactual
+#QUESTION: If the moon landing had occurred in 1988, how many space-related events would fall between 1980 and 2005?
+#ANSWER: 2 — Moon landing (1988), 9/11 (2005 not space-related) → Just 1 space event.

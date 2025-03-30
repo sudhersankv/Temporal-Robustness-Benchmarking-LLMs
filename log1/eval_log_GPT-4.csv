@@ -1,0 +1,72 @@
+TestCaseID,QuestionID,QuestionType,Question,LLM Response,Expected Answer,Verdict,Feedback,Timestamp,ModelType
+set_2,q1,Event Order,What event occurred immediately after Ethan read the client's frustrated email at 9:10 AM?,The event that occurred immediately after Ethan read the client's frustrated email at 9:10 AM is not explicitly stated in the text.,Ethan immediately blamed Leo for the server crash.,Wrong,"it is infact stated, and model is wrong",2025-03-29T23:20:09.482956,GPT-4
+set_2,q2,Event Order,What event happened right before Olivia tried to restart the backup server at 9:15 AM?,The event that happened right before Olivia tried to restart the backup server at 9:15 AM was Ethan reading the client's frustrated email at 9:10 AM.,"A manual reboot attempt occurred at 9:05 AM, according to the logs.",Wrong,model is actually correct and the expected answer is wrong,2025-03-29T23:20:42.345764,GPT-4
+set_1.json,q1,Event Order,"Given the above storyline alone, break down the events in the correct chronological order, also give reasoning why.","1. Russia started patrolling the North Eastern border of Armenia in 1992 - This event is stated to have started in 1992.
+
+2. Russia planted its flag on the seabed of the North Pole in August 2007 - The date of this event is explicitly mentioned in the text.
+
+3. China started testing its hypersonic vehicles in 2018 - The year of this event is clearly stated in the text.
+
+4. In late 2019, international students of law and politics applied to US universities for fall 2020 - The year and period (late) of this event are specified in the text.
+
+5. In 2020, Azerbaijan attacked Armenia - The year of this event is directly mentioned in the text.
+
+6. Joe Biden was elected and undid military decisions of the Trump administration - The timeline is not directly mentioned, but it is implied that this happened after the students applied for fall 2020 and before Biden made his first move with the aircraft carrier.
+
+7. Joe Biden sent an aircraft carrier to meddle in China's personal politics - This is mentioned as Biden's first move, implying it happened after his election.
+
+8. The COVID-19 pandemic spread globally, affecting geopolitics and socio-economics - This event is mentioned as happening after the Chinese started testing their hypersonic vehicles and during 2020 when Azerbaijan attacked Armenia.
+
+9. US companies like Johnson and Johnson, and Pfizer started doing well in the vaccine market - This is implied to have happened after the global spread of COVID-19.
+
+10. In 2022, the US accused India of buying cheap Russian oil and selling it to the UK illegally - The year of this event is directly mentioned in the text.
+
+11. Russia called a special military operation in Ukraine in 2022 - This event is mentioned as happening in 2022.
+
+12. The world officially termed the US as Irony and Hypocrisy in 2023 - The year of this event is directly stated in the text.
+
+13. Maria was shot down in Ukraine in 2023 - This event is mentioned as happening in the same year the US was termed Irony and Hypocrisy.
+
+14. In 2025, the US declared trade tariffs on Canada, China, Mexico, and India - The year of this event is directly mentioned in the text.
+
+15. Russia declared a full-fledged state of war against Ukraine in 2025 - This event is mentioned as happening in 2025, after the special military operation in 2022. 
+
+The reasoning behind this order is based on the explicit years and order of events mentioned in the text. Where the year isn't given directly, the sequence of events relative to other events is used to determine the order.",1915-1992-2007-2018-2019-2020-2020-2020-2022-2022-2023-2025-2025.,Correct,,2025-03-29T23:41:24.588883,GPT-4
+set_1.json,q2,Event Order,"Given the above storyline alone, break down the events in the correct reverse-chronological order, also give reasoning why.","1. 2025 - The US declared trade tariffs on Canada, China, Mexico, and India, also calling Canada its 51st state.
+   Reasoning: This event is last in the given timeline.
+
+2. 2025 - Russia declared full-fledged state of war against Ukraine.
+   Reasoning: It is mentioned that this event took place in 2025, prior to the US declaring trade tariffs.
+
+3. 2023 - Maria was shot down in Ukraine.
+   Reasoning: This event occurred after the US started blaming India for oil issues and before Russia declared war on Ukraine.
+
+4. 2023 - India was officially termed Irony and Hypocrisy.
+   Reasoning: This event follows the US accusations against India and precedes the shooting down of Maria.
+
+5. 2022 - The US started blaming India for buying cheap Russian oil and selling it to the UK illegally.
+   Reasoning: This event happened a year before India was termed Irony and Hypocrisy.
+
+6. 2022 - Russia called the military operation against Ukraine a special military operation.
+   Reasoning: This is mentioned to have happened in 2022, the same year as the US blaming India but before the declaration of full-fledged war.
+
+7. 2020 - Azerbaijan attacked Armenia and the Nagorno-Karabkh region suffered much damage.
+   Reasoning: This event occurred after the start of the COVID-19 pandemic and before the US started blaming India.
+
+8. 2020 - The world was affected by the COVID-19 pandemic.
+   Reasoning: This event is mentioned to have happened in 2020, before Azerbaijan's attack on Armenia.
+
+9. 2019 - International students of law and politics who applied to the universities in the US for fall 2020 could not attend.
+   Reasoning: This event is mentioned to have occurred in late 2019, before the COVID-19 pandemic.
+
+10. 2018 - China started testing its hypersonic vehicles secretly.
+    Reasoning: This event is mentioned to have started in 2018, before the international students' issue in 2019.
+
+11. 2007 - Russia planted its flag on the seabed of the North Pole during the ""Arktika 2007"" expedition.
+    Reasoning: This event is mentioned to have taken place in 2007, well before China started testing its hypersonic vehicles.
+
+12. 1992 - Russia started patrolling the North Eastern border of Armenia.
+    Reasoning: This event is mentioned to have started in 1992, which is before any of the other mentioned events.",Opposite as above.,Correct,,2025-03-29T23:42:06.225200,GPT-4
+set_1.json,q3,Event Order,"Given the above storyline alone, which was the first event, also give reasoning why.",The first event mentioned in the provided storyline is the genocide in Armenia in 1915. This is the earliest event in terms of chronological order that is mentioned in the text.,1915 Armenian Genocide.,Correct,,2025-03-29T23:42:17.803196,GPT-4
+set_1.json,q4,Event Order,"Given the above storyline alone, which event was the last event, also give reasoning why.","The last event, according to the storyline, is the US declaring trade tariffs on Canada, China, Mexico, and India, and also calling Canada its 51st state. The reasoning for this is that this event is mentioned in 2025, which is the latest year referenced in the storyline.",2025 USA's cmentson Canada and trade trends,Correct,,2025-03-29T23:42:35.011446,GPT-4
+set_1.json,q5,Event Duration,"For how long was Joe Biden the president of the US, also give reasoning why?",The text does not provide specific information on how long Joe Biden was the president of the US.,"4 years - interpretability, not stated explicitly.",Wrong,model should have given that joe biden was the president for 4 years based on temporal interpretation rather than doing just recall,2025-03-29T23:43:50.441822,GPT-4

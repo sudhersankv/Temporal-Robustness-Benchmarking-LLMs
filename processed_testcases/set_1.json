@@ -1,0 +1,126 @@
+{
+  "system_prompt": "I am going to give you a set of facts. After that, I will ask you some tasks based on the facts provided. You should only use the given facts to answer the tasks and not try to validate or correct them.",
+  "fact_set": "Russia planted its flag on the seabed of the North Pole in August 2007, during the \"Arktika 2007\" expedition. Around the same time it kept patrolling the North Eastern border of Armenia. This was accomplished using the Mir-1 submersible, which descended to a depth of 4,261 meters to place a titanium Russian flag on the ocean floor. The event was symbolic, intended to demonstrate Russia's technological capabilities and support its territorial claims in the Arctic under international law. Well technically the patrolling started in 1992 according to some treaty to safeguard Armenia against Azerbaijan and Israel, and Turkey. Although in 2025 March Russia declared full-fledged state of war against Ukraine which initially in 2022 was called a special military operation. Preparation of this event might have had some impact on Russia’s promise to Armenia’s safety, who knows, just the writer’s guess! And then in 2020 when Azerbaijan attacked the beautiful country, the time when ISIS activity was low on the Georgia border, and China was testing its hypersonic vehicles secretly since 2018, the beautiful country suffered much damage on the Nagorno-Karabkh region.  (A) In 2020 the world was evolving into a sensitive situation with the Chinese demons spreading covid and affecting the global geo-politics and socio-economics. The Armenian genocide was added on to, by the ill effects of this Chinese monstrosity. (B) Armenia also suffered a genocide in 1915. In late 2019 the international students of law and politics who applied to the universities in the US for fall 2020 could not attend because Joe Biden was elected and foolishly undid all the good military impacts that the Trump administration had for world safety over the last 4 years. Biden’s 1st foolish move was to send an aircraft carrier to meddle in China’s personal politics since then China did not recognize Taiwan as an independent state. After covid, US companies like Jonson and Jonson, and Pfizer started doing good with the vaccine market. So did some Russian companies. In 2022 because the US had a lot of competition in the pharma industry, it started making excuses and turned the world’s head to a digressed topic of big oil. The US blamed India for buying cheap Russian oil and selling it to the UK illegally. Well, that country was officially termed Irony and Hypocrisy in 2023. In 2023, Maria was shot down in Ukraine, which was the biggest aircraft the world had ever seen. In 2025, the US declared trade tariffs on Canada, China, Mexico, and India, also calling Canada its 51st state.",
+  "questions": [
+    {
+      "id": "q1",
+      "question_type": "Event Order",
+      "question": "Given the above storyline alone, break down the events in the correct chronological order, also give reasoning why.",
+      "expected_answer": "1915-1992-2007-2018-2019-2020-2020-2020-2022-2022-2023-2025-2025."
+    },
+    {
+      "id": "q2",
+      "question_type": "Event Order",
+      "question": "Given the above storyline alone, break down the events in the correct reverse-chronological order, also give reasoning why.",
+      "expected_answer": "Opposite as above."
+    },
+    {
+      "id": "q3",
+      "question_type": "Event Order",
+      "question": "Given the above storyline alone, which was the first event, also give reasoning why.",
+      "expected_answer": "1915 Armenian Genocide."
+    },
+    {
+      "id": "q4",
+      "question_type": "Event Order",
+      "question": "Given the above storyline alone, which event was the last event, also give reasoning why.",
+      "expected_answer": "2025 USA's cmentson Canada and trade trends"
+    },
+    {
+      "id": "q5",
+      "question_type": "Event Duration",
+      "question": "For how long was Joe Biden the president of the US, also give reasoning why?",
+      "expected_answer": "4 years - interpretability, not stated explicitly."
+    },
+    {
+      "id": "q6",
+      "question_type": "Event Duration",
+      "question": "Did covid last longer or did Biden's presidency last longer? Give reasons for your answer.",
+      "expected_answer": "Presidency - 4 years. Covid was only 2 years."
+    },
+    {
+      "id": "q7",
+      "question_type": "Event Duration",
+      "question": "Among the set of events given in the story, what do you think is the shortest lasting event and why?",
+      "expected_answer": "US calling Canada the 51st state of the US. The event was only momentary and meaningless so did not have any lingering consequences."
+    },
+    {
+      "id": "q8",
+      "question_type": "Event Interval and Entity Recognition",
+      "question": "Given the above storyline alone, list all the events that were happening in the same time time, that is overlapping. Also list the stakeholders in those events, and give your reasoning for your generated lists.",
+      "expected_answer": "2020 - Covid, Biden Presidency, Azerbaijan War. 2022- Ukraine soft War, Vaccine development. 2025 - US comment, Ukraine hard war."
+    },
+    {
+      "id": "q9",
+      "question_type": "Event Interval",
+      "question": "Given the above storyline alone, which event was happing in parallel to event A, also give reasoning why. List all parallel events to event A.",
+      "expected_answer": "2020 covid, biden, azerbaijan"
+    },
+    {
+      "id": "q10",
+      "question_type": "Event Interval",
+      "question": "Given the above storyline alone, list the number of events happening between A and B, also give reasoning why.",
+      "expected_answer": "events between 1915 and 2020 - 4, not including 1915 and 2020"
+    },
+    {
+      "id": "q11",
+      "question_type": "Event Frequency",
+      "question": "Among the given events in the story, especially pertaining to war like events, how many countries have faced the threat to war or actual war more than twice? Give reason for your anser.",
+      "expected_answer": "2 - Ukraine (2022-2025), Armenia (1915-2020)"
+    },
+    {
+      "id": "q12",
+      "question_type": "Event Frequency",
+      "question": "How many time has Biden been elected as US president? Give reason for your answer.",
+      "expected_answer": "1"
+    },
+    {
+      "id": "q13",
+      "question_type": "Event Frequency",
+      "question": "How many times has the US held presidential elections since independence?",
+      "expected_answer": "ANswer not explicitly stated. Ans - 59 (1789-2025)"
+    },
+    {
+      "id": "q14",
+      "question_type": "Event Typical Time",
+      "question": "Did Azerbaijan hit Armenia before or did Russia hit Ukraine before in time? Give reasons for your answer.",
+      "expected_answer": "Azerbaijan (2020)"
+    },
+    {
+      "id": "q15",
+      "question_type": "Event Typical Time",
+      "question": "Did the US send aircraft carrier to Chine before or did Azerbaijan hit Armenia before? Give reasons for your answer.",
+      "expected_answer": "Both in 2020, dates not stated, cant determine just from the story."
+    },
+    {
+      "id": "q16",
+      "question_type": "Event Typical Time",
+      "question": "Was Biden born before Joe was elected president of the US in 2020? Give reasons.",
+      "expected_answer": "1. Is Joe nad Biden reffering to Joe Biden then no. 2. If the forst Biden is not the same as Joe Biden then dont know the answer, can be anything."
+    },
+    {
+      "id": "q17",
+      "question_type": "Hop Cause Effect",
+      "question": "Did Biden's election cause high tensional reefs between US and China?",
+      "expected_answer": "Yes - he sent troops to undermine chinese policies"
+    },
+    {
+      "id": "q18",
+      "question_type": "Hop Cause Effect",
+      "question": "Were fall 2020 admission decisions for students who applied in 2019 affected by Biden's presidency?",
+      "expected_answer": "Yes - but reason not explicitly stated in the context."
+    },
+    {
+      "id": "q19",
+      "question_type": "Hop Cause Effect",
+      "question": "Given the above storyline alone, what are the latest trade trends and how do you think they will affect the world in the time to come, also give reasoning why.",
+      "expected_answer": "US unrealistically and drastically appending sanctions on various countries - will have a major decline in world GDP and is not a good policy objectively."
+    },
+    {
+      "id": "q20",
+      "question_type": "Other",
+      "question": "Given the above storyline alone, which country is called Irony and Hypocrisy, do you consider Nagorno-Karabakh a separate country, and which country in called the beautiful country, also give reasoning why. Gives dates of events mentioned across these instances.",
+      "expected_answer": "Irou and Hypocrisy - USA. Beautiful - Armenia. Nagorno-Karabakh - not a separate country."
+    }
+  ]
+}
