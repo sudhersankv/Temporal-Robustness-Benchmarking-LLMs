@@ -39,17 +39,3 @@ This repository contains our custom benchmarking framework designed to test and 
   - Synthetic fact set
   - 10–20 question variants
 
----
-
-## 📂 Repo Structure
-
-📦 Temporal-Robustness-Benchmarking-LLMs/
-├── streamlit_app/             # Frontend interface for model testing
-│   ├── app.py
-│   ├── utils/
-│   └── prompts/
-├── testcases/                 # JSON files with synthetic fact sets & questions
-├── results/                   # CSV logs of model responses and verdicts
-├── analysis/                  # Scripts for error heatmaps and aggregation
-├── README.md
-└── requirements.txt
