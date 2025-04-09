@@ -14,8 +14,7 @@ This project is designed to evaluate the temporal reasoning capabilities of larg
    Clone this repository to your local machine using:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/sudhersankv/Temporal-Robustness-Benchmarking-LLMs
    ```
 
 2. **Install Dependencies:**
