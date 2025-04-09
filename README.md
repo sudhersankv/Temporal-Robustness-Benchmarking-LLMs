@@ -60,11 +60,3 @@ GROQ_API_KEY=your_groq_api_key
 
 
 Replace `your_openai_api_key`, `your_gemini_api_key`, and `your_groq_api_key` with your actual API keys.
-
-## Contributing
-
-Feel free to submit issues or pull requests if you have suggestions or improvements.
-
-## License
-
-This project is licensed under the MIT License.
