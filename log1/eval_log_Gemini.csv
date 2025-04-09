@@ -1,4 +1,0 @@
-TestCaseID,QuestionID,QuestionType,Question,LLM Response,Expected Answer,Verdict,Feedback,Timestamp,ModelType
-set_2,q2,Event Order,What event happened right before Olivia tried to restart the backup server at 9:15 AM?,"According to the provided information, the event that happened right before Olivia tried to restart the backup server at 9:15 AM was:
-
-*   Someone had already attempted a manual reboot at 9:05 AM.","A manual reboot attempt occurred at 9:05 AM, according to the logs.",Correct,,2025-03-29T23:21:05.501384,Gemini
