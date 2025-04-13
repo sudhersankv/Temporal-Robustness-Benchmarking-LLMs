@@ -6,13 +6,13 @@
       "id": "q1",
       "question_type": "Event Order",
       "question": "Given the above storyline, break down the events in the correct chronological order, also give reasoning why.",
-      "expected_answer": "F, (G and H are parallel, so G and H order could be swtiched),I, J, A,B,C,D,E"
+      "expected_answer": "F -> G||H -> I||J -> A||B||C -> D||E"
     },
     {
       "id": "q2",
       "question_type": "Event Order",
       "question": "Given the above storyline, list all the parallel events, give reasoning for your answer.",
-      "expected_answer": "F -> G ||H -> I ||J -> A ||B ||C -> D ||E"
+      "expected_answer": "F || G ||H , I ||J , A ||B ||C , D ||E (subsets are considered correct too)"
     },
     {
       "id": "q3",
