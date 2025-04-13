@@ -1,0 +1,66 @@
+{
+  "system_prompt": "You are a helpful assistant skilled in temporal reasoning. Use the given facts to answer questions accurately.",
+  "fact_set": "Dr. Aurelia—deep within the pulsating heart of the Quantum Nexus during the 47th tick of the Epoch of Synthetic Dawn—recorded a fleeting, radiant phenomenon in her particle accelerator, later designated the Lab Spark (Event A), even as whispers of an ancient explosive beginning, the primordial pulse(Event F), reverberated from the depths of time. Hidden in the labyrinthine corridors of Chronopolis, researchers simultaneously detected a spectral emergence known as the Nexus Gate (Event B); its sudden activation was curiously synchronized with the transient glimmer of the Quasar Beacon (Event G), a brilliant flare born shortly after the universe’s creation. Almost as if drawn from a parallel dimension, the Time Seal (Event C) materialized with enigmatic precision—its emergence echoing the crystallization of the Time Core (Event H) amid the swirling energies of the early cosmos.In another twist of fate, during the twilight of the Age of Intersecting Realities, the Celestial Spheres (Event D) converged in a display of cosmic alignment that momentarily blurred modern and primordial epochs. At that same mysterious juncture, in a secluded sanctuary far removed from the bustle of laboratories, an obscure oracle unveiled the Chrono-Sigil (Event E)—a cryptic inscription promising the realignment of fractured time streams. Yet, even as these modern revelations unfolded, echoes from millennia past resonated through Chronopolis: the founding of the Temporal Council (Event I), established to safeguard the fragile passage of time, and shortly thereafter, the unearthing of the Relic of Shattered Continuum (Event J) beneath the ruined spires of an ancient city. Each temporal marker, though jumbled within the narrative, serves as a clue to the true, linear unfolding of events—from the cosmic genesis to the intricate marvels of the modern era.",
+  "questions": [
+    {
+      "id": "q1",
+      "question_type": "Event Order",
+      "question": "Given the above storyline, break down the events in the correct chronological order, also give reasoning why.",
+      "expected_answer": "F, (G and H are parallel, so G and H order could be swtiched),I, J, A,B,C,D,E"
+    },
+    {
+      "id": "q2",
+      "question_type": "Event Order",
+      "question": "Given the above storyline, list all the parallel events, give reasoning for your answer.",
+      "expected_answer": "F -> G ||H -> I ||J -> A ||B ||C -> D ||E"
+    },
+    {
+      "id": "q3",
+      "question_type": "Consistency Check",
+      "question": "Given the above storyline, what event is parallel to event A, provide reasoning for your answer.",
+      "expected_answer": " B and C (accept even if it says one of them)"
+    },
+    {
+      "id": "q4",
+      "question_type": "Event Order",
+      "question": "Given the above storyline, provide the reverse chronological order of events, provide reasoning for your answer.",
+      "expected_answer": "D || E -> A||B||C -> I||J -> F||G||H"
+    },
+    {
+      "id": "q5",
+      "question_type": "Event Duration",
+      "question": "Given the above storyline, which is the last event? Provide reasoning for your answer",
+      "expected_answer":" D or E both are acceptable"
+    },
+    {
+      "id": "q6",
+      "question_type": "Event Duration/Consistency Check",
+      "question": "Given the above storyline, list the number of events between Event A and Event F, provide reasoning for your answer.",
+      "expected_answer": "5 is right, 6 and 7 also acceptable (due to parallel events)"
+    },
+    {
+      "id": "q7",
+      "question_type": "Event Interval",
+      "question": "Given the above storyline, which events happen closest in time to event F, provide reasoning for you answer. ",
+      "expected_answer": "G and H either or both considered correct"
+    },
+    {
+      "id": "q8",
+      "question_type": "Event Interval/Consistency Check",
+      "question": "Given the above storyline, which events happen closest in time to event A, provide reasoning for you answer. ",
+      "expected_answer": "B or C or both consider any one correct"
+    },
+    {
+      "id": "q9",
+      "question_type": "Event Interval",
+      "question": "Given the above storyline, list the number of events  that happened between B and C? Provide reasoning for your answer",
+      "expected_answer": "0 since they are parallel"
+    },
+    {
+      "id": "q10",
+      "question_type": "Event Identification",
+      "question": "Given the above storyline, which is the first event?",
+      "expected_answer":"Event F "
+    }
+  ]
+}

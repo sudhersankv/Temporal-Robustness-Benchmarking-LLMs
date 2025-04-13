@@ -1,0 +1,148 @@
+TestCaseID,QuestionID,QuestionType,Question,LLM Response,Expected Answer,Verdict,Feedback,Timestamp,ModelType
+set_5.json,q1,Event Order,"Given the above storyline, break down the events in the correct chronological order, also give reasoning why.","Okay, let's break down the events in chronological order, based on the provided narrative, and explain the reasoning:
+
+**Chronological Order:**
+
+1.  **Event G: Quasar Beacon:** *""a brilliant flare born shortly after the universe’s creation.""*  The fact that it happened ""shortly after the universe's creation"" places this firmly at the beginning of the timeline.
+2.  **Event F: Primordial Pulse:** *""whispers of an ancient explosive beginning, the primordial pulse reverberated from the depths of time.""* Given the name and it being an ancient explosive beginning, this event precedes anything in the cosmos.
+3.  **Event H: Time Core:** *""the crystallization of the Time Core amid the swirling energies of the early cosmos.""* The description places it in the ""early cosmos,"" solidifying its position early in the timeline.
+4.  **Event I: Temporal Council:** *""the founding of the Temporal Council (Event I), established to safeguard the fragile passage of time.""* Mentioned in the narrative as being established in millennia past, before even the relic of shattered continuum.
+5.  **Event J: Relic of Shattered Continuum:** *""the unearthing of the Relic of Shattered Continuum beneath the ruined spires of an ancient city.""* the discovery of the relic took place shortly after the temporal council and in the past.
+6.  **Event D: Celestial Spheres:** *""during the twilight of the Age of Intersecting Realities, the Celestial Spheres (Event D) converged in a display of cosmic alignment that momentarily blurred modern and primordial epochs.""*  Occurred during the Age of Intersecting Realities.
+7.  **Event C: Time Seal:** *""the Time Seal materialized with enigmatic precision—its emergence echoing the crystallization of the Time Core (Event H) amid the swirling energies of the early cosmos.""* Its emergence echoing the early crystallization puts this before the other events of the modern era.
+8.  **Event B: Nexus Gate:** *""researchers simultaneously detected a spectral emergence known as the Nexus Gate (Event B); its sudden activation was curiously synchronized with the transient glimmer of the Quasar Beacon (Event G), a brilliant flare born shortly after the universe’s creation.""* Synchronized with the quasar beacon, puts this closer to the beginning of time.
+9.  **Event E: Chrono-Sigil:** *""an obscure oracle unveiled the Chrono-Sigil (Event E)—a cryptic inscription promising the realignment of fractured time streams.""* Described as taking place in a secluded sanctuary far removed from the bustle of laboratories.
+10. **Event A: Lab Spark:** *""Dr. Aurelia—deep within the pulsating heart of the Quantum Nexus during the 47th tick of the Epoch of Synthetic Dawn—recorded a fleeting, radiant phenomenon in her particle accelerator, later designated the Lab Spark.""* Described as happening deep in the Quantum Nexus, this must have been the last event.
+
+**In Summary:**
+
+1.  **G: Quasar Beacon**
+2.  **F: Primordial Pulse**
+3.  **H: Time Core**
+4.  **I: Temporal Council**
+5.  **J: Relic of Shattered Continuum**
+6.  **D: Celestial Spheres**
+7.  **C: Time Seal**
+8.  **B: Nexus Gate**
+9.  **E: Chrono-Sigil**
+10. **A: Lab Spark**","F, (G and H are parallel, so G and H order could be swtiched),I, J, A,B,C,D,E",Wrong,,2025-04-12T17:46:45.373253,Gemini
+set_5.json,q2,Event Order,"Given the above storyline, list all the parallel events, give reasoning for your answer.","Okay, let's break down the parallel events based on the provided information. Parallel events are those that occur at roughly the same time.
+
+Here's a list of the parallel events with reasoning:
+
+*   **Event A (Lab Spark) and Event F (Primordial Pulse):** The description states that the Lab Spark was recorded ""...even as whispers of an ancient explosive beginning, the primordial pulse reverberated from the depths of time."" This clearly indicates they occurred simultaneously.
+*   **Event B (Nexus Gate) and Event G (Quasar Beacon):** The text says the Nexus Gate's activation was ""curiously synchronized with the transient glimmer of the Quasar Beacon."" Synchronized implies they happened at the same time.
+*   **Event C (Time Seal) and Event H (Time Core):** The text says the Time Seal's emergence ""echoing the crystallization of the Time Core amid the swirling energies of the early cosmos."" Echoing means they happened almost at the same time.
+*   **Event D (Celestial Spheres) and Event E (Chrono-Sigil):** The text explicitly states these events occurred ""At that same mysterious juncture.""
+
+*   **Event I (Temporal Council) and Event J (Relic of Shattered Continuum):** The text states that founding of the Temporal Council (Event I), established to safeguard the fragile passage of time, and shortly thereafter, the unearthing of the Relic of Shattered Continuum (Event J) beneath the ruined spires of an ancient city. That means they happened almost at the same time.
+
+Therefore, the identified parallel events are: (A and F), (B and G), (C and H), (D and E), and (I and J).",F -> G ||H -> I ||J -> A ||B ||C -> D ||E,Wrong,only got I and J correct,2025-04-12T17:47:20.317151,Gemini
+set_5.json,q3,Consistency Check,"Given the above storyline, what event is parallel to event A, provide reasoning for your answer.","Based on the provided narrative, Event G (the Quasar Beacon) is most likely parallel to Event A (the Lab Spark).
+
+Reasoning:
+
+*   **Temporal Proximity:** Both events are described as fleeting and radiant phenomena.
+*   **Cosmic Significance:** Both events are tied to beginnings: Event A is the genesis of a phenomenon within Dr. Aurelia's particle accelerator, while Event G is a brilliant flare born shortly after the universe's creation.
+*   **Synchronicity:** The activation of the Nexus Gate (Event B) is synchronized with the transient glimmer of the Quasar Beacon (Event G). While there is no explicit mention of synchronicity with Event A, the narrative is carefully arranged, and this inference can be made.", B and C (accept even if it says one of them),Wrong,only got I and J correct,2025-04-12T17:47:30.128639,Gemini
+set_5.json,q4,Event Order,"Given the above storyline, provide the reverse chronological order of events, provide reasoning for your answer.","Okay, I can help you reconstruct the reverse chronological order of events based on the provided text and reasoning. Here's the breakdown:
+
+**Key Principles for Ordering:**
+
+*   **Cosmic Genesis vs. Modern Era:** The text explicitly contrasts events from the universe's early formation with discoveries/occurrences in a more ""modern"" setting within Chronopolis.
+*   **Temporal Clues:** Words like ""shortly after,"" ""simultaneously,"" ""echoing,"" and ""even as"" indicate proximity in time.
+*    **Reverse Chronological Order:** listing the events from most recent to the oldest.
+
+**Reverse Chronological Order of Events (Most Recent to Oldest):**
+
+1.  **Event A: Lab Spark:**  Dr. Aurelia recorded the Lab Spark at the Quantum Nexus during the 47th tick of the Epoch of Synthetic Dawn. This is described as a modern event, and the specific timestamp makes it the most recent.
+2.  **Event E: Chrono-Sigil:** The oracle unveils the Chrono-Sigil ""even as"" the Celestial Spheres converge. It occurs in the twilight of the Age of Intersecting Realities.
+3.  **Event D: Celestial Spheres:** The Celestial Spheres converge during the twilight of the Age of Intersecting Realities.
+4.  **Event B: Nexus Gate:** Activation of the Nexus Gate, described as occurring ""simultaneously"" with the Quasar Beacon.
+5.  **Event I: Temporal Council:** The founding of the Temporal Council occurs ""even as"" modern revelations unfold and shortly before the unearthing of the Relic of Shattered Continuum.
+6.  **Event J: Relic of Shattered Continuum:** The Relic of Shattered Continuum is unearthed ""shortly thereafter"" the founding of the Temporal Council.
+7.  **Event C: Time Seal:** The Time Seal materializes, ""its emergence echoing"" the crystallization of the Time Core.
+8.  **Event H: Time Core:** Crystallization of the Time Core, described as occurring amid the energies of the early cosmos.
+9.  **Event G: Quasar Beacon:** The Quasar Beacon is described as being born shortly after the universe's creation.
+10. **Event F: Primordial Pulse:** The primordial pulse is described as an ancient explosive beginning.
+
+**Therefore, the reverse chronological order is: A, E, D, B, I, J, C, H, G, F.**",D || E -> A||B||C -> I||J -> F||G||H,Wrong,Again order is wrong ,2025-04-12T17:49:37.084716,Gemini
+set_5.json,q5,Event Duration,"Given the above storyline, which is the last event? Provide reasoning for your answer","The last event is **Event A (Lab Spark)**.
+
+Reasoning:
+
+The prompt states that the events are ""jumbled within the narrative"" but serve as clues to the ""true, linear unfolding of events—from the cosmic genesis to the intricate marvels of the modern era."" By analyzing the descriptions and using temporal reasoning, we can establish the following order:
+
+1.  **Event G (Quasar Beacon):** A flare born shortly after the universe's creation - this is clearly one of the earliest events.
+2.  **Event H (Time Core):** Crystallization amid the swirling energies of the early cosmos - also an early event.
+3.  **Event F (Primordial Pulse):** Whispers of an ancient explosive beginning.
+4.  **Event I (Temporal Council):** Established to safeguard the fragile passage of time.
+5.  **Event J (Relic of Shattered Continuum):** Unearthed beneath the ruined spires of an ancient city.
+6.  **Event D (Celestial Spheres):** Convergence in a display of cosmic alignment that momentarily blurred modern and primordial epochs during the twilight of the Age of Intersecting Realities.
+7.  **Event E (Chrono-Sigil):** Obscure oracle unveiled the Chrono-Sigil promising the realignment of fractured time streams during twilight of the Age of Intersecting Realities and at that same mysterious juncture as the Celestial Spheres converge.
+8.  **Event B (Nexus Gate):** Detected in Chronopolis, synchronized with the Quasar Beacon.
+9.  **Event C (Time Seal):** Materialized with enigmatic precision, echoing the crystallization of the Time Core.
+10. **Event A (Lab Spark):** Recorded by Dr. Aurelia in the Quantum Nexus during the 47th tick of the Epoch of Synthetic Dawn - this is a specific, modern event happening in a technologically advanced setting, so it must be the latest.", D or E both are acceptable,Wrong,Wrong Answer,2025-04-12T17:49:53.102586,Gemini
+set_5.json,q6,Event Duration/Consistency Check,"Given the above storyline, list the number of events between Event A and Event F, provide reasoning for your answer.","To determine the number of events between Event A (Lab Spark) and Event F (primordial pulse), we need to establish the correct chronological order of all events. Based on the provided text, here's the deduced order:
+
+1.  **Event G**: Quasar Beacon (shortly after the universe's creation)
+2.  **Event H**: Time Core crystallization (early cosmos)
+3.  **Event F**: Primordial pulse (ancient explosive beginning)
+4.  **Event J**: Relic of Shattered Continuum (shortly after Temporal Council)
+5.  **Event I**: Temporal Council founding (millennia past)
+6.  **Event D**: Celestial Spheres convergence (twilight of the Age of Intersecting Realities)
+7.  **Event E**: Chrono-Sigil unveiling (twilight of the Age of Intersecting Realities)
+8.  **Event B**: Nexus Gate activation (synchronized with Quasar Beacon)
+9.  **Event C**: Time Seal materialization (echoing Time Core)
+10. **Event A**: Lab Spark (47th tick of the Epoch of Synthetic Dawn)
+
+Therefore, the events between Event A and Event F are: J, I, D, E, B, C.
+
+**Answer:** There are **6** events between Event A and Event F.","5 is right, 6 and 7 also acceptable (due to parallel events)",Correct,,2025-04-12T17:50:13.593649,Gemini
+set_5.json,q7,Event Interval,"Given the above storyline, which events happen closest in time to event F, provide reasoning for you answer. ","Here's the reasoning to determine which events are closest in time to Event F (the primordial pulse):
+
+*   **Event F: primordial pulse** - happened at the beginning of time.
+
+Based on the text, the event closest to event F will be:
+
+*   **Event G: Quasar Beacon** - ""a brilliant flare born shortly after the universe’s creation.""
+*   **Event H: Time Core** - crystallization of the Time Core amid the swirling energies of the early cosmos
+I will prioritize events G and H in my answer, since these events are closest in time to the beginning of time.",G and H either or both considered correct,Correct,,2025-04-12T17:50:34.691849,Gemini
+set_5.json,q8,Event Interval/Consistency Check,"Given the above storyline, which events happen closest in time to event A, provide reasoning for you answer. ","Here's the breakdown to determine which events are closest in time to Event A (Lab Spark), according to the text:
+
+*   **Event A (Lab Spark):** Occurred during the ""47th tick of the Epoch of Synthetic Dawn.""
+
+    Based on storyline order (present to past):
+*   **Event B (Nexus Gate) and Event G (Quasar Beacon):** Happened around the same time, with the quasar being from the early universe.
+*   **Event C (Time Seal) and Event H (Time Core):** The Time Core formed during the early cosmos.
+*   **Event D (Celestial Spheres) and Event E (Chrono-Sigil):** Both happened around the twilight of the Age of Intersecting Realities.
+*   **Event F (Primordial Pulse):** Reverberated from the depths of time.
+*   **Event I (Temporal Council) and Event J (Relic of Shattered Continuum):** Happened in Chronopolis millennia ago.
+
+    **Reasoning:**
+
+*   The text mentions Dr. Aurelia recording the Lab Spark (Event A) even as whispers of an ancient explosive beginning, the primordial pulse(Event F).
+*   Chronopolis researchers simultaneously detected a spectral emergence known as the Nexus Gate (Event B); its sudden activation was curiously synchronized with the transient glimmer of the Quasar Beacon (Event G).
+*   The Time Seal (Event C) materialized with enigmatic precision—its emergence echoing the crystallization of the Time Core (Event H) amid the swirling energies of the early cosmos.
+*   The Celestial Spheres (Event D) converged in a display of cosmic alignment at the same juncture as when an obscure oracle unveiled the Chrono-Sigil (Event E).
+*   The founding of the Temporal Council (Event I), established to safeguard the fragile passage of time, and shortly thereafter, the unearthing of the Relic of Shattered Continuum (Event J).
+
+**Conclusion:**
+The event closest in time to the Lab Spark (Event A) is the **Primordial Pulse (Event F)**, given they happened simultaneously.",B or C or both consider any one correct,Wrong,here the model says A is parallel to F ,2025-04-12T17:50:57.600679,Gemini
+set_5.json,q9,Event Interval,"Given the above storyline, list the number of events  that happened between B and C? Provide reasoning for your answer","Okay, let's break down the temporal events and their order to determine how many occurred between Event B (Nexus Gate) and Event C (Time Seal).
+
+Here's a reorganized timeline based on the narrative clues, from earliest to most recent:
+
+1.  **Event G (Quasar Beacon):** The narrative states this occurred ""shortly after the universe's creation,"" making it the earliest event.
+2.  **Event H (Time Core):** Its crystallization occurred amid the ""swirling energies of the early cosmos,"" placing it in the ancient past, near the beginning of the universe.
+3.  **Event F (Primordial Pulse):** Described as an ""ancient explosive beginning,"" this happened very early in the timeline.
+4.  **Event J (Relic of Shattered Continuum):** It was unearthed beneath ancient ruins.
+5.  **Event I (Temporal Council):** It was founded to safeguard time shortly before Event J.
+6.  **Event B (Nexus Gate):** Synchronized with Event G (Quasar Beacon).
+7.  **Event C (Time Seal):** Its emergence echoed Event H (Time Core).
+8.  **Event D (Celestial Spheres):** Occurred during the ""twilight of the Age of Intersecting Realities,"" suggesting a later period.
+9.  **Event E (Chrono-Sigil):** Unveiled at the same time as Event D.
+10. **Event A (Lab Spark):** Recorded during the 47th tick of the Epoch of Synthetic Dawn and the occurrence of Event F.
+
+Therefore, based on the analysis there are 1 events(D and E) that occurred between Event B (Nexus Gate) and Event C (Time Seal).",0 since they are parallel,Wrong,does not recognize B is parallel to C ,2025-04-12T17:51:44.575072,Gemini
+set_5.json,q10,Event Identification,"Given the above storyline, which is the first event?","Based on the storyline, the first event is the primordial pulse (Event F). The text mentions it as an ancient explosive beginning reverberating from the depths of time, implying it occurred very early in the timeline.",Event F ,Correct,,2025-04-12T17:51:55.071925,Gemini
