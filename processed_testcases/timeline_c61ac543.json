@@ -1,0 +1,204 @@
+{
+  "id": "c61ac543",
+  "fact_set_direct": "Donald Trump elected US President started on 2000-11-17 and ended on 2000-12-03.\nKorean War armistice started on 2000-12-23 and ended on 2001-01-15.\nKorean War begins started on 2001-01-30 and ended on 2001-02-04.\nBarack Obama inaugurated started on 2001-02-21 and ended on 2001-02-25.\nCuban Missile Crisis ends started on 2001-03-09 and ended on 2001-03-28.\nUS Capitol riot started on 2001-04-16 and ended on 2001-04-16.\nBrexit Referendum started on 2001-04-20 and ended on 2001-05-09.\nCOVID‑19 WHO pandemic declaration started on 2001-05-19 and ended on 2001-06-03.\nIndian Independence started on 2001-06-18 and ended on 2001-06-25.\nEstablishment of the People’s Republic of China started on 2001-06-28 and ended on 2001-07-06.\nFall of the Berlin Wall started on 2001-07-13 and ended on 2001-08-01.\nBarack Obama elected US President started on 2001-08-02 and ended on 2001-08-28.\nCivil Rights Act signed started on 2001-09-02 and ended on 2001-09-05.\nTaliban takeover of Kabul started on 2001-09-08 and ended on 2001-10-03.\nCuban Missile Crisis begins started on 2001-10-04 and ended on 2001-10-04.\nSix‑Day War ends started on 2001-10-10 and ended on 2001-10-10.\nCongress of Vienna convened started on 2001-10-14 and ended on 2001-11-02.\nRwandan Genocide ends started on 2001-11-18 and ended on 2001-12-01.\nBattle of Waterloo started on 2001-12-07 and ended on 2002-01-01.\nTreaty of Versailles signed started on 2002-01-15 and ended on 2002-02-04.\nFrench Revolution begins started on 2002-02-13 and ended on 2002-02-14.\nMagna Carta sealed started on 2002-02-24 and ended on 2002-02-24.\nKosovo Declaration of Independence started on 2002-03-10 and ended on 2002-03-31.\nRussian Revolution ends started on 2002-04-19 and ended on 2002-05-02.",
+  "fact_set_relative": "Donald Trump elected US President started on 2000-11-17 and ended on 2000-12-03.\nKorean War armistice began 20 days after Donald Trump elected US President and lasted 24 days.\nKorean War begins began 15 days soon after Korean War armistice and lasted 6 days.\nBarack Obama inaugurated began 17 days subsequently Korean War begins and lasted 5 days.\nCuban Missile Crisis ends began 12 days following Barack Obama inaugurated and lasted 20 days.\nUS Capitol riot began 19 days later Cuban Missile Crisis ends and lasted 1 days.\nBrexit Referendum began 4 days following US Capitol riot and lasted 20 days.\nCOVID‑19 WHO pandemic declaration began 10 days soon after Brexit Referendum and lasted 16 days.\nIndian Independence began 15 days soon after COVID‑19 WHO pandemic declaration and lasted 8 days.\nEstablishment of the People’s Republic of China began 3 days after Indian Independence and lasted 9 days.\nFall of the Berlin Wall began 7 days following Establishment of the People’s Republic of China and lasted 20 days.\nBarack Obama elected US President began as soon as Fall of the Berlin Wall and lasted 27 days.\nCivil Rights Act signed began 5 days following Barack Obama elected US President and lasted 4 days.\nTaliban takeover of Kabul began 3 days subsequently Civil Rights Act signed and lasted 26 days.\nCuban Missile Crisis begins began immediately after Taliban takeover of Kabul and lasted 1 days.\nSix‑Day War ends began 6 days subsequently Cuban Missile Crisis begins and lasted 1 days.\nCongress of Vienna convened began 4 days subsequently Six‑Day War ends and lasted 20 days.\nRwandan Genocide ends began 16 days soon after Congress of Vienna convened and lasted 14 days.\nBattle of Waterloo began 6 days subsequently Rwandan Genocide ends and lasted 26 days.\nTreaty of Versailles signed began 14 days soon after Battle of Waterloo and lasted 21 days.\nFrench Revolution begins began 9 days subsequently Treaty of Versailles signed and lasted 2 days.\nMagna Carta sealed began 10 days later French Revolution begins and lasted 1 days.\nKosovo Declaration of Independence began 14 days after Magna Carta sealed and lasted 22 days.\nRussian Revolution ends began 19 days soon after Kosovo Declaration of Independence and lasted 14 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "List the events in chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "Give the events in reverse chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "What is the 2nd event chronologically?",
+      "arguments": {
+        "n": 2
+      }
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "How long did Congress of Vienna convened last?",
+      "arguments": {
+        "event": "Congress of Vienna convened"
+      }
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "Which event lasted the longest?",
+      "arguments": {}
+    },
+    {
+      "id": 6,
+      "templateID": "int.between",
+      "question": "How many days passed between the end of Fall of the Berlin Wall and the start of Barack Obama inaugurated?",
+      "arguments": {
+        "event_A": "Fall of the Berlin Wall",
+        "event_B": "Barack Obama inaugurated"
+      }
+    }
+  ],
+  "gold_answers": {
+    "1": "Donald Trump elected US President -> Korean War armistice -> Korean War begins -> Barack Obama inaugurated -> Cuban Missile Crisis ends -> US Capitol riot -> Brexit Referendum -> COVID‑19 WHO pandemic declaration -> Indian Independence -> Establishment of the People’s Republic of China -> Fall of the Berlin Wall -> Barack Obama elected US President -> Civil Rights Act signed -> Taliban takeover of Kabul -> Cuban Missile Crisis begins -> Six‑Day War ends -> Congress of Vienna convened -> Rwandan Genocide ends -> Battle of Waterloo -> Treaty of Versailles signed -> French Revolution begins -> Magna Carta sealed -> Kosovo Declaration of Independence -> Russian Revolution ends",
+    "2": "Russian Revolution ends -> Kosovo Declaration of Independence -> Magna Carta sealed -> French Revolution begins -> Treaty of Versailles signed -> Battle of Waterloo -> Rwandan Genocide ends -> Congress of Vienna convened -> Six‑Day War ends -> Cuban Missile Crisis begins -> Taliban takeover of Kabul -> Civil Rights Act signed -> Barack Obama elected US President -> Fall of the Berlin Wall -> Establishment of the People’s Republic of China -> Indian Independence -> COVID‑19 WHO pandemic declaration -> Brexit Referendum -> US Capitol riot -> Cuban Missile Crisis ends -> Barack Obama inaugurated -> Korean War begins -> Korean War armistice -> Donald Trump elected US President",
+    "3": "Korean War armistice",
+    "4": "20 days",
+    "5": "Barack Obama elected US President",
+    "6": "-162 days"
+  },
+  "timeline": [
+    {
+      "name": "Donald Trump elected US President",
+      "start": "2000-11-17",
+      "end": "2000-12-03",
+      "true_date": "2016-11-08"
+    },
+    {
+      "name": "Korean War armistice",
+      "start": "2000-12-23",
+      "end": "2001-01-15",
+      "true_date": "1953-07-27"
+    },
+    {
+      "name": "Korean War begins",
+      "start": "2001-01-30",
+      "end": "2001-02-04",
+      "true_date": "1950-06-25"
+    },
+    {
+      "name": "Barack Obama inaugurated",
+      "start": "2001-02-21",
+      "end": "2001-02-25",
+      "true_date": "2009-01-20"
+    },
+    {
+      "name": "Cuban Missile Crisis ends",
+      "start": "2001-03-09",
+      "end": "2001-03-28",
+      "true_date": "1962-10-28"
+    },
+    {
+      "name": "US Capitol riot",
+      "start": "2001-04-16",
+      "end": "2001-04-16",
+      "true_date": "2021-01-06"
+    },
+    {
+      "name": "Brexit Referendum",
+      "start": "2001-04-20",
+      "end": "2001-05-09",
+      "true_date": "2016-06-23"
+    },
+    {
+      "name": "COVID‑19 WHO pandemic declaration",
+      "start": "2001-05-19",
+      "end": "2001-06-03",
+      "true_date": "2020-03-11"
+    },
+    {
+      "name": "Indian Independence",
+      "start": "2001-06-18",
+      "end": "2001-06-25",
+      "true_date": "1947-08-15"
+    },
+    {
+      "name": "Establishment of the People’s Republic of China",
+      "start": "2001-06-28",
+      "end": "2001-07-06",
+      "true_date": "1949-10-01"
+    },
+    {
+      "name": "Fall of the Berlin Wall",
+      "start": "2001-07-13",
+      "end": "2001-08-01",
+      "true_date": "1989-11-09"
+    },
+    {
+      "name": "Barack Obama elected US President",
+      "start": "2001-08-02",
+      "end": "2001-08-28",
+      "true_date": "2008-11-04"
+    },
+    {
+      "name": "Civil Rights Act signed",
+      "start": "2001-09-02",
+      "end": "2001-09-05",
+      "true_date": "1964-07-02"
+    },
+    {
+      "name": "Taliban takeover of Kabul",
+      "start": "2001-09-08",
+      "end": "2001-10-03",
+      "true_date": "2021-08-15"
+    },
+    {
+      "name": "Cuban Missile Crisis begins",
+      "start": "2001-10-04",
+      "end": "2001-10-04",
+      "true_date": "1962-10-16"
+    },
+    {
+      "name": "Six‑Day War ends",
+      "start": "2001-10-10",
+      "end": "2001-10-10",
+      "true_date": "1967-06-10"
+    },
+    {
+      "name": "Congress of Vienna convened",
+      "start": "2001-10-14",
+      "end": "2001-11-02",
+      "true_date": "1814-11-01"
+    },
+    {
+      "name": "Rwandan Genocide ends",
+      "start": "2001-11-18",
+      "end": "2001-12-01",
+      "true_date": "1994-07-14"
+    },
+    {
+      "name": "Battle of Waterloo",
+      "start": "2001-12-07",
+      "end": "2002-01-01",
+      "true_date": "1815-06-18"
+    },
+    {
+      "name": "Treaty of Versailles signed",
+      "start": "2002-01-15",
+      "end": "2002-02-04",
+      "true_date": "1919-06-28"
+    },
+    {
+      "name": "French Revolution begins",
+      "start": "2002-02-13",
+      "end": "2002-02-14",
+      "true_date": "1789-07-14"
+    },
+    {
+      "name": "Magna Carta sealed",
+      "start": "2002-02-24",
+      "end": "2002-02-24",
+      "true_date": "1215-06-15"
+    },
+    {
+      "name": "Kosovo Declaration of Independence",
+      "start": "2002-03-10",
+      "end": "2002-03-31",
+      "true_date": "2008-02-17"
+    },
+    {
+      "name": "Russian Revolution ends",
+      "start": "2002-04-19",
+      "end": "2002-05-02",
+      "true_date": "1917-11-07"
+    }
+  ]
+}

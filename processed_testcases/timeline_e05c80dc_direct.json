@@ -1,0 +1,57 @@
+{
+  "system_prompt": "You are a highly accurate temporal reasoner. Using ONLY the facts provided, answer the question. Respond with a concise answer—do not explain your reasoning.",
+  "fact_set": "EU founded (Maastricht Treaty) started on 2000-10-06 and ended on 2000-10-19.\nAmerican Civil War begins started on 2000-10-27 and ended on 2000-11-10.\nBattle of Hastings started on 2000-11-29 and ended on 2000-12-07.\nIndian Independence started on 2000-12-08 and ended on 2000-12-13.\nFounding of the United Nations started on 2000-12-27 and ended on 2001-01-06.\nFormation of the Soviet Union started on 2001-01-15 and ended on 2001-01-19.\nAmerican Civil War ends started on 2001-01-26 and ended on 2001-02-05.\nCongress of Berlin started on 2001-02-09 and ended on 2001-02-11.\nIranian Revolution started on 2001-02-24 and ended on 2001-02-27.\nBattle of Waterloo started on 2001-03-11 and ended on 2001-03-30.\nEnd of Apartheid started on 2001-04-08 and ended on 2001-05-03.\nAssassination of John F. Kennedy started on 2001-05-05 and ended on 2001-05-28.\nFrench Revolution begins started on 2001-06-12 and ended on 2001-07-11.\nCOVID‑19 WHO pandemic declaration started on 2001-07-24 and ended on 2001-07-26.\nTaliban takeover of Kabul started on 2001-08-13 and ended on 2001-08-22.\nRussian Revolution ends started on 2001-09-11 and ended on 2001-09-22.\nBrexit Referendum started on 2001-10-11 and ended on 2001-10-17.\nMoon Landing started on 2001-10-20 and ended on 2001-10-21.\nDissolution of the Soviet Union started on 2001-10-29 and ended on 2001-10-31.\nDonald Trump inaugurated started on 2001-11-08 and ended on 2001-12-05.\nBarack Obama elected US President started on 2001-12-09 and ended on 2001-12-21.\nSuez Crisis started on 2001-12-30 and ended on 2002-01-25.\nKorean War begins started on 2002-02-06 and ended on 2002-02-11.\nCivil Rights Act signed started on 2002-02-23 and ended on 2002-03-06.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "List the events in chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "Give the events in reverse chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "What is the 9th event chronologically?",
+      "arguments": {
+        "n": 9
+      }
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "How long did Indian Independence last?",
+      "arguments": {
+        "event": "Indian Independence"
+      }
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "Which event lasted the longest?",
+      "arguments": {}
+    },
+    {
+      "id": 6,
+      "templateID": "int.between",
+      "question": "How many days passed between the end of Taliban takeover of Kabul and the start of Congress of Berlin?",
+      "arguments": {
+        "event_A": "Taliban takeover of Kabul",
+        "event_B": "Congress of Berlin"
+      }
+    }
+  ],
+  "expected_answers": {
+    "1": "EU founded (Maastricht Treaty) -> American Civil War begins -> Battle of Hastings -> Indian Independence -> Founding of the United Nations -> Formation of the Soviet Union -> American Civil War ends -> Congress of Berlin -> Iranian Revolution -> Battle of Waterloo -> End of Apartheid -> Assassination of John F. Kennedy -> French Revolution begins -> COVID‑19 WHO pandemic declaration -> Taliban takeover of Kabul -> Russian Revolution ends -> Brexit Referendum -> Moon Landing -> Dissolution of the Soviet Union -> Donald Trump inaugurated -> Barack Obama elected US President -> Suez Crisis -> Korean War begins -> Civil Rights Act signed",
+    "2": "Civil Rights Act signed -> Korean War begins -> Suez Crisis -> Barack Obama elected US President -> Donald Trump inaugurated -> Dissolution of the Soviet Union -> Moon Landing -> Brexit Referendum -> Russian Revolution ends -> Taliban takeover of Kabul -> COVID‑19 WHO pandemic declaration -> French Revolution begins -> Assassination of John F. Kennedy -> End of Apartheid -> Battle of Waterloo -> Iranian Revolution -> Congress of Berlin -> American Civil War ends -> Formation of the Soviet Union -> Founding of the United Nations -> Indian Independence -> Battle of Hastings -> American Civil War begins -> EU founded (Maastricht Treaty)",
+    "3": "Iranian Revolution",
+    "4": "6 days",
+    "5": "French Revolution begins",
+    "6": "-195 days"
+  }
+}

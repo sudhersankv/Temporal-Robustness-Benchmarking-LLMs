@@ -1,0 +1,57 @@
+{
+  "system_prompt": "You are a highly accurate temporal reasoner. Using ONLY the facts provided, answer the question. Respond with a concise answer—do not explain your reasoning.",
+  "fact_set": "EU founded (Maastricht Treaty) started on 2000-10-06 and ended on 2000-10-19.\nAmerican Civil War begins began 8 days after EU founded (Maastricht Treaty) and lasted 15 days.\nBattle of Hastings began 19 days after American Civil War begins and lasted 9 days.\nIndian Independence began as soon as Battle of Hastings and lasted 6 days.\nFounding of the United Nations began 14 days subsequently Indian Independence and lasted 11 days.\nFormation of the Soviet Union began 9 days following Founding of the United Nations and lasted 5 days.\nAmerican Civil War ends began 7 days following Formation of the Soviet Union and lasted 11 days.\nCongress of Berlin began 4 days following American Civil War ends and lasted 3 days.\nIranian Revolution began 13 days after Congress of Berlin and lasted 4 days.\nBattle of Waterloo began 12 days later Iranian Revolution and lasted 20 days.\nEnd of Apartheid began 9 days after Battle of Waterloo and lasted 26 days.\nAssassination of John F. Kennedy began 2 days later End of Apartheid and lasted 24 days.\nFrench Revolution begins began 15 days soon after Assassination of John F. Kennedy and lasted 30 days.\nCOVID‑19 WHO pandemic declaration began 13 days after French Revolution begins and lasted 3 days.\nTaliban takeover of Kabul began 18 days after COVID‑19 WHO pandemic declaration and lasted 10 days.\nRussian Revolution ends began 20 days after Taliban takeover of Kabul and lasted 12 days.\nBrexit Referendum began 19 days following Russian Revolution ends and lasted 7 days.\nMoon Landing began 3 days following Brexit Referendum and lasted 2 days.\nDissolution of the Soviet Union began 8 days later Moon Landing and lasted 3 days.\nDonald Trump inaugurated began 8 days later Dissolution of the Soviet Union and lasted 28 days.\nBarack Obama elected US President began 4 days after Donald Trump inaugurated and lasted 13 days.\nSuez Crisis began 9 days later Barack Obama elected US President and lasted 27 days.\nKorean War begins began 12 days following Suez Crisis and lasted 6 days.\nCivil Rights Act signed began 12 days later Korean War begins and lasted 12 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "List the events in chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "Give the events in reverse chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "What is the 23rd event chronologically?",
+      "arguments": {
+        "n": 23
+      }
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "How long did Founding of the United Nations last?",
+      "arguments": {
+        "event": "Founding of the United Nations"
+      }
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "Which event lasted the longest?",
+      "arguments": {}
+    },
+    {
+      "id": 6,
+      "templateID": "int.between",
+      "question": "How many days passed between the end of Barack Obama elected US President and the start of Congress of Berlin?",
+      "arguments": {
+        "event_A": "Barack Obama elected US President",
+        "event_B": "Congress of Berlin"
+      }
+    }
+  ],
+  "expected_answers": {
+    "1": "EU founded (Maastricht Treaty) -> American Civil War begins -> Battle of Hastings -> Indian Independence -> Founding of the United Nations -> Formation of the Soviet Union -> American Civil War ends -> Congress of Berlin -> Iranian Revolution -> Battle of Waterloo -> End of Apartheid -> Assassination of John F. Kennedy -> French Revolution begins -> COVID‑19 WHO pandemic declaration -> Taliban takeover of Kabul -> Russian Revolution ends -> Brexit Referendum -> Moon Landing -> Dissolution of the Soviet Union -> Donald Trump inaugurated -> Barack Obama elected US President -> Suez Crisis -> Korean War begins -> Civil Rights Act signed",
+    "2": "Civil Rights Act signed -> Korean War begins -> Suez Crisis -> Barack Obama elected US President -> Donald Trump inaugurated -> Dissolution of the Soviet Union -> Moon Landing -> Brexit Referendum -> Russian Revolution ends -> Taliban takeover of Kabul -> COVID‑19 WHO pandemic declaration -> French Revolution begins -> Assassination of John F. Kennedy -> End of Apartheid -> Battle of Waterloo -> Iranian Revolution -> Congress of Berlin -> American Civil War ends -> Formation of the Soviet Union -> Founding of the United Nations -> Indian Independence -> Battle of Hastings -> American Civil War begins -> EU founded (Maastricht Treaty)",
+    "3": "Korean War begins",
+    "4": "11 days",
+    "5": "French Revolution begins",
+    "6": "-316 days"
+  }
+}

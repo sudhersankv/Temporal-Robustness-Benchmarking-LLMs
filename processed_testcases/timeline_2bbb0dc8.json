@@ -1,0 +1,204 @@
+{
+  "id": "2bbb0dc8",
+  "fact_set_direct": "Oil Crisis started on 2000-11-09 and ended on 2000-11-28.\nRwandan Genocide ends started on 2000-12-18 and ended on 2001-01-06.\nBrexit Referendum started on 2001-01-18 and ended on 2001-02-12.\nVietnam War: US ground troops arrive started on 2001-02-21 and ended on 2001-03-10.\nAmerican Civil War ends started on 2001-03-22 and ended on 2001-04-01.\nKosovo Declaration of Independence started on 2001-04-12 and ended on 2001-04-23.\nIranian Revolution started on 2001-05-06 and ended on 2001-05-25.\nCivil Rights Act signed started on 2001-06-10 and ended on 2001-06-23.\nKorean War begins started on 2001-07-03 and ended on 2001-07-19.\nDonald Trump elected US President started on 2001-07-25 and ended on 2001-08-20.\nKorean War armistice started on 2001-09-05 and ended on 2001-09-23.\nTaliban takeover of Kabul started on 2001-09-26 and ended on 2001-10-03.\nUS Capitol riot started on 2001-10-04 and ended on 2001-10-06.\nPartition of India and Pakistan started on 2001-10-11 and ended on 2001-11-06.\nSix‑Day War ends started on 2001-11-25 and ended on 2001-12-14.\nFormation of NATO started on 2001-12-29 and ended on 2002-01-05.\nCongress of Vienna convened started on 2002-01-09 and ended on 2002-01-18.\nConstruction of the Berlin Wall begins started on 2002-02-06 and ended on 2002-02-19.\nFall of the Berlin Wall started on 2002-03-01 and ended on 2002-03-23.\nSuez Crisis started on 2002-04-10 and ended on 2002-04-12.\nTreaty of Versailles signed started on 2002-05-02 and ended on 2002-05-19.\nLeague of Nations founded started on 2002-06-06 and ended on 2002-06-22.\nFrench Revolution ends (Napoleon’s coup) started on 2002-06-27 and ended on 2002-06-30.\nMagna Carta sealed started on 2002-07-05 and ended on 2002-07-12.",
+  "fact_set_relative": "Oil Crisis started on 2000-11-09 and ended on 2000-11-28.\nRwandan Genocide ends began 20 days after Oil Crisis and lasted 20 days.\nBrexit Referendum began 12 days subsequently Rwandan Genocide ends and lasted 26 days.\nVietnam War: US ground troops arrive began 9 days after Brexit Referendum and lasted 18 days.\nAmerican Civil War ends began 12 days later Vietnam War: US ground troops arrive and lasted 11 days.\nKosovo Declaration of Independence began 11 days later American Civil War ends and lasted 12 days.\nIranian Revolution began 13 days subsequently Kosovo Declaration of Independence and lasted 20 days.\nCivil Rights Act signed began 16 days following Iranian Revolution and lasted 14 days.\nKorean War begins began 10 days later Civil Rights Act signed and lasted 17 days.\nDonald Trump elected US President began 6 days subsequently Korean War begins and lasted 27 days.\nKorean War armistice began 16 days after Donald Trump elected US President and lasted 19 days.\nTaliban takeover of Kabul began 3 days soon after Korean War armistice and lasted 8 days.\nUS Capitol riot began as soon as Taliban takeover of Kabul and lasted 3 days.\nPartition of India and Pakistan began 5 days after US Capitol riot and lasted 27 days.\nSix‑Day War ends began 19 days soon after Partition of India and Pakistan and lasted 20 days.\nFormation of NATO began 15 days later Six‑Day War ends and lasted 8 days.\nCongress of Vienna convened began 4 days soon after Formation of NATO and lasted 10 days.\nConstruction of the Berlin Wall begins began 19 days later Congress of Vienna convened and lasted 14 days.\nFall of the Berlin Wall began 10 days subsequently Construction of the Berlin Wall begins and lasted 23 days.\nSuez Crisis began 18 days later Fall of the Berlin Wall and lasted 3 days.\nTreaty of Versailles signed began 20 days following Suez Crisis and lasted 18 days.\nLeague of Nations founded began 18 days subsequently Treaty of Versailles signed and lasted 17 days.\nFrench Revolution ends (Napoleon’s coup) began 5 days following League of Nations founded and lasted 4 days.\nMagna Carta sealed began 5 days soon after French Revolution ends (Napoleon’s coup) and lasted 8 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "List the events in chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "Give the events in reverse chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "What is the 22nd event chronologically?",
+      "arguments": {
+        "n": 22
+      }
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "How long did Magna Carta sealed last?",
+      "arguments": {
+        "event": "Magna Carta sealed"
+      }
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "Which event lasted the longest?",
+      "arguments": {}
+    },
+    {
+      "id": 6,
+      "templateID": "int.between",
+      "question": "How many days passed between the end of Suez Crisis and the start of League of Nations founded?",
+      "arguments": {
+        "event_A": "Suez Crisis",
+        "event_B": "League of Nations founded"
+      }
+    }
+  ],
+  "gold_answers": {
+    "1": "Oil Crisis -> Rwandan Genocide ends -> Brexit Referendum -> Vietnam War: US ground troops arrive -> American Civil War ends -> Kosovo Declaration of Independence -> Iranian Revolution -> Civil Rights Act signed -> Korean War begins -> Donald Trump elected US President -> Korean War armistice -> Taliban takeover of Kabul -> US Capitol riot -> Partition of India and Pakistan -> Six‑Day War ends -> Formation of NATO -> Congress of Vienna convened -> Construction of the Berlin Wall begins -> Fall of the Berlin Wall -> Suez Crisis -> Treaty of Versailles signed -> League of Nations founded -> French Revolution ends (Napoleon’s coup) -> Magna Carta sealed",
+    "2": "Magna Carta sealed -> French Revolution ends (Napoleon’s coup) -> League of Nations founded -> Treaty of Versailles signed -> Suez Crisis -> Fall of the Berlin Wall -> Construction of the Berlin Wall begins -> Congress of Vienna convened -> Formation of NATO -> Six‑Day War ends -> Partition of India and Pakistan -> US Capitol riot -> Taliban takeover of Kabul -> Korean War armistice -> Donald Trump elected US President -> Korean War begins -> Civil Rights Act signed -> Iranian Revolution -> Kosovo Declaration of Independence -> American Civil War ends -> Vietnam War: US ground troops arrive -> Brexit Referendum -> Rwandan Genocide ends -> Oil Crisis",
+    "3": "League of Nations founded",
+    "4": "8 days",
+    "5": "Donald Trump elected US President",
+    "6": "54 days"
+  },
+  "timeline": [
+    {
+      "name": "Oil Crisis",
+      "start": "2000-11-09",
+      "end": "2000-11-28",
+      "true_date": "1973-10-17"
+    },
+    {
+      "name": "Rwandan Genocide ends",
+      "start": "2000-12-18",
+      "end": "2001-01-06",
+      "true_date": "1994-07-14"
+    },
+    {
+      "name": "Brexit Referendum",
+      "start": "2001-01-18",
+      "end": "2001-02-12",
+      "true_date": "2016-06-23"
+    },
+    {
+      "name": "Vietnam War: US ground troops arrive",
+      "start": "2001-02-21",
+      "end": "2001-03-10",
+      "true_date": "1965-03-08"
+    },
+    {
+      "name": "American Civil War ends",
+      "start": "2001-03-22",
+      "end": "2001-04-01",
+      "true_date": "1865-04-09"
+    },
+    {
+      "name": "Kosovo Declaration of Independence",
+      "start": "2001-04-12",
+      "end": "2001-04-23",
+      "true_date": "2008-02-17"
+    },
+    {
+      "name": "Iranian Revolution",
+      "start": "2001-05-06",
+      "end": "2001-05-25",
+      "true_date": "1979-02-11"
+    },
+    {
+      "name": "Civil Rights Act signed",
+      "start": "2001-06-10",
+      "end": "2001-06-23",
+      "true_date": "1964-07-02"
+    },
+    {
+      "name": "Korean War begins",
+      "start": "2001-07-03",
+      "end": "2001-07-19",
+      "true_date": "1950-06-25"
+    },
+    {
+      "name": "Donald Trump elected US President",
+      "start": "2001-07-25",
+      "end": "2001-08-20",
+      "true_date": "2016-11-08"
+    },
+    {
+      "name": "Korean War armistice",
+      "start": "2001-09-05",
+      "end": "2001-09-23",
+      "true_date": "1953-07-27"
+    },
+    {
+      "name": "Taliban takeover of Kabul",
+      "start": "2001-09-26",
+      "end": "2001-10-03",
+      "true_date": "2021-08-15"
+    },
+    {
+      "name": "US Capitol riot",
+      "start": "2001-10-04",
+      "end": "2001-10-06",
+      "true_date": "2021-01-06"
+    },
+    {
+      "name": "Partition of India and Pakistan",
+      "start": "2001-10-11",
+      "end": "2001-11-06",
+      "true_date": "1947-08-15"
+    },
+    {
+      "name": "Six‑Day War ends",
+      "start": "2001-11-25",
+      "end": "2001-12-14",
+      "true_date": "1967-06-10"
+    },
+    {
+      "name": "Formation of NATO",
+      "start": "2001-12-29",
+      "end": "2002-01-05",
+      "true_date": "1949-04-04"
+    },
+    {
+      "name": "Congress of Vienna convened",
+      "start": "2002-01-09",
+      "end": "2002-01-18",
+      "true_date": "1814-11-01"
+    },
+    {
+      "name": "Construction of the Berlin Wall begins",
+      "start": "2002-02-06",
+      "end": "2002-02-19",
+      "true_date": "1961-08-13"
+    },
+    {
+      "name": "Fall of the Berlin Wall",
+      "start": "2002-03-01",
+      "end": "2002-03-23",
+      "true_date": "1989-11-09"
+    },
+    {
+      "name": "Suez Crisis",
+      "start": "2002-04-10",
+      "end": "2002-04-12",
+      "true_date": "1956-10-29"
+    },
+    {
+      "name": "Treaty of Versailles signed",
+      "start": "2002-05-02",
+      "end": "2002-05-19",
+      "true_date": "1919-06-28"
+    },
+    {
+      "name": "League of Nations founded",
+      "start": "2002-06-06",
+      "end": "2002-06-22",
+      "true_date": "1920-01-10"
+    },
+    {
+      "name": "French Revolution ends (Napoleon’s coup)",
+      "start": "2002-06-27",
+      "end": "2002-06-30",
+      "true_date": "1799-11-09"
+    },
+    {
+      "name": "Magna Carta sealed",
+      "start": "2002-07-05",
+      "end": "2002-07-12",
+      "true_date": "1215-06-15"
+    }
+  ]
+}
