@@ -101,6 +101,47 @@ def order_first_last(timeline: List[SyntheticEvent], args: Dict) -> str:
     return f"{first} -> {last}"
 
 
+@register_template("count.over_x")
+def count_over_x(timeline: List[SyntheticEvent], args: Dict) -> str:
+    x = args["x"]
+    # Count occurrences of each event
+    event_counts = {}
+    for ev in timeline:
+        event_counts[ev.name] = event_counts.get(ev.name, 0) + 1
+    
+    # Get events that occurred more than x times
+    over_x_events = [name for name, count in event_counts.items() if count > x]
+    
+    if not over_x_events:
+        return "No events occurred more than X times"
+    return ", ".join(over_x_events)
+
+
+@register_template("count.same")
+def count_same_occurrences(timeline: List[SyntheticEvent], args: Dict) -> str:
+    # Count occurrences of each event
+    event_counts = {}
+    for ev in timeline:
+        event_counts[ev.name] = event_counts.get(ev.name, 0) + 1
+    
+    # Group events by their count
+    count_groups = {}
+    for name, count in event_counts.items():
+        if count not in count_groups:
+            count_groups[count] = []
+        count_groups[count].append(name)
+    
+    # Get groups with more than one event
+    same_count_events = []
+    for events in count_groups.values():
+        if len(events) > 1:
+            same_count_events.extend(events)
+    
+    if not same_count_events:
+        return "No events occurred the same number of times"
+    return ", ".join(same_count_events)
+
+
 @register_template("int.between")
 def int_between(timeline: List[SyntheticEvent], args: Dict) -> str:
     ev_map = _timeline_by_name(timeline)

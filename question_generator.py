@@ -37,6 +37,8 @@ TEMPLATES = {
     "dur.shortest": 1,       # new template for shortest duration
     "order.first": 4,        # new template for first occurrence comparison
     "order.first_last": 1,   # new template for first and last events
+    "count.over_x": 4,       # new template for counting events over X times
+    "count.same": 1,         # new template for events with same occurrence count
     "int.between": 4,
 }
 
@@ -117,7 +119,24 @@ def _deterministic_questions(timeline: List[SyntheticEvent], max_q: int = 10) ->
         "arguments": {},
     }); qid += 1
 
-    # 9. interval between two random distinct events
+    # 9. events occurring more than X times
+    x = random.randint(1, 5)
+    qs.append({
+        "id": qid,
+        "templateID": "count.over_x",
+        "question": f"What are the events that occurred more than {x} times?",
+        "arguments": {"x": x},
+    }); qid += 1
+
+    # 10. events with same occurrence count
+    qs.append({
+        "id": qid,
+        "templateID": "count.same",
+        "question": "List the events that have occurred the same number of times",
+        "arguments": {},
+    }); qid += 1
+
+    # 11. interval between two random distinct events
     a, b = random.sample(timeline, 2)
     qs.append({
         "id": qid,
