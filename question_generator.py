@@ -34,6 +34,9 @@ TEMPLATES = {
     "order.nth": 4,          # needs arg n
     "dur.single": 4,
     "dur.longest": 1,
+    "dur.shortest": 1,       # new template for shortest duration
+    "order.first": 4,        # new template for first occurrence comparison
+    "order.first_last": 1,   # new template for first and last events
     "int.between": 4,
 }
 
@@ -89,12 +92,37 @@ def _deterministic_questions(timeline: List[SyntheticEvent], max_q: int = 10) ->
         "arguments": {},
     }); qid += 1
 
-    # 6. interval between two random distinct events (use chronological order)
+    # 6. duration shortest
+    qs.append({
+        "id": qid,
+        "templateID": "dur.shortest",
+        "question": "Which event lasted the shortest?",
+        "arguments": {},
+    }); qid += 1
+
+    # 7. first occurrence comparison
+    a, b = random.sample(timeline, 2)
+    qs.append({
+        "id": qid,
+        "templateID": "order.first",
+        "question": f"Which out of {a.name} and {b.name} occurred first?",
+        "arguments": {"event_A": a.name, "event_B": b.name},
+    }); qid += 1
+
+    # 8. first and last events
+    qs.append({
+        "id": qid,
+        "templateID": "order.first_last",
+        "question": "What is the first and last event in chronological order?",
+        "arguments": {},
+    }); qid += 1
+
+    # 9. interval between two random distinct events
     a, b = random.sample(timeline, 2)
     qs.append({
         "id": qid,
         "templateID": "int.between",
-        "question": f"How many days passed between the end of {a.name} and the start of {b.name}?",
+        "question": f"What is the duration between the end of {a.name} and the start of {b.name}?",
         "arguments": {"event_A": a.name, "event_B": b.name},
     })
 

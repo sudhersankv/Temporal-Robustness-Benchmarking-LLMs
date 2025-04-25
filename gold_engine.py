@@ -80,6 +80,27 @@ def dur_longest(timeline: List[SyntheticEvent], args: Dict) -> str:
     return ev.name
 
 
+@register_template("dur.shortest")
+def dur_shortest(timeline: List[SyntheticEvent], args: Dict) -> str:
+    ev = min(timeline, key=lambda e: e.duration)
+    return ev.name
+
+
+@register_template("order.first")
+def order_first(timeline: List[SyntheticEvent], args: Dict) -> str:
+    ev_map = _timeline_by_name(timeline)
+    A = ev_map[args["event_A"]]
+    B = ev_map[args["event_B"]]
+    return A.name if A.start < B.start else B.name
+
+
+@register_template("order.first_last")
+def order_first_last(timeline: List[SyntheticEvent], args: Dict) -> str:
+    first = timeline[0].name
+    last = timeline[-1].name
+    return f"{first} -> {last}"
+
+
 @register_template("int.between")
 def int_between(timeline: List[SyntheticEvent], args: Dict) -> str:
     ev_map = _timeline_by_name(timeline)
