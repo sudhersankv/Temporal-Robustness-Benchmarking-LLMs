@@ -7,6 +7,15 @@ from diagrams.aws.storage import S3
 from diagrams.aws.general import Users
 from diagrams.aws.management import Cloudwatch
 from diagrams.aws.integration import SQS
+from diagrams.aws.analytics import Kinesis
+from diagrams.aws.security import SecretsManager
+from diagrams.aws.storage import SimpleStorageServiceS3Bucket
+from diagrams.aws.general import GenericSDK
+from diagrams.aws.management import SystemsManagerParameterStore
+from diagrams.aws.analytics import Athena
+from diagrams.aws.management import CloudwatchEventTimeBased
+from diagrams.aws.analytics import Quicksight
+from diagrams.aws.integration import StepFunctions
 
 # Define custom styles
 graph_attr = {
@@ -55,30 +64,44 @@ with Diagram("Temporal Robustness Benchmarking System Architecture",
 
     # Fact Synthesis with ABS/REL variants
     with Cluster("Fact Synthesis"):
-        fact_synth = S3("Fact Synthesiser")
-        abs_facts = Users("ABS Facts")
-        rel_facts = Users("REL Facts")
+        fact_synthesizer = S3("Fact Synthesiser")
+        abs_facts = SimpleStorageServiceS3Bucket("ABS Facts")
+        rel_facts = StepFunctions("REL Facts")
         
-        tuple_builder >> fact_synth
-        fact_synth >> [abs_facts, rel_facts]
+        tuple_builder >> fact_synthesizer
+        fact_synthesizer >> [abs_facts, rel_facts]
 
     # Question Generation and Gold Answers
     with Cluster("Question & Gold Answer Generation"):
-        question_gen = Cloudwatch("Question Generator")
+        question_generator = Cloudwatch("Question Generator")
         gold_engine = SQS("Gold Engine")
+        templates = SecretsManager("Question Templates")
         
-        [abs_facts, rel_facts] >> question_gen
-        question_gen >> gold_engine
+        [abs_facts, rel_facts] >> question_generator
+        templates >> question_generator
+        question_generator >> gold_engine
 
     # Evaluation and Results
     with Cluster("Evaluation & Results"):
         comparator = EC2("Comparator")
         dataset_writer = S3("Dataset Writer")
+        metrics = Quicksight("Metrics")
         
         gold_engine >> comparator
-        comparator >> dataset_writer
+        comparator >> [dataset_writer, metrics]
 
-    # Add explanatory notes
-    with Cluster("Key Processes"):
-        Blank("1. Timeline Generation") - Edge(style="invis") - Blank("2. Fact Synthesis")
-        Blank("3. Question Generation") - Edge(style="invis") - Blank("4. Evaluation")
+    # Add process flow visualization
+    with Cluster("Process Flow"):
+        process_timeline = CloudwatchEventTimeBased("1. Timeline Generation")
+        process_fact = SystemsManagerParameterStore("2. Fact Synthesis")
+        process_question = GenericSDK("3. Question Generation")
+        process_eval = Athena("4. Evaluation")
+        
+        # Connect processes in sequence
+        process_timeline >> process_fact >> process_question >> process_eval
+        
+        # Connect to actual components
+        process_timeline - Edge(style="dashed", color="#666666") - tuple_builder
+        process_fact - Edge(style="dashed", color="#666666") - fact_synthesizer
+        process_question - Edge(style="dashed", color="#666666") - question_generator
+        process_eval - Edge(style="dashed", color="#666666") - comparator
