@@ -1,0 +1,290 @@
+{
+  "id": "run_0023",
+  "fact_set_direct": "The event \"Ulysses published\" started on 2001-03-15 and ended on 2001-03-18.\nThe event \"Bilingual Education Act Passed\" started on 2001-09-21 and ended on 2001-09-21.\nThe event \"Defense of Marriage Act Passed\" started on 2000-11-12 and ended on 2000-12-04.\nThe event \"First space tourist launched\" started on 2001-08-15 and ended on 2001-08-21.\nThe event \"Great Galveston hurricane\" started on 2001-01-22 and ended on 2001-01-27.\nThe event \"Civil Rights Act Passed\" started on 2001-09-09 and ended on 2001-09-12.\nThe event \"First Container Ship Launched\" started on 2001-07-14 and ended on 2001-07-26.\nThe event \"First video game console\" started on 2001-08-24 and ended on 2001-08-31.\nThe event \"California Gold Rush starts\" started on 2001-06-02 and ended on 2001-06-02.\nThe event \"First Tweet Posted\" started on 2001-02-13 and ended on 2001-03-02.\nThe event \"First computer built\" started on 2001-10-19 and ended on 2001-11-05.\nThe event \"Michael Jordan's 'The Shot'\" started on 2001-04-07 and ended on 2001-05-01.\nThe event \"First Masters Tournament held\" started on 2001-01-07 and ended on 2001-01-18.\nThe event \"Abolition of Slavery in U.S.\" started on 2000-10-11 and ended on 2000-10-27.\nThe event \"Marshall Plan enacted\" started on 2001-06-06 and ended on 2001-06-17.\nThe event \"First stock exchange established\" started on 2001-05-16 and ended on 2001-05-30.\nThe event \"Apollo 13 returns safely\" started on 2001-06-21 and ended on 2001-06-25.\nThe event \"Pioneer 10 exits Solar System\" started on 2001-10-02 and ended on 2001-10-14.\nThe event \"First civilian spaceflight\" started on 2001-11-25 and ended on 2001-12-24.\nThe event \"Elementary and Secondary Education Act\" started on 2001-02-06 and ended on 2001-02-07.\nThe event \"First automobile built\" started on 2000-12-14 and ended on 2000-12-25.",
+  "fact_set_relative": "The event \"Abolition of Slavery in U.S.\" started on 2000-10-11 and ended on 2000-10-27.\n5 days after the conclusion of \"Pioneer 10 exits Solar System\", \"First computer built\" began and persisted for 18 days.\nThe interval of 6 days between \"Elementary and Secondary Education Act\" and \"First Tweet Posted\" marked the start of another 18-day chapter.\nIt took 20 days after \"First computer built\" ended for \"First civilian spaceflight\" to commence; it ran 30 days.\n\"First Container Ship Launched\" kicked off 19 days after \"Apollo 13 returns safely\" wrapped up and lasted 13 days.\n\"First space tourist launched\" was initiated 20 days post \"First Container Ship Launched\" and continued for 7 days.\n\"First stock exchange established\" surfaced 15 days after \"Michael Jordan's 'The Shot'\", occupying the timeline for 15 days.\n\"Great Galveston hurricane\" was initiated 4 days post \"First Masters Tournament held\" and continued for 6 days.\nIt took 20 days after \"Ulysses published\" ended for \"Michael Jordan's 'The Shot'\" to commence; it ran 25 days.\n\"Pioneer 10 exits Solar System\" followed \"Bilingual Education Act Passed\" by 11 days and endured 13 days.\nExactly 9 days elapsed between \"Civil Rights Act Passed\" and the start of \"Bilingual Education Act Passed\", which endured 1 days.\n\"Marshall Plan enacted\" was initiated 4 days post \"California Gold Rush starts\" and continued for 12 days.\nIt took 13 days after \"First Tweet Posted\" ended for \"Ulysses published\" to commence; it ran 4 days.\nExactly 16 days elapsed between \"Abolition of Slavery in U.S.\" and the start of \"Defense of Marriage Act Passed\", which endured 23 days.\n10 days after the conclusion of \"Great Galveston hurricane\", \"Elementary and Secondary Education Act\" began and persisted for 2 days.\n\"First video game console\" was initiated 3 days post \"First space tourist launched\" and continued for 8 days.\n\"First Masters Tournament held\" came 13 days after \"First automobile built\", lasting 12 days.\nExactly 9 days elapsed between \"First video game console\" and the start of \"Civil Rights Act Passed\", which endured 4 days.\n\"California Gold Rush starts\" came 3 days after \"First stock exchange established\", lasting 1 days.\n\"Apollo 13 returns safely\" was initiated 4 days post \"Marshall Plan enacted\" and continued for 5 days.\n\"First automobile built\" surfaced 10 days after \"Defense of Marriage Act Passed\", occupying the timeline for 12 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "List the events in chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "What is the reverse order of the events?",
+      "arguments": {}
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "Tell me the 5th event in order.",
+      "arguments": {
+        "n": 5
+      }
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "What was the duration of First video game console?",
+      "arguments": {
+        "event": "First video game console"
+      }
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "What event had the maximum duration?",
+      "arguments": {}
+    },
+    {
+      "id": 6,
+      "templateID": "dur.shortest",
+      "question": "Identify the shortest-lasting event.",
+      "arguments": {}
+    },
+    {
+      "id": 7,
+      "templateID": "order.first",
+      "question": "Did First stock exchange established or First space tourist launched occur first?",
+      "arguments": {
+        "event_A": "First stock exchange established",
+        "event_B": "First space tourist launched"
+      }
+    },
+    {
+      "id": 8,
+      "templateID": "order.first_last",
+      "question": "Identify the earliest and latest events.",
+      "arguments": {}
+    },
+    {
+      "id": 9,
+      "templateID": "count.over_x",
+      "question": "Which items exceed 5 occurrences?",
+      "arguments": {
+        "x": 5
+      }
+    },
+    {
+      "id": 10,
+      "templateID": "count.same",
+      "question": "List events that occurred equally often.",
+      "arguments": {}
+    },
+    {
+      "id": 11,
+      "templateID": "int.between",
+      "question": "Days between end of First video game console and start of First civilian spaceflight?",
+      "arguments": {
+        "event_A": "First video game console",
+        "event_B": "First civilian spaceflight"
+      }
+    },
+    {
+      "id": 12,
+      "templateID": "order.count",
+      "question": "How many events are there?",
+      "arguments": {}
+    },
+    {
+      "id": 13,
+      "templateID": "order.middle",
+      "question": "Which event is in the middle of the sequence?",
+      "arguments": {
+        "index": 10
+      }
+    },
+    {
+      "id": 14,
+      "templateID": "dur.average",
+      "question": "What is the average duration of all events?",
+      "arguments": {}
+    },
+    {
+      "id": 15,
+      "templateID": "dur.each_asc",
+      "question": "Order the events by shortest to longest duration.",
+      "arguments": {}
+    },
+    {
+      "id": 16,
+      "templateID": "dur.each_desc",
+      "question": "List events with durations in descending order.",
+      "arguments": {}
+    },
+    {
+      "id": 17,
+      "templateID": "int.between_consecutive",
+      "question": "What are the time intervals between consecutive events?",
+      "arguments": {}
+    },
+    {
+      "id": 18,
+      "templateID": "int.precedes",
+      "question": "Which comes first, Ulysses published or Michael Jordan's 'The Shot'?",
+      "arguments": {
+        "event_A": "Ulysses published",
+        "event_B": "Michael Jordan's 'The Shot'"
+      }
+    },
+    {
+      "id": 19,
+      "templateID": "list.between",
+      "question": "Name events occurring between California Gold Rush starts and Bilingual Education Act Passed.",
+      "arguments": {
+        "event_A": "California Gold Rush starts",
+        "event_B": "Bilingual Education Act Passed"
+      }
+    }
+  ],
+  "gold_answers": {
+    "1": "Abolition of Slavery in U.S., Defense of Marriage Act Passed, First automobile built, First Masters Tournament held, Great Galveston hurricane, Elementary and Secondary Education Act, First Tweet Posted, Ulysses published, Michael Jordan's 'The Shot', First stock exchange established, California Gold Rush starts, Marshall Plan enacted, Apollo 13 returns safely, First Container Ship Launched, First space tourist launched, First video game console, Civil Rights Act Passed, Bilingual Education Act Passed, Pioneer 10 exits Solar System, First computer built, First civilian spaceflight",
+    "2": "First civilian spaceflight, First computer built, Pioneer 10 exits Solar System, Bilingual Education Act Passed, Civil Rights Act Passed, First video game console, First space tourist launched, First Container Ship Launched, Apollo 13 returns safely, Marshall Plan enacted, California Gold Rush starts, First stock exchange established, Michael Jordan's 'The Shot', Ulysses published, First Tweet Posted, Elementary and Secondary Education Act, Great Galveston hurricane, First Masters Tournament held, First automobile built, Defense of Marriage Act Passed, Abolition of Slavery in U.S.",
+    "3": "Great Galveston hurricane",
+    "4": "8 days",
+    "5": "First civilian spaceflight",
+    "6": "California Gold Rush starts",
+    "7": "First stock exchange established",
+    "8": "Abolition of Slavery in U.S., First civilian spaceflight",
+    "9": "None",
+    "10": "Abolition of Slavery in U.S., Defense of Marriage Act Passed, First automobile built, First Masters Tournament held, Great Galveston hurricane, Elementary and Secondary Education Act, First Tweet Posted, Ulysses published, Michael Jordan's 'The Shot', First stock exchange established, California Gold Rush starts, Marshall Plan enacted, Apollo 13 returns safely, First Container Ship Launched, First space tourist launched, First video game console, Civil Rights Act Passed, Bilingual Education Act Passed, Pioneer 10 exits Solar System, First computer built, First civilian spaceflight",
+    "11": "85 days",
+    "12": "21",
+    "13": "California Gold Rush starts",
+    "14": "12 days",
+    "15": "California Gold Rush starts, Bilingual Education Act Passed, Elementary and Secondary Education Act, Ulysses published, Civil Rights Act Passed, Apollo 13 returns safely, Great Galveston hurricane, First space tourist launched, First video game console, First automobile built, First Masters Tournament held, Marshall Plan enacted, First Container Ship Launched, Pioneer 10 exits Solar System, First stock exchange established, Abolition of Slavery in U.S., First Tweet Posted, First computer built, Defense of Marriage Act Passed, Michael Jordan's 'The Shot', First civilian spaceflight",
+    "16": "First civilian spaceflight, Michael Jordan's 'The Shot', Defense of Marriage Act Passed, First Tweet Posted, First computer built, Abolition of Slavery in U.S., First stock exchange established, First Container Ship Launched, Pioneer 10 exits Solar System, First automobile built, First Masters Tournament held, Marshall Plan enacted, First video game console, First space tourist launched, Great Galveston hurricane, Apollo 13 returns safely, Ulysses published, Civil Rights Act Passed, Elementary and Secondary Education Act, California Gold Rush starts, Bilingual Education Act Passed",
+    "17": "15 days, 9 days, 12 days, 3 days, 9 days, 5 days, 12 days, 19 days, 14 days, 2 days, 3 days, 3 days, 18 days, 19 days, 2 days, 8 days, 8 days, 10 days, 4 days, 19 days",
+    "18": "yes",
+    "19": "Marshall Plan enacted, Apollo 13 returns safely, First Container Ship Launched, First space tourist launched, First video game console, Civil Rights Act Passed"
+  },
+  "timeline": [
+    {
+      "name": "Abolition of Slavery in U.S.",
+      "start": "2000-10-11",
+      "end": "2000-10-27",
+      "true_date": "1865-12-06"
+    },
+    {
+      "name": "Defense of Marriage Act Passed",
+      "start": "2000-11-12",
+      "end": "2000-12-04",
+      "true_date": "1996-09-21"
+    },
+    {
+      "name": "First automobile built",
+      "start": "2000-12-14",
+      "end": "2000-12-25",
+      "true_date": "1885-01-01"
+    },
+    {
+      "name": "First Masters Tournament held",
+      "start": "2001-01-07",
+      "end": "2001-01-18",
+      "true_date": "1934-03-22"
+    },
+    {
+      "name": "Great Galveston hurricane",
+      "start": "2001-01-22",
+      "end": "2001-01-27",
+      "true_date": "1900-09-08"
+    },
+    {
+      "name": "Elementary and Secondary Education Act",
+      "start": "2001-02-06",
+      "end": "2001-02-07",
+      "true_date": "1965-04-11"
+    },
+    {
+      "name": "First Tweet Posted",
+      "start": "2001-02-13",
+      "end": "2001-03-02",
+      "true_date": "2006-03-21"
+    },
+    {
+      "name": "Ulysses published",
+      "start": "2001-03-15",
+      "end": "2001-03-18",
+      "true_date": "1922-02-02"
+    },
+    {
+      "name": "Michael Jordan's 'The Shot'",
+      "start": "2001-04-07",
+      "end": "2001-05-01",
+      "true_date": "1989-05-07"
+    },
+    {
+      "name": "First stock exchange established",
+      "start": "2001-05-16",
+      "end": "2001-05-30",
+      "true_date": "1602-03-20"
+    },
+    {
+      "name": "California Gold Rush starts",
+      "start": "2001-06-02",
+      "end": "2001-06-02",
+      "true_date": "1848-01-24"
+    },
+    {
+      "name": "Marshall Plan enacted",
+      "start": "2001-06-06",
+      "end": "2001-06-17",
+      "true_date": "1948-04-03"
+    },
+    {
+      "name": "Apollo 13 returns safely",
+      "start": "2001-06-21",
+      "end": "2001-06-25",
+      "true_date": "1970-04-17"
+    },
+    {
+      "name": "First Container Ship Launched",
+      "start": "2001-07-14",
+      "end": "2001-07-26",
+      "true_date": "1956-04-26"
+    },
+    {
+      "name": "First space tourist launched",
+      "start": "2001-08-15",
+      "end": "2001-08-21",
+      "true_date": "2001-04-28"
+    },
+    {
+      "name": "First video game console",
+      "start": "2001-08-24",
+      "end": "2001-08-31",
+      "true_date": "1972-01-01"
+    },
+    {
+      "name": "Civil Rights Act Passed",
+      "start": "2001-09-09",
+      "end": "2001-09-12",
+      "true_date": "1964-07-02"
+    },
+    {
+      "name": "Bilingual Education Act Passed",
+      "start": "2001-09-21",
+      "end": "2001-09-21",
+      "true_date": "1968-01-02"
+    },
+    {
+      "name": "Pioneer 10 exits Solar System",
+      "start": "2001-10-02",
+      "end": "2001-10-14",
+      "true_date": "1972-03-02"
+    },
+    {
+      "name": "First computer built",
+      "start": "2001-10-19",
+      "end": "2001-11-05",
+      "true_date": "1945-02-14"
+    },
+    {
+      "name": "First civilian spaceflight",
+      "start": "2001-11-25",
+      "end": "2001-12-24",
+      "true_date": "2021-09-15"
+    }
+  ]
+}

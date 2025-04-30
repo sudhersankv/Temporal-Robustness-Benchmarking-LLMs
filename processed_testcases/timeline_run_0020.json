@@ -1,0 +1,254 @@
+{
+  "id": "run_0020",
+  "fact_set_direct": "The event \"Human genome project launched\" started on 2002-01-14 and ended on 2002-01-31.\nThe event \"Nobel to Toni Morrison\" started on 2001-02-05 and ended on 2001-02-21.\nThe event \"First successful gene therapy\" started on 2001-05-04 and ended on 2001-05-15.\nThe event \"Sputnik Launch Spurs U.S. Education Reform\" started on 2000-12-19 and ended on 2001-01-01.\nThe event \"Founding of the United Nations\" started on 2001-09-09 and ended on 2001-09-29.\nThe event \"First GPS satellite launched\" started on 2001-03-26 and ended on 2001-04-20.\nThe event \"Moon Landing\" started on 2001-08-10 and ended on 2001-08-31.\nThe event \"First comet landing by Rosetta\" started on 2001-05-21 and ended on 2001-06-17.\nThe event \"New Horizons launched to Pluto\" started on 2001-10-15 and ended on 2001-11-03.\nThe event \"Spinning Jenny invented\" started on 2001-11-16 and ended on 2001-12-07.\nThe event \"First Automobile Invented\" started on 2001-07-02 and ended on 2001-07-29.\nThe event \"First Satellite Communication\" started on 2001-01-09 and ended on 2001-02-03.\nThe event \"French Revolution begins\" started on 2001-12-23 and ended on 2001-12-31.\nThe event \"First image of black hole released\" started on 2002-01-03 and ended on 2002-01-04.\nThe event \"First Wimbledon tournament\" started on 2001-02-24 and ended on 2001-03-16.",
+  "fact_set_relative": "The event \"Sputnik Launch Spurs U.S. Education Reform\" started on 2000-12-19 and ended on 2001-01-01.\nFollowing \"First comet landing by Rosetta\" by 15 days, \"First Automobile Invented\" spanned 28 days.\n\"First GPS satellite launched\" surfaced 10 days after \"First Wimbledon tournament\", occupying the timeline for 26 days.\nFollowing \"French Revolution begins\" by 3 days, \"First image of black hole released\" spanned 2 days.\nFollowing \"Moon Landing\" by 9 days, \"Founding of the United Nations\" spanned 21 days.\nFollowing \"Sputnik Launch Spurs U.S. Education Reform\" by 8 days, \"First Satellite Communication\" spanned 26 days.\nIt took 12 days after \"First Automobile Invented\" ended for \"Moon Landing\" to commence; it ran 22 days.\n6 days after the conclusion of \"First successful gene therapy\", \"First comet landing by Rosetta\" began and persisted for 28 days.\n\"French Revolution begins\" surfaced 16 days after \"Spinning Jenny invented\", occupying the timeline for 9 days.\n16 days after the conclusion of \"Founding of the United Nations\", \"New Horizons launched to Pluto\" began and persisted for 20 days.\n3 days after the conclusion of \"Nobel to Toni Morrison\", \"First Wimbledon tournament\" began and persisted for 21 days.\nIt took 2 days after \"First Satellite Communication\" ended for \"Nobel to Toni Morrison\" to commence; it ran 17 days.\nFollowing \"First image of black hole released\" by 10 days, \"Human genome project launched\" spanned 18 days.\n14 days after the conclusion of \"First GPS satellite launched\", \"First successful gene therapy\" began and persisted for 12 days.\n\"Spinning Jenny invented\" was initiated 13 days post \"New Horizons launched to Pluto\" and continued for 22 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "List the events in chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "What is the reverse order of the events?",
+      "arguments": {}
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "Tell me the 13th event in order.",
+      "arguments": {
+        "n": 13
+      }
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "How long did First GPS satellite launched last?",
+      "arguments": {
+        "event": "First GPS satellite launched"
+      }
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "What event had the maximum duration?",
+      "arguments": {}
+    },
+    {
+      "id": 6,
+      "templateID": "dur.shortest",
+      "question": "Identify the shortest-lasting event.",
+      "arguments": {}
+    },
+    {
+      "id": 7,
+      "templateID": "order.first",
+      "question": "Which of First image of black hole released and Sputnik Launch Spurs U.S. Education Reform occurred first?",
+      "arguments": {
+        "event_A": "First image of black hole released",
+        "event_B": "Sputnik Launch Spurs U.S. Education Reform"
+      }
+    },
+    {
+      "id": 8,
+      "templateID": "order.first_last",
+      "question": "Identify the earliest and latest events.",
+      "arguments": {}
+    },
+    {
+      "id": 9,
+      "templateID": "count.over_x",
+      "question": "Name events that happened over 2 times.",
+      "arguments": {
+        "x": 2
+      }
+    },
+    {
+      "id": 10,
+      "templateID": "count.same",
+      "question": "List events that occurred equally often.",
+      "arguments": {}
+    },
+    {
+      "id": 11,
+      "templateID": "int.between",
+      "question": "How many days passed between New Horizons launched to Pluto ending and First successful gene therapy starting?",
+      "arguments": {
+        "event_A": "New Horizons launched to Pluto",
+        "event_B": "First successful gene therapy"
+      }
+    },
+    {
+      "id": 12,
+      "templateID": "order.count",
+      "question": "Count of events in the timeline?",
+      "arguments": {}
+    },
+    {
+      "id": 13,
+      "templateID": "order.middle",
+      "question": "What event sits at the midpoint of the timeline?",
+      "arguments": {
+        "index": 7
+      }
+    },
+    {
+      "id": 14,
+      "templateID": "dur.average",
+      "question": "What is the average duration of all events?",
+      "arguments": {}
+    },
+    {
+      "id": 15,
+      "templateID": "dur.each_asc",
+      "question": "Order the events by shortest to longest duration.",
+      "arguments": {}
+    },
+    {
+      "id": 16,
+      "templateID": "dur.each_desc",
+      "question": "Order the events by longest to shortest duration.",
+      "arguments": {}
+    },
+    {
+      "id": 17,
+      "templateID": "int.between_consecutive",
+      "question": "List the days between each pair of consecutive events.",
+      "arguments": {}
+    },
+    {
+      "id": 18,
+      "templateID": "int.precedes",
+      "question": "Which comes first, French Revolution begins or Founding of the United Nations?",
+      "arguments": {
+        "event_A": "French Revolution begins",
+        "event_B": "Founding of the United Nations"
+      }
+    },
+    {
+      "id": 19,
+      "templateID": "list.between",
+      "question": "What events fall between First successful gene therapy and Spinning Jenny invented?",
+      "arguments": {
+        "event_A": "First successful gene therapy",
+        "event_B": "Spinning Jenny invented"
+      }
+    }
+  ],
+  "gold_answers": {
+    "1": "Sputnik Launch Spurs U.S. Education Reform, First Satellite Communication, Nobel to Toni Morrison, First Wimbledon tournament, First GPS satellite launched, First successful gene therapy, First comet landing by Rosetta, First Automobile Invented, Moon Landing, Founding of the United Nations, New Horizons launched to Pluto, Spinning Jenny invented, French Revolution begins, First image of black hole released, Human genome project launched",
+    "2": "Human genome project launched, First image of black hole released, French Revolution begins, Spinning Jenny invented, New Horizons launched to Pluto, Founding of the United Nations, Moon Landing, First Automobile Invented, First comet landing by Rosetta, First successful gene therapy, First GPS satellite launched, First Wimbledon tournament, Nobel to Toni Morrison, First Satellite Communication, Sputnik Launch Spurs U.S. Education Reform",
+    "3": "French Revolution begins",
+    "4": "26 days",
+    "5": "First comet landing by Rosetta",
+    "6": "First image of black hole released",
+    "7": "Sputnik Launch Spurs U.S. Education Reform",
+    "8": "Sputnik Launch Spurs U.S. Education Reform, Human genome project launched",
+    "9": "None",
+    "10": "Sputnik Launch Spurs U.S. Education Reform, First Satellite Communication, Nobel to Toni Morrison, First Wimbledon tournament, First GPS satellite launched, First successful gene therapy, First comet landing by Rosetta, First Automobile Invented, Moon Landing, Founding of the United Nations, New Horizons launched to Pluto, Spinning Jenny invented, French Revolution begins, First image of black hole released, Human genome project launched",
+    "11": "0 days",
+    "12": "15",
+    "13": "First Automobile Invented",
+    "14": "19 days",
+    "15": "First image of black hole released, French Revolution begins, First successful gene therapy, Sputnik Launch Spurs U.S. Education Reform, Nobel to Toni Morrison, Human genome project launched, New Horizons launched to Pluto, First Wimbledon tournament, Founding of the United Nations, Moon Landing, Spinning Jenny invented, First Satellite Communication, First GPS satellite launched, First comet landing by Rosetta, First Automobile Invented",
+    "16": "First comet landing by Rosetta, First Automobile Invented, First Satellite Communication, First GPS satellite launched, Moon Landing, Spinning Jenny invented, First Wimbledon tournament, Founding of the United Nations, New Horizons launched to Pluto, Human genome project launched, Nobel to Toni Morrison, Sputnik Launch Spurs U.S. Education Reform, First successful gene therapy, French Revolution begins, First image of black hole released",
+    "17": "7 days, 1 days, 2 days, 9 days, 13 days, 5 days, 14 days, 11 days, 8 days, 15 days, 12 days, 15 days, 2 days, 9 days",
+    "18": "no",
+    "19": "First comet landing by Rosetta, First Automobile Invented, Moon Landing, Founding of the United Nations, New Horizons launched to Pluto"
+  },
+  "timeline": [
+    {
+      "name": "Sputnik Launch Spurs U.S. Education Reform",
+      "start": "2000-12-19",
+      "end": "2001-01-01",
+      "true_date": "1957-10-04"
+    },
+    {
+      "name": "First Satellite Communication",
+      "start": "2001-01-09",
+      "end": "2001-02-03",
+      "true_date": "1962-07-10"
+    },
+    {
+      "name": "Nobel to Toni Morrison",
+      "start": "2001-02-05",
+      "end": "2001-02-21",
+      "true_date": "1993-10-07"
+    },
+    {
+      "name": "First Wimbledon tournament",
+      "start": "2001-02-24",
+      "end": "2001-03-16",
+      "true_date": "1877-07-09"
+    },
+    {
+      "name": "First GPS satellite launched",
+      "start": "2001-03-26",
+      "end": "2001-04-20",
+      "true_date": "1978-02-22"
+    },
+    {
+      "name": "First successful gene therapy",
+      "start": "2001-05-04",
+      "end": "2001-05-15",
+      "true_date": "1990-09-14"
+    },
+    {
+      "name": "First comet landing by Rosetta",
+      "start": "2001-05-21",
+      "end": "2001-06-17",
+      "true_date": "2014-11-12"
+    },
+    {
+      "name": "First Automobile Invented",
+      "start": "2001-07-02",
+      "end": "2001-07-29",
+      "true_date": "1885-01-29"
+    },
+    {
+      "name": "Moon Landing",
+      "start": "2001-08-10",
+      "end": "2001-08-31",
+      "true_date": "1969-07-20"
+    },
+    {
+      "name": "Founding of the United Nations",
+      "start": "2001-09-09",
+      "end": "2001-09-29",
+      "true_date": "1945-10-24"
+    },
+    {
+      "name": "New Horizons launched to Pluto",
+      "start": "2001-10-15",
+      "end": "2001-11-03",
+      "true_date": "2006-01-19"
+    },
+    {
+      "name": "Spinning Jenny invented",
+      "start": "2001-11-16",
+      "end": "2001-12-07",
+      "true_date": "1764-01-01"
+    },
+    {
+      "name": "French Revolution begins",
+      "start": "2001-12-23",
+      "end": "2001-12-31",
+      "true_date": "1789-07-14"
+    },
+    {
+      "name": "First image of black hole released",
+      "start": "2002-01-03",
+      "end": "2002-01-04",
+      "true_date": "2019-04-10"
+    },
+    {
+      "name": "Human genome project launched",
+      "start": "2002-01-14",
+      "end": "2002-01-31",
+      "true_date": "1990-10-01"
+    }
+  ]
+}

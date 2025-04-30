@@ -1,0 +1,254 @@
+{
+  "id": "run_0017",
+  "fact_set_direct": "The event \"Shakespeare's Globe opens\" started on 2001-03-03 and ended on 2001-03-19.\nThe event \"Miracle on Ice occurs\" started on 2000-08-06 and ended on 2000-09-02.\nThe event \"First computer built\" started on 2001-01-30 and ended on 2001-02-22.\nThe event \"Facebook launched\" started on 2001-05-27 and ended on 2001-05-29.\nThe event \"Vietnam War: US ground troops arrive\" started on 2001-06-20 and ended on 2001-07-16.\nThe event \"AI chatbot released\" started on 2001-06-15 and ended on 2001-06-15.\nThe event \"Pioneer 10 exits Solar System\" started on 2001-01-04 and ended on 2001-01-17.\nThe event \"First Rugby World Cup held\" started on 2001-03-30 and ended on 2001-04-13.\nThe event \"First Text Message Sent\" started on 2000-11-16 and ended on 2000-12-15.\nThe event \"First social media platform\" started on 2000-09-11 and ended on 2000-09-20.\nThe event \"First mobile phone call\" started on 2001-01-19 and ended on 2001-01-28.\nThe event \"Black Monday market crash\" started on 2001-05-14 and ended on 2001-05-26.\nThe event \"First Hot Air Balloon Flight\" started on 2000-09-30 and ended on 2000-10-29.\nThe event \"First bionic limb fitted\" started on 2001-04-17 and ended on 2001-05-04.\nThe event \"Euro currency introduced\" started on 2000-09-04 and ended on 2000-09-08.",
+  "fact_set_relative": "The event \"Miracle on Ice occurs\" started on 2000-08-06 and ended on 2000-09-02.\n\"First bionic limb fitted\" surfaced 4 days after \"First Rugby World Cup held\", occupying the timeline for 18 days.\n\"First social media platform\" surfaced 3 days after \"Euro currency introduced\", occupying the timeline for 10 days.\nIt took 18 days after \"First Hot Air Balloon Flight\" ended for \"First Text Message Sent\" to commence; it ran 30 days.\n\"Facebook launched\" came 1 days after \"Black Monday market crash\", lasting 3 days.\n\"First computer built\" kicked off 2 days after \"First mobile phone call\" wrapped up and lasted 24 days.\nExactly 2 days elapsed between \"Pioneer 10 exits Solar System\" and the start of \"First mobile phone call\", which endured 10 days.\n\"Black Monday market crash\" followed \"First bionic limb fitted\" by 10 days and endured 13 days.\n\"AI chatbot released\" came 17 days after \"Facebook launched\", lasting 1 days.\nIt took 2 days after \"Miracle on Ice occurs\" ended for \"Euro currency introduced\" to commence; it ran 5 days.\n\"Vietnam War: US ground troops arrive\" came 5 days after \"AI chatbot released\", lasting 27 days.\nIt took 10 days after \"First social media platform\" ended for \"First Hot Air Balloon Flight\" to commence; it ran 30 days.\n20 days after the conclusion of \"First Text Message Sent\", \"Pioneer 10 exits Solar System\" began and persisted for 14 days.\nExactly 11 days elapsed between \"Shakespeare's Globe opens\" and the start of \"First Rugby World Cup held\", which endured 15 days.\n\"Shakespeare's Globe opens\" kicked off 9 days after \"First computer built\" wrapped up and lasted 17 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "List the events in chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "List the events in reverse chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "Tell me the 12th event in order.",
+      "arguments": {
+        "n": 12
+      }
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "Euro currency introduced lasted how many days?",
+      "arguments": {
+        "event": "Euro currency introduced"
+      }
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "Which event lasted the longest?",
+      "arguments": {}
+    },
+    {
+      "id": 6,
+      "templateID": "dur.shortest",
+      "question": "What event had the minimum duration?",
+      "arguments": {}
+    },
+    {
+      "id": 7,
+      "templateID": "order.first",
+      "question": "What occurred earlier, First computer built or Facebook launched?",
+      "arguments": {
+        "event_A": "First computer built",
+        "event_B": "Facebook launched"
+      }
+    },
+    {
+      "id": 8,
+      "templateID": "order.first_last",
+      "question": "Which events are at the start and end of the timeline?",
+      "arguments": {}
+    },
+    {
+      "id": 9,
+      "templateID": "count.over_x",
+      "question": "Which items exceed 5 occurrences?",
+      "arguments": {
+        "x": 5
+      }
+    },
+    {
+      "id": 10,
+      "templateID": "count.same",
+      "question": "Which events have the same occurrence count?",
+      "arguments": {}
+    },
+    {
+      "id": 11,
+      "templateID": "int.between",
+      "question": "Interval between Vietnam War: US ground troops arrive end and Miracle on Ice occurs start?",
+      "arguments": {
+        "event_A": "Vietnam War: US ground troops arrive",
+        "event_B": "Miracle on Ice occurs"
+      }
+    },
+    {
+      "id": 12,
+      "templateID": "order.count",
+      "question": "Count of events in the timeline?",
+      "arguments": {}
+    },
+    {
+      "id": 13,
+      "templateID": "order.middle",
+      "question": "Which event is in the middle of the sequence?",
+      "arguments": {
+        "index": 7
+      }
+    },
+    {
+      "id": 14,
+      "templateID": "dur.average",
+      "question": "What is the average duration of all events?",
+      "arguments": {}
+    },
+    {
+      "id": 15,
+      "templateID": "dur.each_asc",
+      "question": "List events with durations in ascending order.",
+      "arguments": {}
+    },
+    {
+      "id": 16,
+      "templateID": "dur.each_desc",
+      "question": "Which events, sorted by decreasing duration, occurred?",
+      "arguments": {}
+    },
+    {
+      "id": 17,
+      "templateID": "int.between_consecutive",
+      "question": "How many days separate each successive event?",
+      "arguments": {}
+    },
+    {
+      "id": 18,
+      "templateID": "int.precedes",
+      "question": "Does Vietnam War: US ground troops arrive occur before First Rugby World Cup held?",
+      "arguments": {
+        "event_A": "Vietnam War: US ground troops arrive",
+        "event_B": "First Rugby World Cup held"
+      }
+    },
+    {
+      "id": 19,
+      "templateID": "list.between",
+      "question": "List the events that occur between First mobile phone call and Pioneer 10 exits Solar System.",
+      "arguments": {
+        "event_A": "First mobile phone call",
+        "event_B": "Pioneer 10 exits Solar System"
+      }
+    }
+  ],
+  "gold_answers": {
+    "1": "Miracle on Ice occurs, Euro currency introduced, First social media platform, First Hot Air Balloon Flight, First Text Message Sent, Pioneer 10 exits Solar System, First mobile phone call, First computer built, Shakespeare's Globe opens, First Rugby World Cup held, First bionic limb fitted, Black Monday market crash, Facebook launched, AI chatbot released, Vietnam War: US ground troops arrive",
+    "2": "Vietnam War: US ground troops arrive, AI chatbot released, Facebook launched, Black Monday market crash, First bionic limb fitted, First Rugby World Cup held, Shakespeare's Globe opens, First computer built, First mobile phone call, Pioneer 10 exits Solar System, First Text Message Sent, First Hot Air Balloon Flight, First social media platform, Euro currency introduced, Miracle on Ice occurs",
+    "3": "Black Monday market crash",
+    "4": "5 days",
+    "5": "First Hot Air Balloon Flight",
+    "6": "AI chatbot released",
+    "7": "First computer built",
+    "8": "Miracle on Ice occurs, Vietnam War: US ground troops arrive",
+    "9": "None",
+    "10": "Miracle on Ice occurs, Euro currency introduced, First social media platform, First Hot Air Balloon Flight, First Text Message Sent, Pioneer 10 exits Solar System, First mobile phone call, First computer built, Shakespeare's Globe opens, First Rugby World Cup held, First bionic limb fitted, Black Monday market crash, Facebook launched, AI chatbot released, Vietnam War: US ground troops arrive",
+    "11": "0 days",
+    "12": "15",
+    "13": "First computer built",
+    "14": "16 days",
+    "15": "AI chatbot released, Facebook launched, Euro currency introduced, First social media platform, First mobile phone call, Black Monday market crash, Pioneer 10 exits Solar System, First Rugby World Cup held, Shakespeare's Globe opens, First bionic limb fitted, First computer built, Vietnam War: US ground troops arrive, Miracle on Ice occurs, First Hot Air Balloon Flight, First Text Message Sent",
+    "16": "First Hot Air Balloon Flight, First Text Message Sent, Miracle on Ice occurs, Vietnam War: US ground troops arrive, First computer built, First bionic limb fitted, Shakespeare's Globe opens, First Rugby World Cup held, Pioneer 10 exits Solar System, Black Monday market crash, First social media platform, First mobile phone call, Euro currency introduced, Facebook launched, AI chatbot released",
+    "17": "1 days, 2 days, 9 days, 17 days, 19 days, 1 days, 1 days, 8 days, 10 days, 3 days, 9 days, 0 days, 16 days, 4 days",
+    "18": "no",
+    "19": "None"
+  },
+  "timeline": [
+    {
+      "name": "Miracle on Ice occurs",
+      "start": "2000-08-06",
+      "end": "2000-09-02",
+      "true_date": "1980-02-22"
+    },
+    {
+      "name": "Euro currency introduced",
+      "start": "2000-09-04",
+      "end": "2000-09-08",
+      "true_date": "1999-01-01"
+    },
+    {
+      "name": "First social media platform",
+      "start": "2000-09-11",
+      "end": "2000-09-20",
+      "true_date": "2003-05-05"
+    },
+    {
+      "name": "First Hot Air Balloon Flight",
+      "start": "2000-09-30",
+      "end": "2000-10-29",
+      "true_date": "1783-06-04"
+    },
+    {
+      "name": "First Text Message Sent",
+      "start": "2000-11-16",
+      "end": "2000-12-15",
+      "true_date": "1992-12-03"
+    },
+    {
+      "name": "Pioneer 10 exits Solar System",
+      "start": "2001-01-04",
+      "end": "2001-01-17",
+      "true_date": "1972-03-02"
+    },
+    {
+      "name": "First mobile phone call",
+      "start": "2001-01-19",
+      "end": "2001-01-28",
+      "true_date": "1973-04-03"
+    },
+    {
+      "name": "First computer built",
+      "start": "2001-01-30",
+      "end": "2001-02-22",
+      "true_date": "1945-02-14"
+    },
+    {
+      "name": "Shakespeare's Globe opens",
+      "start": "2001-03-03",
+      "end": "2001-03-19",
+      "true_date": "1599-06-12"
+    },
+    {
+      "name": "First Rugby World Cup held",
+      "start": "2001-03-30",
+      "end": "2001-04-13",
+      "true_date": "1987-05-22"
+    },
+    {
+      "name": "First bionic limb fitted",
+      "start": "2001-04-17",
+      "end": "2001-05-04",
+      "true_date": "1993-01-01"
+    },
+    {
+      "name": "Black Monday market crash",
+      "start": "2001-05-14",
+      "end": "2001-05-26",
+      "true_date": "1987-10-19"
+    },
+    {
+      "name": "Facebook launched",
+      "start": "2001-05-27",
+      "end": "2001-05-29",
+      "true_date": "2004-02-04"
+    },
+    {
+      "name": "AI chatbot released",
+      "start": "2001-06-15",
+      "end": "2001-06-15",
+      "true_date": "2022-11-30"
+    },
+    {
+      "name": "Vietnam War: US ground troops arrive",
+      "start": "2001-06-20",
+      "end": "2001-07-16",
+      "true_date": "1965-03-08"
+    }
+  ]
+}

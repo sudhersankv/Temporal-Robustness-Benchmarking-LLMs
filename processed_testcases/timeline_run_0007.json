@@ -1,0 +1,230 @@
+{
+  "id": "run_0007",
+  "fact_set_direct": "The event \"War and Peace published\" started on 2000-07-13 and ended on 2000-08-04.\nThe event \"South Sea Bubble bursts\" started on 2000-11-24 and ended on 2000-12-23.\nThe event \"First Commercial Jet Flight\" started on 2001-01-29 and ended on 2001-02-19.\nThe event \"Industrial Revolution begins\" started on 2001-03-04 and ended on 2001-03-26.\nThe event \"First Daytona 500 race\" started on 2001-04-10 and ended on 2001-04-12.\nThe event \"Nobel to Toni Morrison\" started on 2000-10-27 and ended on 2000-11-05.\nThe event \"League of Nations founded\" started on 2000-10-03 and ended on 2000-10-22.\nThe event \"Human genome project completed\" started on 2000-08-19 and ended on 2000-09-03.\nThe event \"American Civil War ends\" started on 2001-01-08 and ended on 2001-01-14.\nThe event \"Euro currency introduced\" started on 2000-09-07 and ended on 2000-09-27.\nThe event \"Selma to Montgomery Marches\" started on 2000-06-14 and ended on 2000-07-01.",
+  "fact_set_relative": "The event \"Selma to Montgomery Marches\" started on 2000-06-14 and ended on 2000-07-01.\nFollowing \"Human genome project completed\" by 4 days, \"Euro currency introduced\" spanned 21 days.\n\"American Civil War ends\" surfaced 16 days after \"South Sea Bubble bursts\", occupying the timeline for 7 days.\n\"Nobel to Toni Morrison\" came 5 days after \"League of Nations founded\", lasting 10 days.\n\"War and Peace published\" came 12 days after \"Selma to Montgomery Marches\", lasting 23 days.\n\"First Commercial Jet Flight\" came 15 days after \"American Civil War ends\", lasting 22 days.\n\"First Daytona 500 race\" kicked off 15 days after \"Industrial Revolution begins\" wrapped up and lasted 3 days.\n\"Industrial Revolution begins\" was initiated 13 days post \"First Commercial Jet Flight\" and continued for 23 days.\n\"Human genome project completed\" followed \"War and Peace published\" by 15 days and endured 16 days.\n\"South Sea Bubble bursts\" came 19 days after \"Nobel to Toni Morrison\", lasting 30 days.\nExactly 6 days elapsed between \"Euro currency introduced\" and the start of \"League of Nations founded\", which endured 20 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "List the events in chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "What is the reverse order of the events?",
+      "arguments": {}
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "Tell me the 1st event in order.",
+      "arguments": {
+        "n": 1
+      }
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "What was the duration of League of Nations founded?",
+      "arguments": {
+        "event": "League of Nations founded"
+      }
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "What event had the maximum duration?",
+      "arguments": {}
+    },
+    {
+      "id": 6,
+      "templateID": "dur.shortest",
+      "question": "Identify the shortest-lasting event.",
+      "arguments": {}
+    },
+    {
+      "id": 7,
+      "templateID": "order.first",
+      "question": "What occurred earlier, Human genome project completed or American Civil War ends?",
+      "arguments": {
+        "event_A": "Human genome project completed",
+        "event_B": "American Civil War ends"
+      }
+    },
+    {
+      "id": 8,
+      "templateID": "order.first_last",
+      "question": "Which events are at the start and end of the timeline?",
+      "arguments": {}
+    },
+    {
+      "id": 9,
+      "templateID": "count.over_x",
+      "question": "Name events that happened over 3 times.",
+      "arguments": {
+        "x": 3
+      }
+    },
+    {
+      "id": 10,
+      "templateID": "count.same",
+      "question": "Which events have the same occurrence count?",
+      "arguments": {}
+    },
+    {
+      "id": 11,
+      "templateID": "int.between",
+      "question": "What is the duration between the end of League of Nations founded and the start of Euro currency introduced?",
+      "arguments": {
+        "event_A": "League of Nations founded",
+        "event_B": "Euro currency introduced"
+      }
+    },
+    {
+      "id": 12,
+      "templateID": "order.count",
+      "question": "Count of events in the timeline?",
+      "arguments": {}
+    },
+    {
+      "id": 13,
+      "templateID": "order.middle",
+      "question": "What event sits at the midpoint of the timeline?",
+      "arguments": {
+        "index": 5
+      }
+    },
+    {
+      "id": 14,
+      "templateID": "dur.average",
+      "question": "What is the average duration of all events?",
+      "arguments": {}
+    },
+    {
+      "id": 15,
+      "templateID": "dur.each_asc",
+      "question": "Which events, sorted by increasing duration, occurred?",
+      "arguments": {}
+    },
+    {
+      "id": 16,
+      "templateID": "dur.each_desc",
+      "question": "Order the events by longest to shortest duration.",
+      "arguments": {}
+    },
+    {
+      "id": 17,
+      "templateID": "int.between_consecutive",
+      "question": "List the days between each pair of consecutive events.",
+      "arguments": {}
+    },
+    {
+      "id": 18,
+      "templateID": "int.precedes",
+      "question": "Does Euro currency introduced precede South Sea Bubble bursts?",
+      "arguments": {
+        "event_A": "Euro currency introduced",
+        "event_B": "South Sea Bubble bursts"
+      }
+    },
+    {
+      "id": 19,
+      "templateID": "list.between",
+      "question": "Identify events between Industrial Revolution begins and American Civil War ends.",
+      "arguments": {
+        "event_A": "Industrial Revolution begins",
+        "event_B": "American Civil War ends"
+      }
+    }
+  ],
+  "gold_answers": {
+    "1": "Selma to Montgomery Marches, War and Peace published, Human genome project completed, Euro currency introduced, League of Nations founded, Nobel to Toni Morrison, South Sea Bubble bursts, American Civil War ends, First Commercial Jet Flight, Industrial Revolution begins, First Daytona 500 race",
+    "2": "First Daytona 500 race, Industrial Revolution begins, First Commercial Jet Flight, American Civil War ends, South Sea Bubble bursts, Nobel to Toni Morrison, League of Nations founded, Euro currency introduced, Human genome project completed, War and Peace published, Selma to Montgomery Marches",
+    "3": "Selma to Montgomery Marches",
+    "4": "20 days",
+    "5": "South Sea Bubble bursts",
+    "6": "First Daytona 500 race",
+    "7": "Human genome project completed",
+    "8": "Selma to Montgomery Marches, First Daytona 500 race",
+    "9": "None",
+    "10": "Selma to Montgomery Marches, War and Peace published, Human genome project completed, Euro currency introduced, League of Nations founded, Nobel to Toni Morrison, South Sea Bubble bursts, American Civil War ends, First Commercial Jet Flight, Industrial Revolution begins, First Daytona 500 race",
+    "11": "0 days",
+    "12": "11",
+    "13": "Nobel to Toni Morrison",
+    "14": "18 days",
+    "15": "First Daytona 500 race, American Civil War ends, Nobel to Toni Morrison, Human genome project completed, Selma to Montgomery Marches, League of Nations founded, Euro currency introduced, First Commercial Jet Flight, War and Peace published, Industrial Revolution begins, South Sea Bubble bursts",
+    "16": "South Sea Bubble bursts, War and Peace published, Industrial Revolution begins, First Commercial Jet Flight, Euro currency introduced, League of Nations founded, Selma to Montgomery Marches, Human genome project completed, Nobel to Toni Morrison, American Civil War ends, First Daytona 500 race",
+    "17": "11 days, 14 days, 3 days, 5 days, 4 days, 18 days, 15 days, 14 days, 12 days, 14 days",
+    "18": "yes",
+    "19": "First Commercial Jet Flight"
+  },
+  "timeline": [
+    {
+      "name": "Selma to Montgomery Marches",
+      "start": "2000-06-14",
+      "end": "2000-07-01",
+      "true_date": "1965-03-07"
+    },
+    {
+      "name": "War and Peace published",
+      "start": "2000-07-13",
+      "end": "2000-08-04",
+      "true_date": "1869-01-01"
+    },
+    {
+      "name": "Human genome project completed",
+      "start": "2000-08-19",
+      "end": "2000-09-03",
+      "true_date": "2003-04-14"
+    },
+    {
+      "name": "Euro currency introduced",
+      "start": "2000-09-07",
+      "end": "2000-09-27",
+      "true_date": "1999-01-01"
+    },
+    {
+      "name": "League of Nations founded",
+      "start": "2000-10-03",
+      "end": "2000-10-22",
+      "true_date": "1920-01-10"
+    },
+    {
+      "name": "Nobel to Toni Morrison",
+      "start": "2000-10-27",
+      "end": "2000-11-05",
+      "true_date": "1993-10-07"
+    },
+    {
+      "name": "South Sea Bubble bursts",
+      "start": "2000-11-24",
+      "end": "2000-12-23",
+      "true_date": "1720-09-01"
+    },
+    {
+      "name": "American Civil War ends",
+      "start": "2001-01-08",
+      "end": "2001-01-14",
+      "true_date": "1865-04-09"
+    },
+    {
+      "name": "First Commercial Jet Flight",
+      "start": "2001-01-29",
+      "end": "2001-02-19",
+      "true_date": "1952-05-02"
+    },
+    {
+      "name": "Industrial Revolution begins",
+      "start": "2001-03-04",
+      "end": "2001-03-26",
+      "true_date": "1760-01-01"
+    },
+    {
+      "name": "First Daytona 500 race",
+      "start": "2001-04-10",
+      "end": "2001-04-12",
+      "true_date": "1959-02-22"
+    }
+  ]
+}

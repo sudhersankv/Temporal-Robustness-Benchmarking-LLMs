@@ -1,0 +1,230 @@
+{
+  "id": "run_0011",
+  "fact_set_direct": "The event \"First telegraph sent\" started on 2000-05-12 and ended on 2000-05-29.\nThe event \"Spinning Jenny invented\" started on 2000-07-09 and ended on 2000-07-22.\nThe event \"Light bulb patented\" started on 2000-02-05 and ended on 2000-02-06.\nThe event \"Civil Rights Act signed\" started on 2000-08-26 and ended on 2000-08-30.\nThe event \"Harry Potter released\" started on 2000-06-11 and ended on 2000-07-01.\nThe event \"X-rays discovered\" started on 2000-04-14 and ended on 2000-05-10.\nThe event \"HIV identified\" started on 2000-07-25 and ended on 2000-08-22.\nThe event \"Bank of England founded\" started on 2000-02-19 and ended on 2000-03-10.\nThe event \"Enron files for bankruptcy\" started on 2000-08-31 and ended on 2000-09-20.\nThe event \"Mona Lisa painted\" started on 2000-03-11 and ended on 2000-04-01.\nThe event \"First steam locomotive built\" started on 2000-01-05 and ended on 2000-01-16.",
+  "fact_set_relative": "The event \"First steam locomotive built\" started on 2000-01-05 and ended on 2000-01-16.\n4 days after the conclusion of \"HIV identified\", \"Civil Rights Act signed\" began and persisted for 5 days.\nFollowing \"Civil Rights Act signed\" by 1 days, \"Enron files for bankruptcy\" spanned 21 days.\n\"Mona Lisa painted\" kicked off 1 days after \"Bank of England founded\" wrapped up and lasted 22 days.\nExactly 13 days elapsed between \"Light bulb patented\" and the start of \"Bank of England founded\", which endured 21 days.\n\"HIV identified\" was initiated 3 days post \"Spinning Jenny invented\" and continued for 29 days.\nFollowing \"Mona Lisa painted\" by 13 days, \"X-rays discovered\" spanned 27 days.\nIt took 2 days after \"X-rays discovered\" ended for \"First telegraph sent\" to commence; it ran 18 days.\n13 days after the conclusion of \"First telegraph sent\", \"Harry Potter released\" began and persisted for 21 days.\n\"Light bulb patented\" was initiated 20 days post \"First steam locomotive built\" and continued for 2 days.\n\"Spinning Jenny invented\" kicked off 8 days after \"Harry Potter released\" wrapped up and lasted 14 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "List the events in chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "Provide the events from latest to earliest.",
+      "arguments": {}
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "Identify the 9th event chronologically.",
+      "arguments": {
+        "n": 9
+      }
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "HIV identified lasted how many days?",
+      "arguments": {
+        "event": "HIV identified"
+      }
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "Identify the longest-lasting event.",
+      "arguments": {}
+    },
+    {
+      "id": 6,
+      "templateID": "dur.shortest",
+      "question": "Which event lasted the shortest?",
+      "arguments": {}
+    },
+    {
+      "id": 7,
+      "templateID": "order.first",
+      "question": "Which of Civil Rights Act signed and Spinning Jenny invented occurred first?",
+      "arguments": {
+        "event_A": "Civil Rights Act signed",
+        "event_B": "Spinning Jenny invented"
+      }
+    },
+    {
+      "id": 8,
+      "templateID": "order.first_last",
+      "question": "Identify the earliest and latest events.",
+      "arguments": {}
+    },
+    {
+      "id": 9,
+      "templateID": "count.over_x",
+      "question": "Events occurring more than 1 times?",
+      "arguments": {
+        "x": 1
+      }
+    },
+    {
+      "id": 10,
+      "templateID": "count.same",
+      "question": "Identify events sharing the same frequency.",
+      "arguments": {}
+    },
+    {
+      "id": 11,
+      "templateID": "int.between",
+      "question": "Calculate days between First telegraph sent and First steam locomotive built.",
+      "arguments": {
+        "event_A": "First telegraph sent",
+        "event_B": "First steam locomotive built"
+      }
+    },
+    {
+      "id": 12,
+      "templateID": "order.count",
+      "question": "Count of events in the timeline?",
+      "arguments": {}
+    },
+    {
+      "id": 13,
+      "templateID": "order.middle",
+      "question": "What event sits at the midpoint of the timeline?",
+      "arguments": {
+        "index": 5
+      }
+    },
+    {
+      "id": 14,
+      "templateID": "dur.average",
+      "question": "What is the average duration of all events?",
+      "arguments": {}
+    },
+    {
+      "id": 15,
+      "templateID": "dur.each_asc",
+      "question": "Order the events by shortest to longest duration.",
+      "arguments": {}
+    },
+    {
+      "id": 16,
+      "templateID": "dur.each_desc",
+      "question": "Which events, sorted by decreasing duration, occurred?",
+      "arguments": {}
+    },
+    {
+      "id": 17,
+      "templateID": "int.between_consecutive",
+      "question": "What are the time intervals between consecutive events?",
+      "arguments": {}
+    },
+    {
+      "id": 18,
+      "templateID": "int.precedes",
+      "question": "Which comes first, Civil Rights Act signed or Spinning Jenny invented?",
+      "arguments": {
+        "event_A": "Civil Rights Act signed",
+        "event_B": "Spinning Jenny invented"
+      }
+    },
+    {
+      "id": 19,
+      "templateID": "list.between",
+      "question": "Name events occurring between HIV identified and Civil Rights Act signed.",
+      "arguments": {
+        "event_A": "HIV identified",
+        "event_B": "Civil Rights Act signed"
+      }
+    }
+  ],
+  "gold_answers": {
+    "1": "First steam locomotive built, Light bulb patented, Bank of England founded, Mona Lisa painted, X-rays discovered, First telegraph sent, Harry Potter released, Spinning Jenny invented, HIV identified, Civil Rights Act signed, Enron files for bankruptcy",
+    "2": "Enron files for bankruptcy, Civil Rights Act signed, HIV identified, Spinning Jenny invented, Harry Potter released, First telegraph sent, X-rays discovered, Mona Lisa painted, Bank of England founded, Light bulb patented, First steam locomotive built",
+    "3": "HIV identified",
+    "4": "29 days",
+    "5": "HIV identified",
+    "6": "Light bulb patented",
+    "7": "Spinning Jenny invented",
+    "8": "First steam locomotive built, Enron files for bankruptcy",
+    "9": "None",
+    "10": "First steam locomotive built, Light bulb patented, Bank of England founded, Mona Lisa painted, X-rays discovered, First telegraph sent, Harry Potter released, Spinning Jenny invented, HIV identified, Civil Rights Act signed, Enron files for bankruptcy",
+    "11": "0 days",
+    "12": "11",
+    "13": "First telegraph sent",
+    "14": "17 days",
+    "15": "Light bulb patented, Civil Rights Act signed, First steam locomotive built, Spinning Jenny invented, First telegraph sent, Bank of England founded, Harry Potter released, Enron files for bankruptcy, Mona Lisa painted, X-rays discovered, HIV identified",
+    "16": "HIV identified, X-rays discovered, Mona Lisa painted, Bank of England founded, Harry Potter released, Enron files for bankruptcy, First telegraph sent, Spinning Jenny invented, First steam locomotive built, Civil Rights Act signed, Light bulb patented",
+    "17": "19 days, 12 days, 0 days, 12 days, 1 days, 12 days, 7 days, 2 days, 3 days, 0 days",
+    "18": "no",
+    "19": "None"
+  },
+  "timeline": [
+    {
+      "name": "First steam locomotive built",
+      "start": "2000-01-05",
+      "end": "2000-01-16",
+      "true_date": "1804-02-21"
+    },
+    {
+      "name": "Light bulb patented",
+      "start": "2000-02-05",
+      "end": "2000-02-06",
+      "true_date": "1880-01-27"
+    },
+    {
+      "name": "Bank of England founded",
+      "start": "2000-02-19",
+      "end": "2000-03-10",
+      "true_date": "1694-07-27"
+    },
+    {
+      "name": "Mona Lisa painted",
+      "start": "2000-03-11",
+      "end": "2000-04-01",
+      "true_date": "1503-01-01"
+    },
+    {
+      "name": "X-rays discovered",
+      "start": "2000-04-14",
+      "end": "2000-05-10",
+      "true_date": "1895-11-08"
+    },
+    {
+      "name": "First telegraph sent",
+      "start": "2000-05-12",
+      "end": "2000-05-29",
+      "true_date": "1844-05-24"
+    },
+    {
+      "name": "Harry Potter released",
+      "start": "2000-06-11",
+      "end": "2000-07-01",
+      "true_date": "1997-06-26"
+    },
+    {
+      "name": "Spinning Jenny invented",
+      "start": "2000-07-09",
+      "end": "2000-07-22",
+      "true_date": "1764-01-01"
+    },
+    {
+      "name": "HIV identified",
+      "start": "2000-07-25",
+      "end": "2000-08-22",
+      "true_date": "1983-05-20"
+    },
+    {
+      "name": "Civil Rights Act signed",
+      "start": "2000-08-26",
+      "end": "2000-08-30",
+      "true_date": "1964-07-02"
+    },
+    {
+      "name": "Enron files for bankruptcy",
+      "start": "2000-08-31",
+      "end": "2000-09-20",
+      "true_date": "2001-12-02"
+    }
+  ]
+}

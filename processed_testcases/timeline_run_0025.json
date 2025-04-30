@@ -1,0 +1,290 @@
+{
+  "id": "run_0025",
+  "fact_set_direct": "The event \"Equal Pay Act Signed\" started on 2001-05-02 and ended on 2001-05-18.\nThe event \"First Blog Published\" started on 2001-09-06 and ended on 2001-09-17.\nThe event \"Nixon ends gold standard\" started on 2001-10-01 and ended on 2001-10-23.\nThe event \"First Steam Locomotive Run\" started on 2001-02-20 and ended on 2001-02-21.\nThe event \"Euro currency introduced\" started on 2001-10-26 and ended on 2001-11-22.\nThe event \"First Commercial Maglev Train\" started on 2001-06-04 and ended on 2001-06-09.\nThe event \"First personal computer\" started on 2002-01-14 and ended on 2002-01-16.\nThe event \"First Charter School Law Passed\" started on 2001-06-30 and ended on 2001-07-05.\nThe event \"First Container Ship Launched\" started on 2001-08-08 and ended on 2001-08-28.\nThe event \"First GPS Satellite Launched\" started on 2001-11-28 and ended on 2001-12-19.\nThe event \"Stonewall Riots Begin\" started on 2002-03-06 and ended on 2002-03-16.\nThe event \"Luna 3 photographs Moon's far side\" started on 2001-06-12 and ended on 2001-06-20.\nThe event \"First TV transmission\" started on 2001-03-26 and ended on 2001-04-15.\nThe event \"First malaria vaccine approved\" started on 2001-01-23 and ended on 2001-01-31.\nThe event \"Arab Spring begins\" started on 2000-12-03 and ended on 2000-12-11.\nThe event \"Brown v. Board Decision\" started on 2001-02-24 and ended on 2001-03-06.\nThe event \"Insulin discovered\" started on 2000-12-18 and ended on 2001-01-10.\nThe event \"Perseverance rover lands on Mars\" started on 2001-05-22 and ended on 2001-06-03.\nThe event \"First Autonomous Car Tested\" started on 2001-07-23 and ended on 2001-07-31.\nThe event \"First Automobile Invented\" started on 2002-01-27 and ended on 2002-02-25.\nThe event \"Penicillin discovered\" started on 2001-12-20 and ended on 2001-12-29.",
+  "fact_set_relative": "The event \"Arab Spring begins\" started on 2000-12-03 and ended on 2000-12-11.\nFollowing \"First Container Ship Launched\" by 9 days, \"First Blog Published\" spanned 12 days.\n\"Penicillin discovered\" kicked off 1 days after \"First GPS Satellite Launched\" wrapped up and lasted 10 days.\n7 days after the conclusion of \"Arab Spring begins\", \"Insulin discovered\" began and persisted for 24 days.\n\"First Steam Locomotive Run\" came 20 days after \"First malaria vaccine approved\", lasting 2 days.\nThe interval of 3 days between \"Nixon ends gold standard\" and \"Euro currency introduced\" marked the start of another 28-day chapter.\n18 days after the conclusion of \"First Charter School Law Passed\", \"First Autonomous Car Tested\" began and persisted for 9 days.\n3 days after the conclusion of \"First Commercial Maglev Train\", \"Luna 3 photographs Moon's far side\" began and persisted for 9 days.\n\"First Charter School Law Passed\" surfaced 10 days after \"Luna 3 photographs Moon's far side\", occupying the timeline for 6 days.\n\"First Container Ship Launched\" was initiated 8 days post \"First Autonomous Car Tested\" and continued for 21 days.\nExactly 9 days elapsed between \"First Automobile Invented\" and the start of \"Stonewall Riots Begin\", which endured 11 days.\n\"First Commercial Maglev Train\" followed \"Perseverance rover lands on Mars\" by 1 days and endured 6 days.\nExactly 11 days elapsed between \"First personal computer\" and the start of \"First Automobile Invented\", which endured 30 days.\nThe interval of 16 days between \"Penicillin discovered\" and \"First personal computer\" marked the start of another 3-day chapter.\n\"First GPS Satellite Launched\" kicked off 6 days after \"Euro currency introduced\" wrapped up and lasted 22 days.\n\"Equal Pay Act Signed\" came 17 days after \"First TV transmission\", lasting 17 days.\n\"Nixon ends gold standard\" followed \"First Blog Published\" by 14 days and endured 23 days.\n\"First malaria vaccine approved\" surfaced 13 days after \"Insulin discovered\", occupying the timeline for 9 days.\nFollowing \"Brown v. Board Decision\" by 20 days, \"First TV transmission\" spanned 21 days.\nIt took 4 days after \"Equal Pay Act Signed\" ended for \"Perseverance rover lands on Mars\" to commence; it ran 13 days.\nThe interval of 3 days between \"First Steam Locomotive Run\" and \"Brown v. Board Decision\" marked the start of another 11-day chapter.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "Provide the events from earliest to latest.",
+      "arguments": {}
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "Provide the events from latest to earliest.",
+      "arguments": {}
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "What is the 12th event chronologically?",
+      "arguments": {
+        "n": 12
+      }
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "How long did Luna 3 photographs Moon's far side last?",
+      "arguments": {
+        "event": "Luna 3 photographs Moon's far side"
+      }
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "What event had the maximum duration?",
+      "arguments": {}
+    },
+    {
+      "id": 6,
+      "templateID": "dur.shortest",
+      "question": "Which event lasted the shortest?",
+      "arguments": {}
+    },
+    {
+      "id": 7,
+      "templateID": "order.first",
+      "question": "Did First Blog Published or Stonewall Riots Begin occur first?",
+      "arguments": {
+        "event_A": "First Blog Published",
+        "event_B": "Stonewall Riots Begin"
+      }
+    },
+    {
+      "id": 8,
+      "templateID": "order.first_last",
+      "question": "Which events are at the start and end of the timeline?",
+      "arguments": {}
+    },
+    {
+      "id": 9,
+      "templateID": "count.over_x",
+      "question": "Name events that happened over 4 times.",
+      "arguments": {
+        "x": 4
+      }
+    },
+    {
+      "id": 10,
+      "templateID": "count.same",
+      "question": "List events that occurred equally often.",
+      "arguments": {}
+    },
+    {
+      "id": 11,
+      "templateID": "int.between",
+      "question": "How many days passed between Insulin discovered ending and Euro currency introduced starting?",
+      "arguments": {
+        "event_A": "Insulin discovered",
+        "event_B": "Euro currency introduced"
+      }
+    },
+    {
+      "id": 12,
+      "templateID": "order.count",
+      "question": "Count of events in the timeline?",
+      "arguments": {}
+    },
+    {
+      "id": 13,
+      "templateID": "order.middle",
+      "question": "Which event is in the middle of the sequence?",
+      "arguments": {
+        "index": 10
+      }
+    },
+    {
+      "id": 14,
+      "templateID": "dur.average",
+      "question": "What is the average duration of all events?",
+      "arguments": {}
+    },
+    {
+      "id": 15,
+      "templateID": "dur.each_asc",
+      "question": "Order the events by shortest to longest duration.",
+      "arguments": {}
+    },
+    {
+      "id": 16,
+      "templateID": "dur.each_desc",
+      "question": "List events with durations in descending order.",
+      "arguments": {}
+    },
+    {
+      "id": 17,
+      "templateID": "int.between_consecutive",
+      "question": "What are the time intervals between consecutive events?",
+      "arguments": {}
+    },
+    {
+      "id": 18,
+      "templateID": "int.precedes",
+      "question": "Does First Steam Locomotive Run occur before Brown v. Board Decision?",
+      "arguments": {
+        "event_A": "First Steam Locomotive Run",
+        "event_B": "Brown v. Board Decision"
+      }
+    },
+    {
+      "id": 19,
+      "templateID": "list.between",
+      "question": "List the events that occur between Equal Pay Act Signed and Euro currency introduced.",
+      "arguments": {
+        "event_A": "Equal Pay Act Signed",
+        "event_B": "Euro currency introduced"
+      }
+    }
+  ],
+  "gold_answers": {
+    "1": "Arab Spring begins, Insulin discovered, First malaria vaccine approved, First Steam Locomotive Run, Brown v. Board Decision, First TV transmission, Equal Pay Act Signed, Perseverance rover lands on Mars, First Commercial Maglev Train, Luna 3 photographs Moon's far side, First Charter School Law Passed, First Autonomous Car Tested, First Container Ship Launched, First Blog Published, Nixon ends gold standard, Euro currency introduced, First GPS Satellite Launched, Penicillin discovered, First personal computer, First Automobile Invented, Stonewall Riots Begin",
+    "2": "Stonewall Riots Begin, First Automobile Invented, First personal computer, Penicillin discovered, First GPS Satellite Launched, Euro currency introduced, Nixon ends gold standard, First Blog Published, First Container Ship Launched, First Autonomous Car Tested, First Charter School Law Passed, Luna 3 photographs Moon's far side, First Commercial Maglev Train, Perseverance rover lands on Mars, Equal Pay Act Signed, First TV transmission, Brown v. Board Decision, First Steam Locomotive Run, First malaria vaccine approved, Insulin discovered, Arab Spring begins",
+    "3": "First Autonomous Car Tested",
+    "4": "9 days",
+    "5": "First Automobile Invented",
+    "6": "First Steam Locomotive Run",
+    "7": "First Blog Published",
+    "8": "Arab Spring begins, Stonewall Riots Begin",
+    "9": "None",
+    "10": "Arab Spring begins, Insulin discovered, First malaria vaccine approved, First Steam Locomotive Run, Brown v. Board Decision, First TV transmission, Equal Pay Act Signed, Perseverance rover lands on Mars, First Commercial Maglev Train, Luna 3 photographs Moon's far side, First Charter School Law Passed, First Autonomous Car Tested, First Container Ship Launched, First Blog Published, Nixon ends gold standard, Euro currency introduced, First GPS Satellite Launched, Penicillin discovered, First personal computer, First Automobile Invented, Stonewall Riots Begin",
+    "11": "288 days",
+    "12": "21",
+    "13": "First Charter School Law Passed",
+    "14": "14 days",
+    "15": "First Steam Locomotive Run, First personal computer, First Commercial Maglev Train, First Charter School Law Passed, Arab Spring begins, First malaria vaccine approved, Luna 3 photographs Moon's far side, First Autonomous Car Tested, Penicillin discovered, Brown v. Board Decision, Stonewall Riots Begin, First Blog Published, Perseverance rover lands on Mars, Equal Pay Act Signed, First TV transmission, First Container Ship Launched, First GPS Satellite Launched, Nixon ends gold standard, Insulin discovered, Euro currency introduced, First Automobile Invented",
+    "16": "First Automobile Invented, Euro currency introduced, Insulin discovered, Nixon ends gold standard, First GPS Satellite Launched, First TV transmission, First Container Ship Launched, Equal Pay Act Signed, Perseverance rover lands on Mars, First Blog Published, Brown v. Board Decision, Stonewall Riots Begin, Penicillin discovered, Arab Spring begins, First malaria vaccine approved, Luna 3 photographs Moon's far side, First Autonomous Car Tested, First Commercial Maglev Train, First Charter School Law Passed, First personal computer, First Steam Locomotive Run",
+    "17": "6 days, 12 days, 19 days, 2 days, 19 days, 16 days, 3 days, 0 days, 2 days, 9 days, 17 days, 7 days, 8 days, 13 days, 2 days, 5 days, 0 days, 15 days, 10 days, 8 days",
+    "18": "yes",
+    "19": "Perseverance rover lands on Mars, First Commercial Maglev Train, Luna 3 photographs Moon's far side, First Charter School Law Passed, First Autonomous Car Tested, First Container Ship Launched, First Blog Published, Nixon ends gold standard"
+  },
+  "timeline": [
+    {
+      "name": "Arab Spring begins",
+      "start": "2000-12-03",
+      "end": "2000-12-11",
+      "true_date": "2010-12-17"
+    },
+    {
+      "name": "Insulin discovered",
+      "start": "2000-12-18",
+      "end": "2001-01-10",
+      "true_date": "1921-07-27"
+    },
+    {
+      "name": "First malaria vaccine approved",
+      "start": "2001-01-23",
+      "end": "2001-01-31",
+      "true_date": "2021-10-06"
+    },
+    {
+      "name": "First Steam Locomotive Run",
+      "start": "2001-02-20",
+      "end": "2001-02-21",
+      "true_date": "1804-02-21"
+    },
+    {
+      "name": "Brown v. Board Decision",
+      "start": "2001-02-24",
+      "end": "2001-03-06",
+      "true_date": "1954-05-17"
+    },
+    {
+      "name": "First TV transmission",
+      "start": "2001-03-26",
+      "end": "2001-04-15",
+      "true_date": "1927-09-07"
+    },
+    {
+      "name": "Equal Pay Act Signed",
+      "start": "2001-05-02",
+      "end": "2001-05-18",
+      "true_date": "1963-06-10"
+    },
+    {
+      "name": "Perseverance rover lands on Mars",
+      "start": "2001-05-22",
+      "end": "2001-06-03",
+      "true_date": "2021-02-18"
+    },
+    {
+      "name": "First Commercial Maglev Train",
+      "start": "2001-06-04",
+      "end": "2001-06-09",
+      "true_date": "1984-08-01"
+    },
+    {
+      "name": "Luna 3 photographs Moon's far side",
+      "start": "2001-06-12",
+      "end": "2001-06-20",
+      "true_date": "1959-10-07"
+    },
+    {
+      "name": "First Charter School Law Passed",
+      "start": "2001-06-30",
+      "end": "2001-07-05",
+      "true_date": "1991-06-04"
+    },
+    {
+      "name": "First Autonomous Car Tested",
+      "start": "2001-07-23",
+      "end": "2001-07-31",
+      "true_date": "2010-10-01"
+    },
+    {
+      "name": "First Container Ship Launched",
+      "start": "2001-08-08",
+      "end": "2001-08-28",
+      "true_date": "1956-04-26"
+    },
+    {
+      "name": "First Blog Published",
+      "start": "2001-09-06",
+      "end": "2001-09-17",
+      "true_date": "1994-01-01"
+    },
+    {
+      "name": "Nixon ends gold standard",
+      "start": "2001-10-01",
+      "end": "2001-10-23",
+      "true_date": "1971-08-15"
+    },
+    {
+      "name": "Euro currency introduced",
+      "start": "2001-10-26",
+      "end": "2001-11-22",
+      "true_date": "1999-01-01"
+    },
+    {
+      "name": "First GPS Satellite Launched",
+      "start": "2001-11-28",
+      "end": "2001-12-19",
+      "true_date": "1978-02-22"
+    },
+    {
+      "name": "Penicillin discovered",
+      "start": "2001-12-20",
+      "end": "2001-12-29",
+      "true_date": "1928-09-28"
+    },
+    {
+      "name": "First personal computer",
+      "start": "2002-01-14",
+      "end": "2002-01-16",
+      "true_date": "1975-04-01"
+    },
+    {
+      "name": "First Automobile Invented",
+      "start": "2002-01-27",
+      "end": "2002-02-25",
+      "true_date": "1885-01-29"
+    },
+    {
+      "name": "Stonewall Riots Begin",
+      "start": "2002-03-06",
+      "end": "2002-03-16",
+      "true_date": "1969-06-28"
+    }
+  ]
+}

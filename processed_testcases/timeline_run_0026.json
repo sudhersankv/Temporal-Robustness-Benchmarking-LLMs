@@ -1,0 +1,290 @@
+{
+  "id": "run_0026",
+  "fact_set_direct": "The event \"New Horizons launched to Pluto\" started on 2001-08-16 and ended on 2001-09-12.\nThe event \"Leicester City wins Premier League\" started on 2001-10-31 and ended on 2001-11-03.\nThe event \"First spacecraft to fly by Uranus\" started on 2001-05-30 and ended on 2001-05-30.\nThe event \"Human genome project completed\" started on 2000-11-23 and ended on 2000-12-14.\nThe event \"Introduction of High-Speed Rail\" started on 2001-12-19 and ended on 2002-01-02.\nThe event \"Naomi Osaka wins US Open\" started on 2001-05-19 and ended on 2001-05-24.\nThe event \"Individuals with Disabilities Education Act\" started on 2001-11-11 and ended on 2001-12-05.\nThe event \"Civil Rights Act signed\" started on 2000-12-29 and ended on 2001-01-03.\nThe event \"Bretton Woods Conference held\" started on 2001-04-08 and ended on 2001-04-14.\nThe event \"First Man on the Moon\" started on 2000-09-26 and ended on 2000-10-16.\nThe event \"Don't Ask, Don't Tell Repealed\" started on 2001-10-01 and ended on 2001-10-15.\nThe event \"First IVF baby born\" started on 2001-05-14 and ended on 2001-05-18.\nThe event \"Tang dynasty issues paper money\" started on 2001-02-19 and ended on 2001-03-09.\nThe event \"Americans with Disabilities Act\" started on 2001-03-15 and ended on 2001-03-28.\nThe event \"First satellite launched\" started on 2001-01-23 and ended on 2001-02-04.\nThe event \"First Podcast Released\" started on 2001-05-31 and ended on 2001-06-27.\nThe event \"First Electric Tram Introduced\" started on 2000-11-04 and ended on 2000-11-18.\nThe event \"Hindenburg disaster\" started on 2000-10-24 and ended on 2000-10-24.\nThe event \"First Wimbledon tournament\" started on 2001-04-18 and ended on 2001-04-27.\nThe event \"Hurricane Katrina\" started on 2001-01-09 and ended on 2001-01-14.\nThe event \"Federal Reserve Act signed\" started on 2001-07-07 and ended on 2001-07-30.",
+  "fact_set_relative": "The event \"First Man on the Moon\" started on 2000-09-26 and ended on 2000-10-16.\n\"Federal Reserve Act signed\" surfaced 10 days after \"First Podcast Released\", occupying the timeline for 24 days.\nIt took 15 days after \"First satellite launched\" ended for \"Tang dynasty issues paper money\" to commence; it ran 19 days.\nThe interval of 8 days between \"Leicester City wins Premier League\" and \"Individuals with Disabilities Education Act\" marked the start of another 25-day chapter.\nFollowing \"Bretton Woods Conference held\" by 4 days, \"First Wimbledon tournament\" spanned 10 days.\n\"First spacecraft to fly by Uranus\" was initiated 6 days post \"Naomi Osaka wins US Open\" and continued for 1 days.\nFollowing \"Hurricane Katrina\" by 9 days, \"First satellite launched\" spanned 13 days.\n11 days after the conclusion of \"Hindenburg disaster\", \"First Electric Tram Introduced\" began and persisted for 15 days.\nIt took 6 days after \"Tang dynasty issues paper money\" ended for \"Americans with Disabilities Act\" to commence; it ran 14 days.\n\"Civil Rights Act signed\" came 15 days after \"Human genome project completed\", lasting 6 days.\nIt took 8 days after \"First Man on the Moon\" ended for \"Hindenburg disaster\" to commence; it ran 1 days.\n\"New Horizons launched to Pluto\" kicked off 17 days after \"Federal Reserve Act signed\" wrapped up and lasted 28 days.\n\"Hurricane Katrina\" kicked off 6 days after \"Civil Rights Act signed\" wrapped up and lasted 6 days.\n\"First Podcast Released\" surfaced 1 days after \"First spacecraft to fly by Uranus\", occupying the timeline for 28 days.\n\"First IVF baby born\" came 17 days after \"First Wimbledon tournament\", lasting 5 days.\n\"Don't Ask, Don't Tell Repealed\" followed \"New Horizons launched to Pluto\" by 19 days and endured 15 days.\n\"Bretton Woods Conference held\" surfaced 11 days after \"Americans with Disabilities Act\", occupying the timeline for 7 days.\nIt took 1 days after \"First IVF baby born\" ended for \"Naomi Osaka wins US Open\" to commence; it ran 6 days.\nExactly 5 days elapsed between \"First Electric Tram Introduced\" and the start of \"Human genome project completed\", which endured 22 days.\nIt took 16 days after \"Don't Ask, Don't Tell Repealed\" ended for \"Leicester City wins Premier League\" to commence; it ran 4 days.\n\"Introduction of High-Speed Rail\" surfaced 14 days after \"Individuals with Disabilities Education Act\", occupying the timeline for 15 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "What is the chronological sequence of events?",
+      "arguments": {}
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "What is the reverse order of the events?",
+      "arguments": {}
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "Which event is the 6th in the sequence?",
+      "arguments": {
+        "n": 6
+      }
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "For how many days did Don't Ask, Don't Tell Repealed occur?",
+      "arguments": {
+        "event": "Don't Ask, Don't Tell Repealed"
+      }
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "What event had the maximum duration?",
+      "arguments": {}
+    },
+    {
+      "id": 6,
+      "templateID": "dur.shortest",
+      "question": "What event had the minimum duration?",
+      "arguments": {}
+    },
+    {
+      "id": 7,
+      "templateID": "order.first",
+      "question": "Between Individuals with Disabilities Education Act and Americans with Disabilities Act, which happened earlier?",
+      "arguments": {
+        "event_A": "Individuals with Disabilities Education Act",
+        "event_B": "Americans with Disabilities Act"
+      }
+    },
+    {
+      "id": 8,
+      "templateID": "order.first_last",
+      "question": "What is the first and last event?",
+      "arguments": {}
+    },
+    {
+      "id": 9,
+      "templateID": "count.over_x",
+      "question": "List events with frequency > 1.",
+      "arguments": {
+        "x": 1
+      }
+    },
+    {
+      "id": 10,
+      "templateID": "count.same",
+      "question": "Which events have the same occurrence count?",
+      "arguments": {}
+    },
+    {
+      "id": 11,
+      "templateID": "int.between",
+      "question": "Interval between Individuals with Disabilities Education Act end and Bretton Woods Conference held start?",
+      "arguments": {
+        "event_A": "Individuals with Disabilities Education Act",
+        "event_B": "Bretton Woods Conference held"
+      }
+    },
+    {
+      "id": 12,
+      "templateID": "order.count",
+      "question": "How many events are there?",
+      "arguments": {}
+    },
+    {
+      "id": 13,
+      "templateID": "order.middle",
+      "question": "Which event is in the middle of the sequence?",
+      "arguments": {
+        "index": 10
+      }
+    },
+    {
+      "id": 14,
+      "templateID": "dur.average",
+      "question": "On average, how many days did events last?",
+      "arguments": {}
+    },
+    {
+      "id": 15,
+      "templateID": "dur.each_asc",
+      "question": "Which events, sorted by increasing duration, occurred?",
+      "arguments": {}
+    },
+    {
+      "id": 16,
+      "templateID": "dur.each_desc",
+      "question": "Which events, sorted by decreasing duration, occurred?",
+      "arguments": {}
+    },
+    {
+      "id": 17,
+      "templateID": "int.between_consecutive",
+      "question": "What are the time intervals between consecutive events?",
+      "arguments": {}
+    },
+    {
+      "id": 18,
+      "templateID": "int.precedes",
+      "question": "Does Human genome project completed occur before Bretton Woods Conference held?",
+      "arguments": {
+        "event_A": "Human genome project completed",
+        "event_B": "Bretton Woods Conference held"
+      }
+    },
+    {
+      "id": 19,
+      "templateID": "list.between",
+      "question": "Identify events between Americans with Disabilities Act and First Electric Tram Introduced.",
+      "arguments": {
+        "event_A": "Americans with Disabilities Act",
+        "event_B": "First Electric Tram Introduced"
+      }
+    }
+  ],
+  "gold_answers": {
+    "1": "First Man on the Moon, Hindenburg disaster, First Electric Tram Introduced, Human genome project completed, Civil Rights Act signed, Hurricane Katrina, First satellite launched, Tang dynasty issues paper money, Americans with Disabilities Act, Bretton Woods Conference held, First Wimbledon tournament, First IVF baby born, Naomi Osaka wins US Open, First spacecraft to fly by Uranus, First Podcast Released, Federal Reserve Act signed, New Horizons launched to Pluto, Don't Ask, Don't Tell Repealed, Leicester City wins Premier League, Individuals with Disabilities Education Act, Introduction of High-Speed Rail",
+    "2": "Introduction of High-Speed Rail, Individuals with Disabilities Education Act, Leicester City wins Premier League, Don't Ask, Don't Tell Repealed, New Horizons launched to Pluto, Federal Reserve Act signed, First Podcast Released, First spacecraft to fly by Uranus, Naomi Osaka wins US Open, First IVF baby born, First Wimbledon tournament, Bretton Woods Conference held, Americans with Disabilities Act, Tang dynasty issues paper money, First satellite launched, Hurricane Katrina, Civil Rights Act signed, Human genome project completed, First Electric Tram Introduced, Hindenburg disaster, First Man on the Moon",
+    "3": "Hurricane Katrina",
+    "4": "15 days",
+    "5": "First Podcast Released",
+    "6": "Hindenburg disaster",
+    "7": "Americans with Disabilities Act",
+    "8": "First Man on the Moon, Introduction of High-Speed Rail",
+    "9": "None",
+    "10": "First Man on the Moon, Hindenburg disaster, First Electric Tram Introduced, Human genome project completed, Civil Rights Act signed, Hurricane Katrina, First satellite launched, Tang dynasty issues paper money, Americans with Disabilities Act, Bretton Woods Conference held, First Wimbledon tournament, First IVF baby born, Naomi Osaka wins US Open, First spacecraft to fly by Uranus, First Podcast Released, Federal Reserve Act signed, New Horizons launched to Pluto, Don't Ask, Don't Tell Repealed, Leicester City wins Premier League, Individuals with Disabilities Education Act, Introduction of High-Speed Rail",
+    "11": "0 days",
+    "12": "21",
+    "13": "First Wimbledon tournament",
+    "14": "14 days",
+    "15": "Hindenburg disaster, First spacecraft to fly by Uranus, Leicester City wins Premier League, First IVF baby born, Civil Rights Act signed, Hurricane Katrina, Naomi Osaka wins US Open, Bretton Woods Conference held, First Wimbledon tournament, First satellite launched, Americans with Disabilities Act, First Electric Tram Introduced, Don't Ask, Don't Tell Repealed, Introduction of High-Speed Rail, Tang dynasty issues paper money, First Man on the Moon, Human genome project completed, Federal Reserve Act signed, Individuals with Disabilities Education Act, First Podcast Released, New Horizons launched to Pluto",
+    "16": "First Podcast Released, New Horizons launched to Pluto, Individuals with Disabilities Education Act, Federal Reserve Act signed, Human genome project completed, First Man on the Moon, Tang dynasty issues paper money, First Electric Tram Introduced, Don't Ask, Don't Tell Repealed, Introduction of High-Speed Rail, Americans with Disabilities Act, First satellite launched, First Wimbledon tournament, Bretton Woods Conference held, Civil Rights Act signed, Hurricane Katrina, Naomi Osaka wins US Open, First IVF baby born, Leicester City wins Premier League, Hindenburg disaster, First spacecraft to fly by Uranus",
+    "17": "7 days, 10 days, 4 days, 14 days, 5 days, 8 days, 14 days, 5 days, 10 days, 3 days, 16 days, 0 days, 5 days, 0 days, 9 days, 16 days, 18 days, 15 days, 7 days, 13 days",
+    "18": "yes",
+    "19": "Human genome project completed, Civil Rights Act signed, Hurricane Katrina, First satellite launched, Tang dynasty issues paper money"
+  },
+  "timeline": [
+    {
+      "name": "First Man on the Moon",
+      "start": "2000-09-26",
+      "end": "2000-10-16",
+      "true_date": "1969-07-20"
+    },
+    {
+      "name": "Hindenburg disaster",
+      "start": "2000-10-24",
+      "end": "2000-10-24",
+      "true_date": "1937-05-06"
+    },
+    {
+      "name": "First Electric Tram Introduced",
+      "start": "2000-11-04",
+      "end": "2000-11-18",
+      "true_date": "1881-05-16"
+    },
+    {
+      "name": "Human genome project completed",
+      "start": "2000-11-23",
+      "end": "2000-12-14",
+      "true_date": "2003-04-14"
+    },
+    {
+      "name": "Civil Rights Act signed",
+      "start": "2000-12-29",
+      "end": "2001-01-03",
+      "true_date": "1964-07-02"
+    },
+    {
+      "name": "Hurricane Katrina",
+      "start": "2001-01-09",
+      "end": "2001-01-14",
+      "true_date": "2005-08-29"
+    },
+    {
+      "name": "First satellite launched",
+      "start": "2001-01-23",
+      "end": "2001-02-04",
+      "true_date": "1957-10-04"
+    },
+    {
+      "name": "Tang dynasty issues paper money",
+      "start": "2001-02-19",
+      "end": "2001-03-09",
+      "true_date": "0818-01-01"
+    },
+    {
+      "name": "Americans with Disabilities Act",
+      "start": "2001-03-15",
+      "end": "2001-03-28",
+      "true_date": "1990-07-26"
+    },
+    {
+      "name": "Bretton Woods Conference held",
+      "start": "2001-04-08",
+      "end": "2001-04-14",
+      "true_date": "1944-07-01"
+    },
+    {
+      "name": "First Wimbledon tournament",
+      "start": "2001-04-18",
+      "end": "2001-04-27",
+      "true_date": "1877-07-09"
+    },
+    {
+      "name": "First IVF baby born",
+      "start": "2001-05-14",
+      "end": "2001-05-18",
+      "true_date": "1978-07-25"
+    },
+    {
+      "name": "Naomi Osaka wins US Open",
+      "start": "2001-05-19",
+      "end": "2001-05-24",
+      "true_date": "2018-09-08"
+    },
+    {
+      "name": "First spacecraft to fly by Uranus",
+      "start": "2001-05-30",
+      "end": "2001-05-30",
+      "true_date": "1986-01-24"
+    },
+    {
+      "name": "First Podcast Released",
+      "start": "2001-05-31",
+      "end": "2001-06-27",
+      "true_date": "2004-08-13"
+    },
+    {
+      "name": "Federal Reserve Act signed",
+      "start": "2001-07-07",
+      "end": "2001-07-30",
+      "true_date": "1913-12-23"
+    },
+    {
+      "name": "New Horizons launched to Pluto",
+      "start": "2001-08-16",
+      "end": "2001-09-12",
+      "true_date": "2006-01-19"
+    },
+    {
+      "name": "Don't Ask, Don't Tell Repealed",
+      "start": "2001-10-01",
+      "end": "2001-10-15",
+      "true_date": "2011-09-20"
+    },
+    {
+      "name": "Leicester City wins Premier League",
+      "start": "2001-10-31",
+      "end": "2001-11-03",
+      "true_date": "2016-05-02"
+    },
+    {
+      "name": "Individuals with Disabilities Education Act",
+      "start": "2001-11-11",
+      "end": "2001-12-05",
+      "true_date": "1990-10-30"
+    },
+    {
+      "name": "Introduction of High-Speed Rail",
+      "start": "2001-12-19",
+      "end": "2002-01-02",
+      "true_date": "1964-10-01"
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "id": "run_0012",
+  "fact_set_direct": "The event \"Invention of Writing\" started on 2000-10-28 and ended on 2000-11-09.\nThe event \"Mariner 9 orbits Mars\" started on 2000-09-21 and ended on 2000-10-09.\nThe event \"First Space Shuttle Launch\" started on 2001-02-07 and ended on 2001-02-28.\nThe event \"Mars rover Spirit lands\" started on 2000-11-28 and ended on 2000-12-09.\nThe event \"First steam locomotive built\" started on 2000-08-20 and ended on 2000-09-16.\nThe event \"First esports tournament held\" started on 2000-12-22 and ended on 2001-01-01.\nThe event \"Nixon ends gold standard\" started on 2000-09-17 and ended on 2000-09-19.\nThe event \"First CRISPR gene edit\" started on 2000-08-10 and ended on 2000-08-13.\nThe event \"First iPhone released\" started on 2001-03-28 and ended on 2001-04-12.\nThe event \"Nepal earthquake\" started on 2001-03-04 and ended on 2001-03-25.\nThe event \"Americans with Disabilities Act\" started on 2001-01-20 and ended on 2001-01-28.",
+  "fact_set_relative": "The event \"First CRISPR gene edit\" started on 2000-08-10 and ended on 2000-08-13.\nThe interval of 19 days between \"Mariner 9 orbits Mars\" and \"Invention of Writing\" marked the start of another 13-day chapter.\n\"Nixon ends gold standard\" followed \"First steam locomotive built\" by 1 days and endured 3 days.\n\"Nepal earthquake\" came 4 days after \"First Space Shuttle Launch\", lasting 22 days.\n\"First Space Shuttle Launch\" followed \"Americans with Disabilities Act\" by 10 days and endured 22 days.\n\"First iPhone released\" kicked off 3 days after \"Nepal earthquake\" wrapped up and lasted 16 days.\n19 days after the conclusion of \"Invention of Writing\", \"Mars rover Spirit lands\" began and persisted for 12 days.\n\"First esports tournament held\" came 13 days after \"Mars rover Spirit lands\", lasting 11 days.\nFollowing \"First esports tournament held\" by 19 days, \"Americans with Disabilities Act\" spanned 9 days.\nExactly 7 days elapsed between \"First CRISPR gene edit\" and the start of \"First steam locomotive built\", which endured 28 days.\nExactly 2 days elapsed between \"Nixon ends gold standard\" and the start of \"Mariner 9 orbits Mars\", which endured 19 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "List the events in chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "What is the reverse order of the events?",
+      "arguments": {}
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "Tell me the 1st event in order.",
+      "arguments": {
+        "n": 1
+      }
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "What was the duration of Mariner 9 orbits Mars?",
+      "arguments": {
+        "event": "Mariner 9 orbits Mars"
+      }
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "What event had the maximum duration?",
+      "arguments": {}
+    },
+    {
+      "id": 6,
+      "templateID": "dur.shortest",
+      "question": "What event had the minimum duration?",
+      "arguments": {}
+    },
+    {
+      "id": 7,
+      "templateID": "order.first",
+      "question": "Between Americans with Disabilities Act and Mars rover Spirit lands, which happened earlier?",
+      "arguments": {
+        "event_A": "Americans with Disabilities Act",
+        "event_B": "Mars rover Spirit lands"
+      }
+    },
+    {
+      "id": 8,
+      "templateID": "order.first_last",
+      "question": "What is the first and last event?",
+      "arguments": {}
+    },
+    {
+      "id": 9,
+      "templateID": "count.over_x",
+      "question": "Events occurring more than 1 times?",
+      "arguments": {
+        "x": 1
+      }
+    },
+    {
+      "id": 10,
+      "templateID": "count.same",
+      "question": "Which events have the same occurrence count?",
+      "arguments": {}
+    },
+    {
+      "id": 11,
+      "templateID": "int.between",
+      "question": "Interval between First CRISPR gene edit end and Invention of Writing start?",
+      "arguments": {
+        "event_A": "First CRISPR gene edit",
+        "event_B": "Invention of Writing"
+      }
+    },
+    {
+      "id": 12,
+      "templateID": "order.count",
+      "question": "Total number of events?",
+      "arguments": {}
+    },
+    {
+      "id": 13,
+      "templateID": "order.middle",
+      "question": "Which event is in the middle of the sequence?",
+      "arguments": {
+        "index": 5
+      }
+    },
+    {
+      "id": 14,
+      "templateID": "dur.average",
+      "question": "On average, how many days did events last?",
+      "arguments": {}
+    },
+    {
+      "id": 15,
+      "templateID": "dur.each_asc",
+      "question": "Order the events by shortest to longest duration.",
+      "arguments": {}
+    },
+    {
+      "id": 16,
+      "templateID": "dur.each_desc",
+      "question": "List events with durations in descending order.",
+      "arguments": {}
+    },
+    {
+      "id": 17,
+      "templateID": "int.between_consecutive",
+      "question": "List the days between each pair of consecutive events.",
+      "arguments": {}
+    },
+    {
+      "id": 18,
+      "templateID": "int.precedes",
+      "question": "Does First Space Shuttle Launch precede Mariner 9 orbits Mars?",
+      "arguments": {
+        "event_A": "First Space Shuttle Launch",
+        "event_B": "Mariner 9 orbits Mars"
+      }
+    },
+    {
+      "id": 19,
+      "templateID": "list.between",
+      "question": "What events fall between Mariner 9 orbits Mars and Nepal earthquake?",
+      "arguments": {
+        "event_A": "Mariner 9 orbits Mars",
+        "event_B": "Nepal earthquake"
+      }
+    }
+  ],
+  "gold_answers": {
+    "1": "First CRISPR gene edit, First steam locomotive built, Nixon ends gold standard, Mariner 9 orbits Mars, Invention of Writing, Mars rover Spirit lands, First esports tournament held, Americans with Disabilities Act, First Space Shuttle Launch, Nepal earthquake, First iPhone released",
+    "2": "First iPhone released, Nepal earthquake, First Space Shuttle Launch, Americans with Disabilities Act, First esports tournament held, Mars rover Spirit lands, Invention of Writing, Mariner 9 orbits Mars, Nixon ends gold standard, First steam locomotive built, First CRISPR gene edit",
+    "3": "First CRISPR gene edit",
+    "4": "19 days",
+    "5": "First steam locomotive built",
+    "6": "Nixon ends gold standard",
+    "7": "Mars rover Spirit lands",
+    "8": "First CRISPR gene edit, First iPhone released",
+    "9": "None",
+    "10": "First CRISPR gene edit, First steam locomotive built, Nixon ends gold standard, Mariner 9 orbits Mars, Invention of Writing, Mars rover Spirit lands, First esports tournament held, Americans with Disabilities Act, First Space Shuttle Launch, Nepal earthquake, First iPhone released",
+    "11": "75 days",
+    "12": "11",
+    "13": "Mars rover Spirit lands",
+    "14": "14 days",
+    "15": "Nixon ends gold standard, First CRISPR gene edit, Americans with Disabilities Act, First esports tournament held, Mars rover Spirit lands, Invention of Writing, First iPhone released, Mariner 9 orbits Mars, First Space Shuttle Launch, Nepal earthquake, First steam locomotive built",
+    "16": "First steam locomotive built, First Space Shuttle Launch, Nepal earthquake, Mariner 9 orbits Mars, First iPhone released, Invention of Writing, Mars rover Spirit lands, First esports tournament held, Americans with Disabilities Act, First CRISPR gene edit, Nixon ends gold standard",
+    "17": "6 days, 0 days, 1 days, 18 days, 18 days, 12 days, 18 days, 9 days, 3 days, 2 days",
+    "18": "no",
+    "19": "Invention of Writing, Mars rover Spirit lands, First esports tournament held, Americans with Disabilities Act, First Space Shuttle Launch"
+  },
+  "timeline": [
+    {
+      "name": "First CRISPR gene edit",
+      "start": "2000-08-10",
+      "end": "2000-08-13",
+      "true_date": "2012-01-01"
+    },
+    {
+      "name": "First steam locomotive built",
+      "start": "2000-08-20",
+      "end": "2000-09-16",
+      "true_date": "1804-02-21"
+    },
+    {
+      "name": "Nixon ends gold standard",
+      "start": "2000-09-17",
+      "end": "2000-09-19",
+      "true_date": "1971-08-15"
+    },
+    {
+      "name": "Mariner 9 orbits Mars",
+      "start": "2000-09-21",
+      "end": "2000-10-09",
+      "true_date": "1971-11-14"
+    },
+    {
+      "name": "Invention of Writing",
+      "start": "2000-10-28",
+      "end": "2000-11-09",
+      "true_date": "3200-01-01"
+    },
+    {
+      "name": "Mars rover Spirit lands",
+      "start": "2000-11-28",
+      "end": "2000-12-09",
+      "true_date": "2004-01-04"
+    },
+    {
+      "name": "First esports tournament held",
+      "start": "2000-12-22",
+      "end": "2001-01-01",
+      "true_date": "1972-10-19"
+    },
+    {
+      "name": "Americans with Disabilities Act",
+      "start": "2001-01-20",
+      "end": "2001-01-28",
+      "true_date": "1990-07-26"
+    },
+    {
+      "name": "First Space Shuttle Launch",
+      "start": "2001-02-07",
+      "end": "2001-02-28",
+      "true_date": "1981-04-12"
+    },
+    {
+      "name": "Nepal earthquake",
+      "start": "2001-03-04",
+      "end": "2001-03-25",
+      "true_date": "2015-04-25"
+    },
+    {
+      "name": "First iPhone released",
+      "start": "2001-03-28",
+      "end": "2001-04-12",
+      "true_date": "2007-06-29"
+    }
+  ]
+}

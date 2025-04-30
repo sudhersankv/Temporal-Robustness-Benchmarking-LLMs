@@ -1,0 +1,254 @@
+{
+  "id": "run_0019",
+  "fact_set_direct": "The event \"First U.S. income tax enacted\" started on 2000-07-31 and ended on 2000-08-23.\nThe event \"First photograph taken\" started on 2001-01-30 and ended on 2001-02-05.\nThe event \"Me Too movement gains momentum\" started on 2000-04-24 and ended on 2000-05-22.\nThe event \"First Commercial Drone Delivery\" started on 2000-11-13 and ended on 2000-12-08.\nThe event \"Nepal earthquake\" started on 2000-09-07 and ended on 2000-09-19.\nThe event \"Shakespeare's Globe opens\" started on 2000-12-17 and ended on 2001-01-10.\nThe event \"First YouTube Video Uploaded\" started on 2000-02-14 and ended on 2000-03-04.\nThe event \"Louvre Museum opens\" started on 2000-06-01 and ended on 2000-06-03.\nThe event \"Euro currency introduced\" started on 2000-03-24 and ended on 2000-04-07.\nThe event \"Federal Reserve Act signed\" started on 2000-06-16 and ended on 2000-07-04.\nThe event \"First Online University Founded\" started on 2000-09-26 and ended on 2000-10-10.\nThe event \"Donald Trump elected US President\" started on 2000-01-22 and ended on 2000-02-13.\nThe event \"Six‑Day War begins\" started on 2001-01-17 and ended on 2001-01-24.\nThe event \"Black Monday market crash\" started on 2000-10-28 and ended on 2000-11-08.\nThe event \"Deepwater Horizon spill\" started on 2000-07-24 and ended on 2000-07-29.",
+  "fact_set_relative": "The event \"Donald Trump elected US President\" started on 2000-01-22 and ended on 2000-02-13.\nFollowing \"Shakespeare's Globe opens\" by 7 days, \"Six‑Day War begins\" spanned 8 days.\nIt took 18 days after \"First Online University Founded\" ended for \"Black Monday market crash\" to commence; it ran 12 days.\n\"First U.S. income tax enacted\" came 2 days after \"Deepwater Horizon spill\", lasting 24 days.\nFollowing \"Louvre Museum opens\" by 13 days, \"Federal Reserve Act signed\" spanned 19 days.\nFollowing \"Six‑Day War begins\" by 6 days, \"First photograph taken\" spanned 7 days.\n\"Shakespeare's Globe opens\" was initiated 9 days post \"First Commercial Drone Delivery\" and continued for 25 days.\nFollowing \"Black Monday market crash\" by 5 days, \"First Commercial Drone Delivery\" spanned 26 days.\nFollowing \"First U.S. income tax enacted\" by 15 days, \"Nepal earthquake\" spanned 13 days.\nFollowing \"Nepal earthquake\" by 7 days, \"First Online University Founded\" spanned 15 days.\n\"Euro currency introduced\" came 20 days after \"First YouTube Video Uploaded\", lasting 15 days.\nIt took 20 days after \"Federal Reserve Act signed\" ended for \"Deepwater Horizon spill\" to commence; it ran 6 days.\nIt took 1 days after \"Donald Trump elected US President\" ended for \"First YouTube Video Uploaded\" to commence; it ran 20 days.\n17 days after the conclusion of \"Euro currency introduced\", \"Me Too movement gains momentum\" began and persisted for 29 days.\n\"Louvre Museum opens\" kicked off 10 days after \"Me Too movement gains momentum\" wrapped up and lasted 3 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "List the events in chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "List the events in reverse chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "Which event is the 3rd in the sequence?",
+      "arguments": {
+        "n": 3
+      }
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "Duration of Nepal earthquake?",
+      "arguments": {
+        "event": "Nepal earthquake"
+      }
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "Identify the longest-lasting event.",
+      "arguments": {}
+    },
+    {
+      "id": 6,
+      "templateID": "dur.shortest",
+      "question": "What event had the minimum duration?",
+      "arguments": {}
+    },
+    {
+      "id": 7,
+      "templateID": "order.first",
+      "question": "Did Black Monday market crash or Euro currency introduced occur first?",
+      "arguments": {
+        "event_A": "Black Monday market crash",
+        "event_B": "Euro currency introduced"
+      }
+    },
+    {
+      "id": 8,
+      "templateID": "order.first_last",
+      "question": "Identify the earliest and latest events.",
+      "arguments": {}
+    },
+    {
+      "id": 9,
+      "templateID": "count.over_x",
+      "question": "Which items exceed 4 occurrences?",
+      "arguments": {
+        "x": 4
+      }
+    },
+    {
+      "id": 10,
+      "templateID": "count.same",
+      "question": "Identify events sharing the same frequency.",
+      "arguments": {}
+    },
+    {
+      "id": 11,
+      "templateID": "int.between",
+      "question": "Interval between Donald Trump elected US President end and Euro currency introduced start?",
+      "arguments": {
+        "event_A": "Donald Trump elected US President",
+        "event_B": "Euro currency introduced"
+      }
+    },
+    {
+      "id": 12,
+      "templateID": "order.count",
+      "question": "How many events are there?",
+      "arguments": {}
+    },
+    {
+      "id": 13,
+      "templateID": "order.middle",
+      "question": "Identify the middle event chronologically.",
+      "arguments": {
+        "index": 7
+      }
+    },
+    {
+      "id": 14,
+      "templateID": "dur.average",
+      "question": "Compute the mean event duration.",
+      "arguments": {}
+    },
+    {
+      "id": 15,
+      "templateID": "dur.each_asc",
+      "question": "List events with durations in ascending order.",
+      "arguments": {}
+    },
+    {
+      "id": 16,
+      "templateID": "dur.each_desc",
+      "question": "List events with durations in descending order.",
+      "arguments": {}
+    },
+    {
+      "id": 17,
+      "templateID": "int.between_consecutive",
+      "question": "List the days between each pair of consecutive events.",
+      "arguments": {}
+    },
+    {
+      "id": 18,
+      "templateID": "int.precedes",
+      "question": "Does First U.S. income tax enacted occur before Louvre Museum opens?",
+      "arguments": {
+        "event_A": "First U.S. income tax enacted",
+        "event_B": "Louvre Museum opens"
+      }
+    },
+    {
+      "id": 19,
+      "templateID": "list.between",
+      "question": "Which events happened between Shakespeare's Globe opens and Federal Reserve Act signed?",
+      "arguments": {
+        "event_A": "Shakespeare's Globe opens",
+        "event_B": "Federal Reserve Act signed"
+      }
+    }
+  ],
+  "gold_answers": {
+    "1": "Donald Trump elected US President, First YouTube Video Uploaded, Euro currency introduced, Me Too movement gains momentum, Louvre Museum opens, Federal Reserve Act signed, Deepwater Horizon spill, First U.S. income tax enacted, Nepal earthquake, First Online University Founded, Black Monday market crash, First Commercial Drone Delivery, Shakespeare's Globe opens, Six‑Day War begins, First photograph taken",
+    "2": "First photograph taken, Six‑Day War begins, Shakespeare's Globe opens, First Commercial Drone Delivery, Black Monday market crash, First Online University Founded, Nepal earthquake, First U.S. income tax enacted, Deepwater Horizon spill, Federal Reserve Act signed, Louvre Museum opens, Me Too movement gains momentum, Euro currency introduced, First YouTube Video Uploaded, Donald Trump elected US President",
+    "3": "Euro currency introduced",
+    "4": "13 days",
+    "5": "Me Too movement gains momentum",
+    "6": "Louvre Museum opens",
+    "7": "Euro currency introduced",
+    "8": "Donald Trump elected US President, First photograph taken",
+    "9": "None",
+    "10": "Donald Trump elected US President, First YouTube Video Uploaded, Euro currency introduced, Me Too movement gains momentum, Louvre Museum opens, Federal Reserve Act signed, Deepwater Horizon spill, First U.S. income tax enacted, Nepal earthquake, First Online University Founded, Black Monday market crash, First Commercial Drone Delivery, Shakespeare's Globe opens, Six‑Day War begins, First photograph taken",
+    "11": "39 days",
+    "12": "15",
+    "13": "First U.S. income tax enacted",
+    "14": "16 days",
+    "15": "Louvre Museum opens, Deepwater Horizon spill, First photograph taken, Six‑Day War begins, Black Monday market crash, Nepal earthquake, Euro currency introduced, First Online University Founded, Federal Reserve Act signed, First YouTube Video Uploaded, Donald Trump elected US President, First U.S. income tax enacted, Shakespeare's Globe opens, First Commercial Drone Delivery, Me Too movement gains momentum",
+    "16": "Me Too movement gains momentum, First Commercial Drone Delivery, Shakespeare's Globe opens, First U.S. income tax enacted, Donald Trump elected US President, First YouTube Video Uploaded, Federal Reserve Act signed, Euro currency introduced, First Online University Founded, Nepal earthquake, Black Monday market crash, Six‑Day War begins, First photograph taken, Deepwater Horizon spill, Louvre Museum opens",
+    "17": "0 days, 19 days, 16 days, 9 days, 12 days, 19 days, 1 days, 14 days, 6 days, 17 days, 4 days, 8 days, 6 days, 5 days",
+    "18": "no",
+    "19": "Deepwater Horizon spill, First U.S. income tax enacted, Nepal earthquake, First Online University Founded, Black Monday market crash, First Commercial Drone Delivery"
+  },
+  "timeline": [
+    {
+      "name": "Donald Trump elected US President",
+      "start": "2000-01-22",
+      "end": "2000-02-13",
+      "true_date": "2016-11-08"
+    },
+    {
+      "name": "First YouTube Video Uploaded",
+      "start": "2000-02-14",
+      "end": "2000-03-04",
+      "true_date": "2005-04-23"
+    },
+    {
+      "name": "Euro currency introduced",
+      "start": "2000-03-24",
+      "end": "2000-04-07",
+      "true_date": "1999-01-01"
+    },
+    {
+      "name": "Me Too movement gains momentum",
+      "start": "2000-04-24",
+      "end": "2000-05-22",
+      "true_date": "2017-10-15"
+    },
+    {
+      "name": "Louvre Museum opens",
+      "start": "2000-06-01",
+      "end": "2000-06-03",
+      "true_date": "1793-08-10"
+    },
+    {
+      "name": "Federal Reserve Act signed",
+      "start": "2000-06-16",
+      "end": "2000-07-04",
+      "true_date": "1913-12-23"
+    },
+    {
+      "name": "Deepwater Horizon spill",
+      "start": "2000-07-24",
+      "end": "2000-07-29",
+      "true_date": "2010-04-20"
+    },
+    {
+      "name": "First U.S. income tax enacted",
+      "start": "2000-07-31",
+      "end": "2000-08-23",
+      "true_date": "1861-08-05"
+    },
+    {
+      "name": "Nepal earthquake",
+      "start": "2000-09-07",
+      "end": "2000-09-19",
+      "true_date": "2015-04-25"
+    },
+    {
+      "name": "First Online University Founded",
+      "start": "2000-09-26",
+      "end": "2000-10-10",
+      "true_date": "1996-01-01"
+    },
+    {
+      "name": "Black Monday market crash",
+      "start": "2000-10-28",
+      "end": "2000-11-08",
+      "true_date": "1987-10-19"
+    },
+    {
+      "name": "First Commercial Drone Delivery",
+      "start": "2000-11-13",
+      "end": "2000-12-08",
+      "true_date": "2016-07-22"
+    },
+    {
+      "name": "Shakespeare's Globe opens",
+      "start": "2000-12-17",
+      "end": "2001-01-10",
+      "true_date": "1599-06-12"
+    },
+    {
+      "name": "Six‑Day War begins",
+      "start": "2001-01-17",
+      "end": "2001-01-24",
+      "true_date": "1967-06-05"
+    },
+    {
+      "name": "First photograph taken",
+      "start": "2001-01-30",
+      "end": "2001-02-05",
+      "true_date": "1826-01-01"
+    }
+  ]
+}

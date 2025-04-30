@@ -1,0 +1,27 @@
+{
+  "run_id": "run_0018",
+  "model": "gemini:gemini-2.0-flash",
+  "variant": "both",
+  "timestamp": "2025-04-26T11:21:58.948216Z",
+  "question_distribution": {
+    "dur.shortest": 1,
+    "list.between": 1,
+    "count.same": 1,
+    "dur.single": 1,
+    "dur.longest": 1,
+    "order.middle": 1,
+    "order.first": 1,
+    "order.nth": 1,
+    "dur.each_asc": 1,
+    "dur.each_desc": 1,
+    "order.first_last": 1,
+    "int.between": 1,
+    "dur.average": 1,
+    "int.precedes": 1,
+    "count.over_x": 1,
+    "int.between_consecutive": 1,
+    "order.count": 1,
+    "order.reverse": 1,
+    "order.full": 1
+  }
+}

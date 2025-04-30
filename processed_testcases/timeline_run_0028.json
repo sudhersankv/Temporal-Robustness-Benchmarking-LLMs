@@ -1,0 +1,273 @@
+{
+  "id": "run_0028",
+  "fact_set_direct": "The event \"First steam engine patented\" started on 2001-09-08 and ended on 2001-09-11.\nThe event \"Lehman Brothers collapses\" started on 2001-06-27 and ended on 2001-07-14.\nThe event \"Ulysses published\" started on 2001-10-03 and ended on 2001-10-09.\nThe event \"Russian Revolution ends\" started on 2001-11-27 and ended on 2001-12-17.\nThe event \"Founding of the United Nations\" started on 2002-01-06 and ended on 2002-01-19.\nThe event \"Tom Brady wins 7th Super Bowl\" started on 2000-12-30 and ended on 2001-01-21.\nThe event \"Invention of the Printing Press\" started on 2002-02-08 and ended on 2002-03-05.\nThe event \"First Cricket World Cup held\" started on 2001-07-26 and ended on 2001-08-24.\nThe event \"Tokyo-Yokohama earthquake\" started on 2001-04-08 and ended on 2001-04-15.\nThe event \"Indian Ocean tsunami\" started on 2001-03-12 and ended on 2001-04-07.\nThe event \"Morrill Act Signed\" started on 2001-09-18 and ended on 2001-09-19.\nThe event \"Equal Rights Amendment Not Ratified\" started on 2001-05-01 and ended on 2001-05-20.\nThe event \"First soft landing on Moon\" started on 2001-01-25 and ended on 2001-02-20.\nThe event \"First satellite launched\" started on 2001-10-28 and ended on 2001-11-23.\nThe event \"First Commercial Drone Delivery\" started on 2001-05-23 and ended on 2001-06-18.",
+  "fact_set_relative": "The event \"Tom Brady wins 7th Super Bowl\" started on 2000-12-30 and ended on 2001-01-21.\n\"Lehman Brothers collapses\" came 9 days after \"First Commercial Drone Delivery\", lasting 18 days.\n3 days after the conclusion of \"Equal Rights Amendment Not Ratified\", \"First Commercial Drone Delivery\" began and persisted for 27 days.\n15 days after the conclusion of \"First Cricket World Cup held\", \"First steam engine patented\" began and persisted for 4 days.\n\"Tokyo-Yokohama earthquake\" came 1 days after \"Indian Ocean tsunami\", lasting 8 days.\n\"Invention of the Printing Press\" kicked off 20 days after \"Founding of the United Nations\" wrapped up and lasted 26 days.\n\"Ulysses published\" was initiated 14 days post \"Morrill Act Signed\" and continued for 7 days.\nFollowing \"Lehman Brothers collapses\" by 12 days, \"First Cricket World Cup held\" spanned 30 days.\n\"Russian Revolution ends\" followed \"First satellite launched\" by 4 days and endured 21 days.\n\"First soft landing on Moon\" surfaced 4 days after \"Tom Brady wins 7th Super Bowl\", occupying the timeline for 27 days.\n\"Morrill Act Signed\" kicked off 7 days after \"First steam engine patented\" wrapped up and lasted 2 days.\n\"Equal Rights Amendment Not Ratified\" followed \"Tokyo-Yokohama earthquake\" by 16 days and endured 20 days.\n\"Indian Ocean tsunami\" was initiated 20 days post \"First soft landing on Moon\" and continued for 27 days.\n19 days after the conclusion of \"Ulysses published\", \"First satellite launched\" began and persisted for 27 days.\n\"Founding of the United Nations\" surfaced 20 days after \"Russian Revolution ends\", occupying the timeline for 14 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "What is the chronological sequence of events?",
+      "arguments": {},
+      "category": "event_ordering"
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "What is the reverse order of the events?",
+      "arguments": {},
+      "category": "event_ordering"
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "Which event is the 4th in the sequence?",
+      "arguments": {
+        "n": 4
+      },
+      "category": "event_ordering"
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "Lehman Brothers collapses lasted how many days?",
+      "arguments": {
+        "event": "Lehman Brothers collapses"
+      },
+      "category": "event_duration"
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "Identify the longest-lasting event.",
+      "arguments": {},
+      "category": "event_duration"
+    },
+    {
+      "id": 6,
+      "templateID": "dur.shortest",
+      "question": "Identify the shortest-lasting event.",
+      "arguments": {},
+      "category": "event_duration"
+    },
+    {
+      "id": 7,
+      "templateID": "order.first",
+      "question": "Which of Tokyo-Yokohama earthquake and First soft landing on Moon occurred first?",
+      "arguments": {
+        "event_A": "Tokyo-Yokohama earthquake",
+        "event_B": "First soft landing on Moon"
+      },
+      "category": "event_ordering"
+    },
+    {
+      "id": 8,
+      "templateID": "order.first_last",
+      "question": "What is the first and last event?",
+      "arguments": {},
+      "category": "event_ordering"
+    },
+    {
+      "id": 9,
+      "templateID": "count.over_x",
+      "question": "Name events that happened over 1 times.",
+      "arguments": {
+        "x": 1
+      },
+      "category": "event_frequency"
+    },
+    {
+      "id": 10,
+      "templateID": "count.same",
+      "question": "Identify events sharing the same frequency.",
+      "arguments": {},
+      "category": "event_frequency"
+    },
+    {
+      "id": 11,
+      "templateID": "int.between",
+      "question": "Interval between Russian Revolution ends end and Tom Brady wins 7th Super Bowl start?",
+      "arguments": {
+        "event_A": "Russian Revolution ends",
+        "event_B": "Tom Brady wins 7th Super Bowl"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 12,
+      "templateID": "order.count",
+      "question": "Count of events in the timeline?",
+      "arguments": {},
+      "category": "event_ordering"
+    },
+    {
+      "id": 13,
+      "templateID": "order.middle",
+      "question": "What event sits at the midpoint of the timeline?",
+      "arguments": {
+        "index": 7
+      },
+      "category": "event_ordering"
+    },
+    {
+      "id": 14,
+      "templateID": "dur.average",
+      "question": "What is the average duration of all events?",
+      "arguments": {},
+      "category": "event_duration"
+    },
+    {
+      "id": 15,
+      "templateID": "dur.each_asc",
+      "question": "List events with durations in ascending order.",
+      "arguments": {},
+      "category": "event_duration"
+    },
+    {
+      "id": 16,
+      "templateID": "dur.each_desc",
+      "question": "Order the events by longest to shortest duration.",
+      "arguments": {},
+      "category": "event_duration"
+    },
+    {
+      "id": 17,
+      "templateID": "int.between_consecutive",
+      "question": "List the days between each pair of consecutive events.",
+      "arguments": {},
+      "category": "event_interval"
+    },
+    {
+      "id": 18,
+      "templateID": "int.precedes",
+      "question": "Is Russian Revolution ends earlier than Tokyo-Yokohama earthquake?",
+      "arguments": {
+        "event_A": "Russian Revolution ends",
+        "event_B": "Tokyo-Yokohama earthquake"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 19,
+      "templateID": "list.between",
+      "question": "List the events that occur between Equal Rights Amendment Not Ratified and Tokyo-Yokohama earthquake.",
+      "arguments": {
+        "event_A": "Equal Rights Amendment Not Ratified",
+        "event_B": "Tokyo-Yokohama earthquake"
+      },
+      "category": "event_interval"
+    }
+  ],
+  "gold_answers": {
+    "1": "Tom Brady wins 7th Super Bowl, First soft landing on Moon, Indian Ocean tsunami, Tokyo-Yokohama earthquake, Equal Rights Amendment Not Ratified, First Commercial Drone Delivery, Lehman Brothers collapses, First Cricket World Cup held, First steam engine patented, Morrill Act Signed, Ulysses published, First satellite launched, Russian Revolution ends, Founding of the United Nations, Invention of the Printing Press",
+    "2": "Invention of the Printing Press, Founding of the United Nations, Russian Revolution ends, First satellite launched, Ulysses published, Morrill Act Signed, First steam engine patented, First Cricket World Cup held, Lehman Brothers collapses, First Commercial Drone Delivery, Equal Rights Amendment Not Ratified, Tokyo-Yokohama earthquake, Indian Ocean tsunami, First soft landing on Moon, Tom Brady wins 7th Super Bowl",
+    "3": "Tokyo-Yokohama earthquake",
+    "4": "18 days",
+    "5": "First Cricket World Cup held",
+    "6": "Morrill Act Signed",
+    "7": "First soft landing on Moon",
+    "8": "Tom Brady wins 7th Super Bowl, Invention of the Printing Press",
+    "9": "None",
+    "10": "Tom Brady wins 7th Super Bowl, First soft landing on Moon, Indian Ocean tsunami, Tokyo-Yokohama earthquake, Equal Rights Amendment Not Ratified, First Commercial Drone Delivery, Lehman Brothers collapses, First Cricket World Cup held, First steam engine patented, Morrill Act Signed, Ulysses published, First satellite launched, Russian Revolution ends, Founding of the United Nations, Invention of the Printing Press",
+    "11": "0 days",
+    "12": "15",
+    "13": "First Cricket World Cup held",
+    "14": "19 days",
+    "15": "Morrill Act Signed, First steam engine patented, Ulysses published, Tokyo-Yokohama earthquake, Founding of the United Nations, Lehman Brothers collapses, Equal Rights Amendment Not Ratified, Russian Revolution ends, Tom Brady wins 7th Super Bowl, Invention of the Printing Press, First soft landing on Moon, Indian Ocean tsunami, First Commercial Drone Delivery, First satellite launched, First Cricket World Cup held",
+    "16": "First Cricket World Cup held, First soft landing on Moon, Indian Ocean tsunami, First Commercial Drone Delivery, First satellite launched, Invention of the Printing Press, Tom Brady wins 7th Super Bowl, Russian Revolution ends, Equal Rights Amendment Not Ratified, Lehman Brothers collapses, Founding of the United Nations, Tokyo-Yokohama earthquake, Ulysses published, First steam engine patented, Morrill Act Signed",
+    "17": "3 days, 19 days, 0 days, 15 days, 2 days, 8 days, 11 days, 14 days, 6 days, 13 days, 18 days, 3 days, 19 days, 19 days",
+    "18": "no",
+    "19": "None"
+  },
+  "timeline": [
+    {
+      "name": "Tom Brady wins 7th Super Bowl",
+      "start": "2000-12-30",
+      "end": "2001-01-21",
+      "true_date": "2021-02-07"
+    },
+    {
+      "name": "First soft landing on Moon",
+      "start": "2001-01-25",
+      "end": "2001-02-20",
+      "true_date": "1966-02-03"
+    },
+    {
+      "name": "Indian Ocean tsunami",
+      "start": "2001-03-12",
+      "end": "2001-04-07",
+      "true_date": "2004-12-26"
+    },
+    {
+      "name": "Tokyo-Yokohama earthquake",
+      "start": "2001-04-08",
+      "end": "2001-04-15",
+      "true_date": "1923-09-01"
+    },
+    {
+      "name": "Equal Rights Amendment Not Ratified",
+      "start": "2001-05-01",
+      "end": "2001-05-20",
+      "true_date": "1982-06-30"
+    },
+    {
+      "name": "First Commercial Drone Delivery",
+      "start": "2001-05-23",
+      "end": "2001-06-18",
+      "true_date": "2016-07-22"
+    },
+    {
+      "name": "Lehman Brothers collapses",
+      "start": "2001-06-27",
+      "end": "2001-07-14",
+      "true_date": "2008-09-15"
+    },
+    {
+      "name": "First Cricket World Cup held",
+      "start": "2001-07-26",
+      "end": "2001-08-24",
+      "true_date": "1975-06-07"
+    },
+    {
+      "name": "First steam engine patented",
+      "start": "2001-09-08",
+      "end": "2001-09-11",
+      "true_date": "1698-07-25"
+    },
+    {
+      "name": "Morrill Act Signed",
+      "start": "2001-09-18",
+      "end": "2001-09-19",
+      "true_date": "1862-07-02"
+    },
+    {
+      "name": "Ulysses published",
+      "start": "2001-10-03",
+      "end": "2001-10-09",
+      "true_date": "1922-02-02"
+    },
+    {
+      "name": "First satellite launched",
+      "start": "2001-10-28",
+      "end": "2001-11-23",
+      "true_date": "1957-10-04"
+    },
+    {
+      "name": "Russian Revolution ends",
+      "start": "2001-11-27",
+      "end": "2001-12-17",
+      "true_date": "1917-11-07"
+    },
+    {
+      "name": "Founding of the United Nations",
+      "start": "2002-01-06",
+      "end": "2002-01-19",
+      "true_date": "1945-10-24"
+    },
+    {
+      "name": "Invention of the Printing Press",
+      "start": "2002-02-08",
+      "end": "2002-03-05",
+      "true_date": "1440-01-01"
+    }
+  ]
+}

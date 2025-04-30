@@ -1,0 +1,795 @@
+{
+  "id": "run_0030",
+  "fact_set_direct": "The event \"First World Series played\" started on 2000-06-18 and ended on 2000-07-06.\nThe event \"First Space Shuttle Launch\" started on 2000-12-19 and ended on 2000-12-25.\nThe event \"Penicillin discovered\" started on 2000-07-11 and ended on 2000-07-15.\nThe event \"Civil Rights Act signed\" started on 2000-11-13 and ended on 2000-11-15.\nThe event \"First stock exchange established\" started on 2000-08-25 and ended on 2000-09-13.\nThe event \"Introduction of High-Speed Rail\" started on 2001-02-05 and ended on 2001-02-05.\nThe event \"First Masters Tournament held\" started on 2000-07-20 and ended on 2000-08-09.\nThe event \"First Social Media Platform Launched\" started on 2000-12-10 and ended on 2000-12-12.\nThe event \"Shakespeare's Globe opens\" started on 2000-05-15 and ended on 2000-05-30.\nThe event \"First reusable spacecraft launched\" started on 2000-05-10 and ended on 2000-05-14.\nThe event \"First GPS satellite launched\" started on 2000-09-29 and ended on 2000-10-07.\nThe event \"First Bitcoin transaction\" started on 2000-10-14 and ended on 2000-10-27.\nThe event \"First YouTube Video Uploaded\" started on 2000-11-29 and ended on 2000-12-07.\nThe event \"Title IX Enacted\" started on 2001-01-14 and ended on 2001-01-28.\nThe event \"First video game console\" started on 2001-02-18 and ended on 2001-03-06.",
+  "fact_set_relative": "The event \"First reusable spacecraft launched\" started on 2000-05-10 and ended on 2000-05-14.\n\"Shakespeare's Globe opens\" was initiated 1 days post \"First reusable spacecraft launched\" and continued for 16 days.\nThe interval of 8 days between \"Title IX Enacted\" and \"Introduction of High-Speed Rail\" marked the start of another 1-day chapter.\nIt took 14 days after \"Civil Rights Act signed\" ended for \"First YouTube Video Uploaded\" to commence; it ran 9 days.\n\"First World Series played\" kicked off 19 days after \"Shakespeare's Globe opens\" wrapped up and lasted 19 days.\n\"Civil Rights Act signed\" followed \"First Bitcoin transaction\" by 17 days and endured 3 days.\nExactly 3 days elapsed between \"First YouTube Video Uploaded\" and the start of \"First Social Media Platform Launched\", which endured 3 days.\n\"First video game console\" followed \"Introduction of High-Speed Rail\" by 13 days and endured 17 days.\n\"First stock exchange established\" came 16 days after \"First Masters Tournament held\", lasting 20 days.\nFollowing \"Penicillin discovered\" by 5 days, \"First Masters Tournament held\" spanned 21 days.\n5 days after the conclusion of \"First World Series played\", \"Penicillin discovered\" began and persisted for 5 days.\nFollowing \"First Social Media Platform Launched\" by 7 days, \"First Space Shuttle Launch\" spanned 7 days.\nThe interval of 7 days between \"First GPS satellite launched\" and \"First Bitcoin transaction\" marked the start of another 14-day chapter.\nFollowing \"First Space Shuttle Launch\" by 20 days, \"Title IX Enacted\" spanned 15 days.\nIt took 16 days after \"First stock exchange established\" ended for \"First GPS satellite launched\" to commence; it ran 9 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "What is the chronological sequence of events?",
+      "arguments": {},
+      "category": "event_ordering"
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "List the events in reverse chronological order.",
+      "arguments": {},
+      "category": "event_ordering"
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "Identify the 1st event chronologically.",
+      "arguments": {
+        "n": 1,
+        "suffix": "st"
+      },
+      "category": "event_ordering"
+    },
+    {
+      "id": 4,
+      "templateID": "order.nth",
+      "question": "Which event ranks 6th in the timeline?",
+      "arguments": {
+        "n": 6,
+        "suffix": "th"
+      },
+      "category": "event_ordering"
+    },
+    {
+      "id": 5,
+      "templateID": "order.nth",
+      "question": "Which event ranks 13th in the timeline?",
+      "arguments": {
+        "n": 13,
+        "suffix": "th"
+      },
+      "category": "event_ordering"
+    },
+    {
+      "id": 6,
+      "templateID": "order.nth",
+      "question": "Which event ranks 8th in the timeline?",
+      "arguments": {
+        "n": 8,
+        "suffix": "th"
+      },
+      "category": "event_ordering"
+    },
+    {
+      "id": 7,
+      "templateID": "order.nth",
+      "question": "Tell me the 7th event in order.",
+      "arguments": {
+        "n": 7,
+        "suffix": "th"
+      },
+      "category": "event_ordering"
+    },
+    {
+      "id": 8,
+      "templateID": "dur.single",
+      "question": "What was the duration of Title IX Enacted?",
+      "arguments": {
+        "event": "Title IX Enacted"
+      },
+      "category": "event_duration"
+    },
+    {
+      "id": 9,
+      "templateID": "dur.single",
+      "question": "Duration of Introduction of High-Speed Rail?",
+      "arguments": {
+        "event": "Introduction of High-Speed Rail"
+      },
+      "category": "event_duration"
+    },
+    {
+      "id": 10,
+      "templateID": "dur.single",
+      "question": "For how many days did Civil Rights Act signed occur?",
+      "arguments": {
+        "event": "Civil Rights Act signed"
+      },
+      "category": "event_duration"
+    },
+    {
+      "id": 11,
+      "templateID": "dur.single",
+      "question": "First video game console lasted how many days?",
+      "arguments": {
+        "event": "First video game console"
+      },
+      "category": "event_duration"
+    },
+    {
+      "id": 12,
+      "templateID": "dur.single",
+      "question": "What was the duration of First video game console?",
+      "arguments": {
+        "event": "First video game console"
+      },
+      "category": "event_duration"
+    },
+    {
+      "id": 13,
+      "templateID": "dur.longest",
+      "question": "Identify the longest-lasting event.",
+      "arguments": {},
+      "category": "event_duration"
+    },
+    {
+      "id": 14,
+      "templateID": "dur.shortest",
+      "question": "Which event lasted the shortest?",
+      "arguments": {},
+      "category": "event_duration"
+    },
+    {
+      "id": 15,
+      "templateID": "order.first",
+      "question": "Which event came first: First Space Shuttle Launch or First World Series played?",
+      "arguments": {
+        "event_A": "First Space Shuttle Launch",
+        "event_B": "First World Series played"
+      },
+      "category": "event_ordering"
+    },
+    {
+      "id": 16,
+      "templateID": "order.first",
+      "question": "Which of Shakespeare's Globe opens and First stock exchange established occurred first?",
+      "arguments": {
+        "event_A": "Shakespeare's Globe opens",
+        "event_B": "First stock exchange established"
+      },
+      "category": "event_ordering"
+    },
+    {
+      "id": 17,
+      "templateID": "order.first",
+      "question": "Between First World Series played and Civil Rights Act signed, which happened earlier?",
+      "arguments": {
+        "event_A": "First World Series played",
+        "event_B": "Civil Rights Act signed"
+      },
+      "category": "event_ordering"
+    },
+    {
+      "id": 18,
+      "templateID": "order.first",
+      "question": "Between First video game console and Introduction of High-Speed Rail, which happened earlier?",
+      "arguments": {
+        "event_A": "First video game console",
+        "event_B": "Introduction of High-Speed Rail"
+      },
+      "category": "event_ordering"
+    },
+    {
+      "id": 19,
+      "templateID": "order.first",
+      "question": "Did First stock exchange established or First Social Media Platform Launched occur first?",
+      "arguments": {
+        "event_A": "First stock exchange established",
+        "event_B": "First Social Media Platform Launched"
+      },
+      "category": "event_ordering"
+    },
+    {
+      "id": 20,
+      "templateID": "order.first_last",
+      "question": "Identify the earliest and latest events.",
+      "arguments": {},
+      "category": "event_ordering"
+    },
+    {
+      "id": 21,
+      "templateID": "count.over_x",
+      "question": "Events occurring more than 3 times?",
+      "arguments": {
+        "x": 3
+      },
+      "category": "event_frequency"
+    },
+    {
+      "id": 22,
+      "templateID": "count.over_x",
+      "question": "List events with frequency > 1.",
+      "arguments": {
+        "x": 1
+      },
+      "category": "event_frequency"
+    },
+    {
+      "id": 23,
+      "templateID": "count.over_x",
+      "question": "List events with frequency > 3.",
+      "arguments": {
+        "x": 3
+      },
+      "category": "event_frequency"
+    },
+    {
+      "id": 24,
+      "templateID": "count.over_x",
+      "question": "Name events that happened over 5 times.",
+      "arguments": {
+        "x": 5
+      },
+      "category": "event_frequency"
+    },
+    {
+      "id": 25,
+      "templateID": "count.over_x",
+      "question": "Which items exceed 3 occurrences?",
+      "arguments": {
+        "x": 3
+      },
+      "category": "event_frequency"
+    },
+    {
+      "id": 26,
+      "templateID": "count.same",
+      "question": "Identify events sharing the same frequency.",
+      "arguments": {},
+      "category": "event_frequency"
+    },
+    {
+      "id": 27,
+      "templateID": "count.same",
+      "question": "Identify events sharing the same frequency.",
+      "arguments": {},
+      "category": "event_frequency"
+    },
+    {
+      "id": 28,
+      "templateID": "int.between",
+      "question": "Calculate days between Civil Rights Act signed and First stock exchange established.",
+      "arguments": {
+        "event_A": "Civil Rights Act signed",
+        "event_B": "First stock exchange established"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 29,
+      "templateID": "int.between",
+      "question": "Interval between First Social Media Platform Launched end and Penicillin discovered start?",
+      "arguments": {
+        "event_A": "First Social Media Platform Launched",
+        "event_B": "Penicillin discovered"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 30,
+      "templateID": "int.between",
+      "question": "Calculate days between First GPS satellite launched and First reusable spacecraft launched.",
+      "arguments": {
+        "event_A": "First GPS satellite launched",
+        "event_B": "First reusable spacecraft launched"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 31,
+      "templateID": "int.between",
+      "question": "How many days passed between Shakespeare's Globe opens ending and Penicillin discovered starting?",
+      "arguments": {
+        "event_A": "Shakespeare's Globe opens",
+        "event_B": "Penicillin discovered"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 32,
+      "templateID": "int.between",
+      "question": "What is the duration between the end of Penicillin discovered and the start of First GPS satellite launched?",
+      "arguments": {
+        "event_A": "Penicillin discovered",
+        "event_B": "First GPS satellite launched"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 33,
+      "templateID": "order.count",
+      "question": "Total number of events?",
+      "arguments": {},
+      "category": "event_ordering"
+    },
+    {
+      "id": 34,
+      "templateID": "order.middle",
+      "question": "Which event is in the middle of the sequence?",
+      "arguments": {},
+      "category": "event_ordering"
+    },
+    {
+      "id": 35,
+      "templateID": "dur.average",
+      "question": "On average, how many days did events last?",
+      "arguments": {},
+      "category": "event_duration"
+    },
+    {
+      "id": 36,
+      "templateID": "dur.each_asc",
+      "question": "Order the events by shortest to longest duration.",
+      "arguments": {},
+      "category": "event_duration"
+    },
+    {
+      "id": 37,
+      "templateID": "dur.each_desc",
+      "question": "Which events, sorted by decreasing duration, occurred?",
+      "arguments": {},
+      "category": "event_duration"
+    },
+    {
+      "id": 38,
+      "templateID": "int.between_consecutive",
+      "question": "List the days between each pair of consecutive events.",
+      "arguments": {},
+      "category": "event_interval"
+    },
+    {
+      "id": 39,
+      "templateID": "int.precedes",
+      "question": "Does Penicillin discovered occur before First GPS satellite launched?",
+      "arguments": {
+        "event_A": "Penicillin discovered",
+        "event_B": "First GPS satellite launched"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 40,
+      "templateID": "int.precedes",
+      "question": "Is First reusable spacecraft launched earlier than First video game console?",
+      "arguments": {
+        "event_A": "First reusable spacecraft launched",
+        "event_B": "First video game console"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 41,
+      "templateID": "int.precedes",
+      "question": "Is Title IX Enacted earlier than Introduction of High-Speed Rail?",
+      "arguments": {
+        "event_A": "Title IX Enacted",
+        "event_B": "Introduction of High-Speed Rail"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 42,
+      "templateID": "int.precedes",
+      "question": "Does First Masters Tournament held occur before First Space Shuttle Launch?",
+      "arguments": {
+        "event_A": "First Masters Tournament held",
+        "event_B": "First Space Shuttle Launch"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 43,
+      "templateID": "int.precedes",
+      "question": "Which comes first, First Social Media Platform Launched or First Masters Tournament held?",
+      "arguments": {
+        "event_A": "First Social Media Platform Launched",
+        "event_B": "First Masters Tournament held"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 44,
+      "templateID": "list.between",
+      "question": "Identify events between First Bitcoin transaction and First video game console.",
+      "arguments": {
+        "event_A": "First Bitcoin transaction",
+        "event_B": "First video game console"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 45,
+      "templateID": "list.between",
+      "question": "What events fall between First reusable spacecraft launched and Penicillin discovered?",
+      "arguments": {
+        "event_A": "First reusable spacecraft launched",
+        "event_B": "Penicillin discovered"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 46,
+      "templateID": "list.between",
+      "question": "Identify events between First Social Media Platform Launched and First Masters Tournament held.",
+      "arguments": {
+        "event_A": "First Social Media Platform Launched",
+        "event_B": "First Masters Tournament held"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 47,
+      "templateID": "list.between",
+      "question": "Name events occurring between First video game console and Title IX Enacted.",
+      "arguments": {
+        "event_A": "First video game console",
+        "event_B": "Title IX Enacted"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 48,
+      "templateID": "list.between",
+      "question": "Identify events between Penicillin discovered and First Social Media Platform Launched.",
+      "arguments": {
+        "event_A": "Penicillin discovered",
+        "event_B": "First Social Media Platform Launched"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 49,
+      "templateID": "dur.counterfactual.single",
+      "question": "What would be the duration of First video game console under the counterfactual scenario?",
+      "arguments": {
+        "event": "First video game console"
+      },
+      "category": "event_duration"
+    },
+    {
+      "id": 50,
+      "templateID": "dur.counterfactual.multiple",
+      "question": "What are the durations of multiple events given counterfactuals?",
+      "arguments": {},
+      "category": "event_duration"
+    },
+    {
+      "id": 51,
+      "templateID": "dur.bucket",
+      "question": "Categorize events into buckets: Small, Medium, Large based on duration.",
+      "arguments": {},
+      "category": "event_duration"
+    },
+    {
+      "id": 52,
+      "templateID": "int.overlaps",
+      "question": "Does First Social Media Platform Launched overlap with First World Series played?",
+      "arguments": {
+        "event_A": "First Social Media Platform Launched",
+        "event_B": "First World Series played"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 53,
+      "templateID": "int.overlapped_by",
+      "question": "Is First reusable spacecraft launched overlapped by First video game console?",
+      "arguments": {
+        "event_A": "First video game console",
+        "event_B": "First reusable spacecraft launched"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 54,
+      "templateID": "int.during",
+      "question": "Does Shakespeare's Globe opens occur during First World Series played?",
+      "arguments": {
+        "event_A": "Shakespeare's Globe opens",
+        "event_B": "First World Series played"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 55,
+      "templateID": "int.contains",
+      "question": "Does First stock exchange established contain Introduction of High-Speed Rail?",
+      "arguments": {
+        "event_A": "Introduction of High-Speed Rail",
+        "event_B": "First stock exchange established"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 56,
+      "templateID": "int.finishes",
+      "question": "Does Penicillin discovered finish First Bitcoin transaction?",
+      "arguments": {
+        "event_A": "Penicillin discovered",
+        "event_B": "First Bitcoin transaction"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 57,
+      "templateID": "int.finished_by",
+      "question": "Is First Bitcoin transaction finished by First video game console?",
+      "arguments": {
+        "event_A": "First video game console",
+        "event_B": "First Bitcoin transaction"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 58,
+      "templateID": "int.same_interval",
+      "question": "Are Civil Rights Act signed and Introduction of High-Speed Rail in the same interval?",
+      "arguments": {
+        "event_A": "Civil Rights Act signed",
+        "event_B": "Introduction of High-Speed Rail"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 59,
+      "templateID": "int.no_overlap",
+      "question": "Does Introduction of High-Speed Rail have no overlap with any other event?",
+      "arguments": {
+        "event_A": "Introduction of High-Speed Rail",
+        "event_B": "Shakespeare's Globe opens"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 60,
+      "templateID": "list.pair_immediate",
+      "question": "List pairs where First Bitcoin transaction starts as soon as First stock exchange established ends.",
+      "arguments": {
+        "event_A": "First Bitcoin transaction",
+        "event_B": "First stock exchange established"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 61,
+      "templateID": "freq.single",
+      "question": "What is the frequency of First video game console in the timeline?",
+      "arguments": {
+        "event": "First video game console"
+      },
+      "category": "event_frequency"
+    },
+    {
+      "id": 62,
+      "templateID": "freq.counterfactual",
+      "question": "What is the frequency of First Masters Tournament held given the counterfactual?",
+      "arguments": {
+        "event": "First Masters Tournament held"
+      },
+      "category": "event_frequency"
+    },
+    {
+      "id": 63,
+      "templateID": "freq.compare_intervals",
+      "question": "Compare frequency of First World Series played across intervals.",
+      "arguments": {
+        "event": "First World Series played"
+      },
+      "category": "event_frequency"
+    },
+    {
+      "id": 64,
+      "templateID": "freq.relative",
+      "question": "What is the relative frequency of First reusable spacecraft launched?",
+      "arguments": {
+        "event": "First reusable spacecraft launched"
+      },
+      "category": "event_frequency"
+    },
+    {
+      "id": 65,
+      "templateID": "typical.time",
+      "question": "What is the typical time of First Space Shuttle Launch?",
+      "arguments": {
+        "event": "First Space Shuttle Launch"
+      },
+      "category": "event_typical"
+    },
+    {
+      "id": 66,
+      "templateID": "typical.compare",
+      "question": "Compare typical times between event types.",
+      "arguments": {},
+      "category": "event_typical"
+    },
+    {
+      "id": 67,
+      "templateID": "causal.leads_to",
+      "question": "Did the occurrence of First World Series played lead to First stock exchange established?",
+      "arguments": {
+        "event_A": "First World Series played",
+        "event_B": "First stock exchange established"
+      },
+      "category": "event_causal"
+    },
+    {
+      "id": 68,
+      "templateID": "causal.prerequisite",
+      "question": "What should have occurred for First GPS satellite launched to take place?",
+      "arguments": {
+        "event": "First GPS satellite launched"
+      },
+      "category": "event_causal"
+    },
+    {
+      "id": 69,
+      "templateID": "causal.relation",
+      "question": "Is there any relation between First stock exchange established and First Masters Tournament held?",
+      "arguments": {
+        "event_A": "First stock exchange established",
+        "event_B": "First Masters Tournament held"
+      },
+      "category": "event_causal"
+    }
+  ],
+  "gold_answers": {
+    "1": "First reusable spacecraft launched, Shakespeare's Globe opens, First World Series played, Penicillin discovered, First Masters Tournament held, First stock exchange established, First GPS satellite launched, First Bitcoin transaction, Civil Rights Act signed, First YouTube Video Uploaded, First Social Media Platform Launched, First Space Shuttle Launch, Title IX Enacted, Introduction of High-Speed Rail, First video game console",
+    "2": "First video game console, Introduction of High-Speed Rail, Title IX Enacted, First Space Shuttle Launch, First Social Media Platform Launched, First YouTube Video Uploaded, Civil Rights Act signed, First Bitcoin transaction, First GPS satellite launched, First stock exchange established, First Masters Tournament held, Penicillin discovered, First World Series played, Shakespeare's Globe opens, First reusable spacecraft launched",
+    "3": "First reusable spacecraft launched",
+    "4": "First stock exchange established",
+    "5": "Title IX Enacted",
+    "6": "First Bitcoin transaction",
+    "7": "First GPS satellite launched",
+    "8": "15 days",
+    "9": "1 days",
+    "10": "3 days",
+    "11": "17 days",
+    "12": "17 days",
+    "13": "First Masters Tournament held",
+    "14": "Introduction of High-Speed Rail",
+    "15": "First World Series played",
+    "16": "Shakespeare's Globe opens",
+    "17": "First World Series played",
+    "18": "Introduction of High-Speed Rail",
+    "19": "First stock exchange established",
+    "20": "First reusable spacecraft launched, First video game console",
+    "21": "None",
+    "22": "None",
+    "23": "None",
+    "24": "None",
+    "25": "None",
+    "26": "First reusable spacecraft launched, Shakespeare's Globe opens, First World Series played, Penicillin discovered, First Masters Tournament held, First stock exchange established, First GPS satellite launched, First Bitcoin transaction, Civil Rights Act signed, First YouTube Video Uploaded, First Social Media Platform Launched, First Space Shuttle Launch, Title IX Enacted, Introduction of High-Speed Rail, First video game console",
+    "27": "First reusable spacecraft launched, Shakespeare's Globe opens, First World Series played, Penicillin discovered, First Masters Tournament held, First stock exchange established, First GPS satellite launched, First Bitcoin transaction, Civil Rights Act signed, First YouTube Video Uploaded, First Social Media Platform Launched, First Space Shuttle Launch, Title IX Enacted, Introduction of High-Speed Rail, First video game console",
+    "28": "0 days",
+    "29": "0 days",
+    "30": "0 days",
+    "31": "41 days",
+    "32": "75 days",
+    "33": "15",
+    "34": "First Bitcoin transaction",
+    "35": "11 days",
+    "36": "Introduction of High-Speed Rail, Civil Rights Act signed, First Social Media Platform Launched, First reusable spacecraft launched, Penicillin discovered, First Space Shuttle Launch, First GPS satellite launched, First YouTube Video Uploaded, First Bitcoin transaction, Title IX Enacted, Shakespeare's Globe opens, First video game console, First World Series played, First stock exchange established, First Masters Tournament held",
+    "37": "First Masters Tournament held, First stock exchange established, First World Series played, First video game console, Shakespeare's Globe opens, Title IX Enacted, First Bitcoin transaction, First GPS satellite launched, First YouTube Video Uploaded, First Space Shuttle Launch, First reusable spacecraft launched, Penicillin discovered, Civil Rights Act signed, First Social Media Platform Launched, Introduction of High-Speed Rail",
+    "38": "0 days, 18 days, 4 days, 4 days, 15 days, 15 days, 6 days, 16 days, 13 days, 2 days, 6 days, 19 days, 7 days, 12 days",
+    "39": "yes",
+    "40": "yes",
+    "41": "yes",
+    "42": "yes",
+    "43": "no",
+    "44": "Civil Rights Act signed, First YouTube Video Uploaded, First Social Media Platform Launched, First Space Shuttle Launch, Title IX Enacted, Introduction of High-Speed Rail",
+    "45": "Shakespeare's Globe opens, First World Series played",
+    "46": "First stock exchange established, First GPS satellite launched, First Bitcoin transaction, Civil Rights Act signed, First YouTube Video Uploaded",
+    "47": "Introduction of High-Speed Rail",
+    "48": "First Masters Tournament held, First stock exchange established, First GPS satellite launched, First Bitcoin transaction, Civil Rights Act signed, First YouTube Video Uploaded",
+    "49": "17 days",
+    "50": "First reusable spacecraft launched: 5 days, Shakespeare's Globe opens: 16 days, First World Series played: 19 days, Penicillin discovered: 5 days, First Masters Tournament held: 21 days, First stock exchange established: 20 days, First GPS satellite launched: 9 days, First Bitcoin transaction: 14 days, Civil Rights Act signed: 3 days, First YouTube Video Uploaded: 9 days, First Social Media Platform Launched: 3 days, First Space Shuttle Launch: 7 days, Title IX Enacted: 15 days, Introduction of High-Speed Rail: 1 days, First video game console: 17 days",
+    "51": "Small: Introduction of High-Speed Rail, Civil Rights Act signed, First Social Media Platform Launched, First reusable spacecraft launched, Penicillin discovered; Medium: First Space Shuttle Launch, First GPS satellite launched, First YouTube Video Uploaded, First Bitcoin transaction, Title IX Enacted; Large: Shakespeare's Globe opens, First video game console, First World Series played, First stock exchange established, First Masters Tournament held",
+    "52": "no",
+    "53": "no",
+    "54": "no",
+    "55": "no",
+    "56": "no",
+    "57": "no",
+    "58": "no",
+    "59": "yes",
+    "60": "Introduction of High-Speed Rail/Introduction of High-Speed Rail",
+    "61": "1",
+    "62": "1",
+    "63": "1",
+    "64": "1/15",
+    "65": "2000-12-19",
+    "66": "First reusable spacecraft launched, Shakespeare's Globe opens, First World Series played, Penicillin discovered, First Masters Tournament held, First stock exchange established, First GPS satellite launched, First Bitcoin transaction, Civil Rights Act signed, First YouTube Video Uploaded, First Social Media Platform Launched, First Space Shuttle Launch, Title IX Enacted, Introduction of High-Speed Rail, First video game console",
+    "67": "yes",
+    "68": "First stock exchange established",
+    "69": "yes"
+  },
+  "timeline": [
+    {
+      "name": "First reusable spacecraft launched",
+      "start": "2000-05-10",
+      "end": "2000-05-14",
+      "true_date": "1981-04-12"
+    },
+    {
+      "name": "Shakespeare's Globe opens",
+      "start": "2000-05-15",
+      "end": "2000-05-30",
+      "true_date": "1599-06-12"
+    },
+    {
+      "name": "First World Series played",
+      "start": "2000-06-18",
+      "end": "2000-07-06",
+      "true_date": "1903-10-01"
+    },
+    {
+      "name": "Penicillin discovered",
+      "start": "2000-07-11",
+      "end": "2000-07-15",
+      "true_date": "1928-09-28"
+    },
+    {
+      "name": "First Masters Tournament held",
+      "start": "2000-07-20",
+      "end": "2000-08-09",
+      "true_date": "1934-03-22"
+    },
+    {
+      "name": "First stock exchange established",
+      "start": "2000-08-25",
+      "end": "2000-09-13",
+      "true_date": "1602-03-20"
+    },
+    {
+      "name": "First GPS satellite launched",
+      "start": "2000-09-29",
+      "end": "2000-10-07",
+      "true_date": "1978-02-22"
+    },
+    {
+      "name": "First Bitcoin transaction",
+      "start": "2000-10-14",
+      "end": "2000-10-27",
+      "true_date": "2009-01-12"
+    },
+    {
+      "name": "Civil Rights Act signed",
+      "start": "2000-11-13",
+      "end": "2000-11-15",
+      "true_date": "1964-07-02"
+    },
+    {
+      "name": "First YouTube Video Uploaded",
+      "start": "2000-11-29",
+      "end": "2000-12-07",
+      "true_date": "2005-04-23"
+    },
+    {
+      "name": "First Social Media Platform Launched",
+      "start": "2000-12-10",
+      "end": "2000-12-12",
+      "true_date": "1997-07-01"
+    },
+    {
+      "name": "First Space Shuttle Launch",
+      "start": "2000-12-19",
+      "end": "2000-12-25",
+      "true_date": "1981-04-12"
+    },
+    {
+      "name": "Title IX Enacted",
+      "start": "2001-01-14",
+      "end": "2001-01-28",
+      "true_date": "1972-06-23"
+    },
+    {
+      "name": "Introduction of High-Speed Rail",
+      "start": "2001-02-05",
+      "end": "2001-02-05",
+      "true_date": "1964-10-01"
+    },
+    {
+      "name": "First video game console",
+      "start": "2001-02-18",
+      "end": "2001-03-06",
+      "true_date": "1972-01-01"
+    }
+  ]
+}

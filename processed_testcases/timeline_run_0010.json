@@ -1,0 +1,230 @@
+{
+  "id": "run_0010",
+  "fact_set_direct": "The event \"Human genome project completed\" started on 2001-02-25 and ended on 2001-02-27.\nThe event \"Rwandan Genocide begins\" started on 2001-07-21 and ended on 2001-07-27.\nThe event \"Haiti earthquake\" started on 2001-01-15 and ended on 2001-02-13.\nThe event \"Beowulf manuscript created\" started on 2001-04-26 and ended on 2001-05-09.\nThe event \"Harvard College Founded\" started on 2001-06-20 and ended on 2001-07-12.\nThe event \"First 3D printer invented\" started on 2000-12-19 and ended on 2001-01-06.\nThe event \"First airplane flight\" started on 2000-11-23 and ended on 2000-12-15.\nThe event \"First radio transmission\" started on 2001-08-25 and ended on 2001-09-22.\nThe event \"Hubble Space Telescope launched\" started on 2001-03-15 and ended on 2001-04-13.\nThe event \"Woodstock Festival begins\" started on 2001-05-22 and ended on 2001-06-18.\nThe event \"Brexit Referendum\" started on 2001-07-31 and ended on 2001-08-13.",
+  "fact_set_relative": "The event \"First airplane flight\" started on 2000-11-23 and ended on 2000-12-15.\nExactly 16 days elapsed between \"Human genome project completed\" and the start of \"Hubble Space Telescope launched\", which endured 30 days.\nExactly 13 days elapsed between \"Beowulf manuscript created\" and the start of \"Woodstock Festival begins\", which endured 28 days.\nIt took 2 days after \"Woodstock Festival begins\" ended for \"Harvard College Founded\" to commence; it ran 23 days.\n\"Brexit Referendum\" came 4 days after \"Rwandan Genocide begins\", lasting 14 days.\n\"Rwandan Genocide begins\" kicked off 9 days after \"Harvard College Founded\" wrapped up and lasted 7 days.\n\"First 3D printer invented\" followed \"First airplane flight\" by 4 days and endured 19 days.\nExactly 12 days elapsed between \"Brexit Referendum\" and the start of \"First radio transmission\", which endured 29 days.\nThe interval of 12 days between \"Haiti earthquake\" and \"Human genome project completed\" marked the start of another 3-day chapter.\nExactly 13 days elapsed between \"Hubble Space Telescope launched\" and the start of \"Beowulf manuscript created\", which endured 14 days.\n\"Haiti earthquake\" followed \"First 3D printer invented\" by 9 days and endured 30 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "What is the chronological sequence of events?",
+      "arguments": {}
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "List the events in reverse chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "Tell me the 7th event in order.",
+      "arguments": {
+        "n": 7
+      }
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "Harvard College Founded lasted how many days?",
+      "arguments": {
+        "event": "Harvard College Founded"
+      }
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "Identify the longest-lasting event.",
+      "arguments": {}
+    },
+    {
+      "id": 6,
+      "templateID": "dur.shortest",
+      "question": "Identify the shortest-lasting event.",
+      "arguments": {}
+    },
+    {
+      "id": 7,
+      "templateID": "order.first",
+      "question": "Did Rwandan Genocide begins or Woodstock Festival begins occur first?",
+      "arguments": {
+        "event_A": "Rwandan Genocide begins",
+        "event_B": "Woodstock Festival begins"
+      }
+    },
+    {
+      "id": 8,
+      "templateID": "order.first_last",
+      "question": "Identify the earliest and latest events.",
+      "arguments": {}
+    },
+    {
+      "id": 9,
+      "templateID": "count.over_x",
+      "question": "Events occurring more than 5 times?",
+      "arguments": {
+        "x": 5
+      }
+    },
+    {
+      "id": 10,
+      "templateID": "count.same",
+      "question": "Identify events sharing the same frequency.",
+      "arguments": {}
+    },
+    {
+      "id": 11,
+      "templateID": "int.between",
+      "question": "Interval between First 3D printer invented end and Woodstock Festival begins start?",
+      "arguments": {
+        "event_A": "First 3D printer invented",
+        "event_B": "Woodstock Festival begins"
+      }
+    },
+    {
+      "id": 12,
+      "templateID": "order.count",
+      "question": "Count of events in the timeline?",
+      "arguments": {}
+    },
+    {
+      "id": 13,
+      "templateID": "order.middle",
+      "question": "Identify the middle event chronologically.",
+      "arguments": {
+        "index": 5
+      }
+    },
+    {
+      "id": 14,
+      "templateID": "dur.average",
+      "question": "Compute the mean event duration.",
+      "arguments": {}
+    },
+    {
+      "id": 15,
+      "templateID": "dur.each_asc",
+      "question": "Which events, sorted by increasing duration, occurred?",
+      "arguments": {}
+    },
+    {
+      "id": 16,
+      "templateID": "dur.each_desc",
+      "question": "Order the events by longest to shortest duration.",
+      "arguments": {}
+    },
+    {
+      "id": 17,
+      "templateID": "int.between_consecutive",
+      "question": "How many days separate each successive event?",
+      "arguments": {}
+    },
+    {
+      "id": 18,
+      "templateID": "int.precedes",
+      "question": "Does Rwandan Genocide begins occur before Beowulf manuscript created?",
+      "arguments": {
+        "event_A": "Rwandan Genocide begins",
+        "event_B": "Beowulf manuscript created"
+      }
+    },
+    {
+      "id": 19,
+      "templateID": "list.between",
+      "question": "List the events that occur between Beowulf manuscript created and First 3D printer invented.",
+      "arguments": {
+        "event_A": "Beowulf manuscript created",
+        "event_B": "First 3D printer invented"
+      }
+    }
+  ],
+  "gold_answers": {
+    "1": "First airplane flight, First 3D printer invented, Haiti earthquake, Human genome project completed, Hubble Space Telescope launched, Beowulf manuscript created, Woodstock Festival begins, Harvard College Founded, Rwandan Genocide begins, Brexit Referendum, First radio transmission",
+    "2": "First radio transmission, Brexit Referendum, Rwandan Genocide begins, Harvard College Founded, Woodstock Festival begins, Beowulf manuscript created, Hubble Space Telescope launched, Human genome project completed, Haiti earthquake, First 3D printer invented, First airplane flight",
+    "3": "Woodstock Festival begins",
+    "4": "23 days",
+    "5": "Haiti earthquake",
+    "6": "Human genome project completed",
+    "7": "Woodstock Festival begins",
+    "8": "First airplane flight, First radio transmission",
+    "9": "None",
+    "10": "First airplane flight, First 3D printer invented, Haiti earthquake, Human genome project completed, Hubble Space Telescope launched, Beowulf manuscript created, Woodstock Festival begins, Harvard College Founded, Rwandan Genocide begins, Brexit Referendum, First radio transmission",
+    "11": "135 days",
+    "12": "11",
+    "13": "Beowulf manuscript created",
+    "14": "20 days",
+    "15": "Human genome project completed, Rwandan Genocide begins, Beowulf manuscript created, Brexit Referendum, First 3D printer invented, First airplane flight, Harvard College Founded, Woodstock Festival begins, First radio transmission, Haiti earthquake, Hubble Space Telescope launched",
+    "16": "Haiti earthquake, Hubble Space Telescope launched, First radio transmission, Woodstock Festival begins, First airplane flight, Harvard College Founded, First 3D printer invented, Beowulf manuscript created, Brexit Referendum, Rwandan Genocide begins, Human genome project completed",
+    "17": "3 days, 8 days, 11 days, 15 days, 12 days, 12 days, 1 days, 8 days, 3 days, 11 days",
+    "18": "no",
+    "19": "Haiti earthquake, Human genome project completed, Hubble Space Telescope launched"
+  },
+  "timeline": [
+    {
+      "name": "First airplane flight",
+      "start": "2000-11-23",
+      "end": "2000-12-15",
+      "true_date": "1903-12-17"
+    },
+    {
+      "name": "First 3D printer invented",
+      "start": "2000-12-19",
+      "end": "2001-01-06",
+      "true_date": "1984-01-01"
+    },
+    {
+      "name": "Haiti earthquake",
+      "start": "2001-01-15",
+      "end": "2001-02-13",
+      "true_date": "2010-01-12"
+    },
+    {
+      "name": "Human genome project completed",
+      "start": "2001-02-25",
+      "end": "2001-02-27",
+      "true_date": "2003-04-14"
+    },
+    {
+      "name": "Hubble Space Telescope launched",
+      "start": "2001-03-15",
+      "end": "2001-04-13",
+      "true_date": "1990-04-24"
+    },
+    {
+      "name": "Beowulf manuscript created",
+      "start": "2001-04-26",
+      "end": "2001-05-09",
+      "true_date": "1000-01-01"
+    },
+    {
+      "name": "Woodstock Festival begins",
+      "start": "2001-05-22",
+      "end": "2001-06-18",
+      "true_date": "1969-08-15"
+    },
+    {
+      "name": "Harvard College Founded",
+      "start": "2001-06-20",
+      "end": "2001-07-12",
+      "true_date": "1636-09-08"
+    },
+    {
+      "name": "Rwandan Genocide begins",
+      "start": "2001-07-21",
+      "end": "2001-07-27",
+      "true_date": "1994-04-07"
+    },
+    {
+      "name": "Brexit Referendum",
+      "start": "2001-07-31",
+      "end": "2001-08-13",
+      "true_date": "2016-06-23"
+    },
+    {
+      "name": "First radio transmission",
+      "start": "2001-08-25",
+      "end": "2001-09-22",
+      "true_date": "1895-12-24"
+    }
+  ]
+}

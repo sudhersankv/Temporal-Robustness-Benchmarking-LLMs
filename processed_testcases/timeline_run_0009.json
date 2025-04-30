@@ -1,0 +1,230 @@
+{
+  "id": "run_0009",
+  "fact_set_direct": "The event \"First World Series played\" started on 2000-11-02 and ended on 2000-11-16.\nThe event \"Aspirin patented\" started on 2000-12-06 and ended on 2000-12-25.\nThe event \"Wealth of Nations published\" started on 2001-06-09 and ended on 2001-06-30.\nThe event \"Sputnik 1 launched\" started on 2001-07-02 and ended on 2001-07-15.\nThe event \"First Commercial Jet Flight\" started on 2001-03-16 and ended on 2001-03-17.\nThe event \"Introduction of High-Speed Rail\" started on 2001-07-22 and ended on 2001-08-20.\nThe event \"First rover on Mars\" started on 2001-03-25 and ended on 2001-04-22.\nThe event \"First Podcast Released\" started on 2001-02-18 and ended on 2001-03-12.\nThe event \"Individuals with Disabilities Education Act\" started on 2001-05-05 and ended on 2001-05-20.\nThe event \"Women's Suffrage in U.S.\" started on 2000-12-28 and ended on 2001-01-25.\nThe event \"Mars rover Spirit lands\" started on 2001-02-05 and ended on 2001-02-06.",
+  "fact_set_relative": "The event \"First World Series played\" started on 2000-11-02 and ended on 2000-11-16.\n13 days after the conclusion of \"First rover on Mars\", \"Individuals with Disabilities Education Act\" began and persisted for 16 days.\n\"Introduction of High-Speed Rail\" was initiated 7 days post \"Sputnik 1 launched\" and continued for 30 days.\n\"First rover on Mars\" kicked off 8 days after \"First Commercial Jet Flight\" wrapped up and lasted 29 days.\n\"First Podcast Released\" came 12 days after \"Mars rover Spirit lands\", lasting 23 days.\n\"Women's Suffrage in U.S.\" surfaced 3 days after \"Aspirin patented\", occupying the timeline for 29 days.\n\"Mars rover Spirit lands\" surfaced 11 days after \"Women's Suffrage in U.S.\", occupying the timeline for 2 days.\nExactly 2 days elapsed between \"Wealth of Nations published\" and the start of \"Sputnik 1 launched\", which endured 14 days.\n\"First Commercial Jet Flight\" came 4 days after \"First Podcast Released\", lasting 2 days.\n\"Wealth of Nations published\" kicked off 20 days after \"Individuals with Disabilities Education Act\" wrapped up and lasted 22 days.\nExactly 20 days elapsed between \"First World Series played\" and the start of \"Aspirin patented\", which endured 20 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "List the events in chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "Provide the events from latest to earliest.",
+      "arguments": {}
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "Identify the 7th event chronologically.",
+      "arguments": {
+        "n": 7
+      }
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "Duration of Sputnik 1 launched?",
+      "arguments": {
+        "event": "Sputnik 1 launched"
+      }
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "Which event lasted the longest?",
+      "arguments": {}
+    },
+    {
+      "id": 6,
+      "templateID": "dur.shortest",
+      "question": "Identify the shortest-lasting event.",
+      "arguments": {}
+    },
+    {
+      "id": 7,
+      "templateID": "order.first",
+      "question": "Which event came first: Introduction of High-Speed Rail or Individuals with Disabilities Education Act?",
+      "arguments": {
+        "event_A": "Introduction of High-Speed Rail",
+        "event_B": "Individuals with Disabilities Education Act"
+      }
+    },
+    {
+      "id": 8,
+      "templateID": "order.first_last",
+      "question": "Which events are at the start and end of the timeline?",
+      "arguments": {}
+    },
+    {
+      "id": 9,
+      "templateID": "count.over_x",
+      "question": "Which items exceed 3 occurrences?",
+      "arguments": {
+        "x": 3
+      }
+    },
+    {
+      "id": 10,
+      "templateID": "count.same",
+      "question": "Identify events sharing the same frequency.",
+      "arguments": {}
+    },
+    {
+      "id": 11,
+      "templateID": "int.between",
+      "question": "Interval between First World Series played end and First Commercial Jet Flight start?",
+      "arguments": {
+        "event_A": "First World Series played",
+        "event_B": "First Commercial Jet Flight"
+      }
+    },
+    {
+      "id": 12,
+      "templateID": "order.count",
+      "question": "Total number of events?",
+      "arguments": {}
+    },
+    {
+      "id": 13,
+      "templateID": "order.middle",
+      "question": "Identify the middle event chronologically.",
+      "arguments": {
+        "index": 5
+      }
+    },
+    {
+      "id": 14,
+      "templateID": "dur.average",
+      "question": "What is the average duration of all events?",
+      "arguments": {}
+    },
+    {
+      "id": 15,
+      "templateID": "dur.each_asc",
+      "question": "List events with durations in ascending order.",
+      "arguments": {}
+    },
+    {
+      "id": 16,
+      "templateID": "dur.each_desc",
+      "question": "Which events, sorted by decreasing duration, occurred?",
+      "arguments": {}
+    },
+    {
+      "id": 17,
+      "templateID": "int.between_consecutive",
+      "question": "How many days separate each successive event?",
+      "arguments": {}
+    },
+    {
+      "id": 18,
+      "templateID": "int.precedes",
+      "question": "Which comes first, Aspirin patented or Mars rover Spirit lands?",
+      "arguments": {
+        "event_A": "Aspirin patented",
+        "event_B": "Mars rover Spirit lands"
+      }
+    },
+    {
+      "id": 19,
+      "templateID": "list.between",
+      "question": "What events fall between Introduction of High-Speed Rail and First World Series played?",
+      "arguments": {
+        "event_A": "Introduction of High-Speed Rail",
+        "event_B": "First World Series played"
+      }
+    }
+  ],
+  "gold_answers": {
+    "1": "First World Series played, Aspirin patented, Women's Suffrage in U.S., Mars rover Spirit lands, First Podcast Released, First Commercial Jet Flight, First rover on Mars, Individuals with Disabilities Education Act, Wealth of Nations published, Sputnik 1 launched, Introduction of High-Speed Rail",
+    "2": "Introduction of High-Speed Rail, Sputnik 1 launched, Wealth of Nations published, Individuals with Disabilities Education Act, First rover on Mars, First Commercial Jet Flight, First Podcast Released, Mars rover Spirit lands, Women's Suffrage in U.S., Aspirin patented, First World Series played",
+    "3": "First rover on Mars",
+    "4": "14 days",
+    "5": "Introduction of High-Speed Rail",
+    "6": "Mars rover Spirit lands",
+    "7": "Individuals with Disabilities Education Act",
+    "8": "First World Series played, Introduction of High-Speed Rail",
+    "9": "None",
+    "10": "First World Series played, Aspirin patented, Women's Suffrage in U.S., Mars rover Spirit lands, First Podcast Released, First Commercial Jet Flight, First rover on Mars, Individuals with Disabilities Education Act, Wealth of Nations published, Sputnik 1 launched, Introduction of High-Speed Rail",
+    "11": "119 days",
+    "12": "11",
+    "13": "First Commercial Jet Flight",
+    "14": "18 days",
+    "15": "Mars rover Spirit lands, First Commercial Jet Flight, Sputnik 1 launched, First World Series played, Individuals with Disabilities Education Act, Aspirin patented, Wealth of Nations published, First Podcast Released, Women's Suffrage in U.S., First rover on Mars, Introduction of High-Speed Rail",
+    "16": "Introduction of High-Speed Rail, Women's Suffrage in U.S., First rover on Mars, First Podcast Released, Wealth of Nations published, Aspirin patented, Individuals with Disabilities Education Act, First World Series played, Sputnik 1 launched, Mars rover Spirit lands, First Commercial Jet Flight",
+    "17": "19 days, 2 days, 10 days, 11 days, 3 days, 7 days, 12 days, 19 days, 1 days, 6 days",
+    "18": "yes",
+    "19": "Aspirin patented, Women's Suffrage in U.S., Mars rover Spirit lands, First Podcast Released, First Commercial Jet Flight, First rover on Mars, Individuals with Disabilities Education Act, Wealth of Nations published, Sputnik 1 launched"
+  },
+  "timeline": [
+    {
+      "name": "First World Series played",
+      "start": "2000-11-02",
+      "end": "2000-11-16",
+      "true_date": "1903-10-01"
+    },
+    {
+      "name": "Aspirin patented",
+      "start": "2000-12-06",
+      "end": "2000-12-25",
+      "true_date": "1899-03-06"
+    },
+    {
+      "name": "Women's Suffrage in U.S.",
+      "start": "2000-12-28",
+      "end": "2001-01-25",
+      "true_date": "1920-08-18"
+    },
+    {
+      "name": "Mars rover Spirit lands",
+      "start": "2001-02-05",
+      "end": "2001-02-06",
+      "true_date": "2004-01-04"
+    },
+    {
+      "name": "First Podcast Released",
+      "start": "2001-02-18",
+      "end": "2001-03-12",
+      "true_date": "2004-08-13"
+    },
+    {
+      "name": "First Commercial Jet Flight",
+      "start": "2001-03-16",
+      "end": "2001-03-17",
+      "true_date": "1952-05-02"
+    },
+    {
+      "name": "First rover on Mars",
+      "start": "2001-03-25",
+      "end": "2001-04-22",
+      "true_date": "1997-07-04"
+    },
+    {
+      "name": "Individuals with Disabilities Education Act",
+      "start": "2001-05-05",
+      "end": "2001-05-20",
+      "true_date": "1990-10-30"
+    },
+    {
+      "name": "Wealth of Nations published",
+      "start": "2001-06-09",
+      "end": "2001-06-30",
+      "true_date": "1776-03-09"
+    },
+    {
+      "name": "Sputnik 1 launched",
+      "start": "2001-07-02",
+      "end": "2001-07-15",
+      "true_date": "1957-10-04"
+    },
+    {
+      "name": "Introduction of High-Speed Rail",
+      "start": "2001-07-22",
+      "end": "2001-08-20",
+      "true_date": "1964-10-01"
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "id": "run_0024",
+  "fact_set_direct": "The event \"First image of black hole released\" started on 2001-12-22 and ended on 2002-01-12.\nThe event \"Federal Reserve Act signed\" started on 2001-07-03 and ended on 2001-07-28.\nThe event \"Gutenberg Bible printed\" started on 2001-05-21 and ended on 2001-05-31.\nThe event \"Panic of 1837 begins\" started on 2001-08-10 and ended on 2001-09-06.\nThe event \"First Steam Locomotive Run\" started on 2001-09-23 and ended on 2001-10-13.\nThe event \"First Man on the Moon\" started on 2001-02-28 and ended on 2001-03-10.\nThe event \"Luna 3 photographs Moon's far side\" started on 2001-02-06 and ended on 2001-02-12.\nThe event \"Abolition of Slavery in U.S.\" started on 2001-01-05 and ended on 2001-01-23.\nThe event \"Smallpox vaccine developed\" started on 2002-01-28 and ended on 2002-02-17.\nThe event \"First vaccine for rabies\" started on 2001-10-15 and ended on 2001-10-17.\nThe event \"Nation at Risk Report Released\" started on 2002-02-20 and ended on 2002-03-21.\nThe event \"Six‑Day War begins\" started on 2000-12-04 and ended on 2000-12-23.\nThe event \"Social Security Act signed\" started on 2002-03-26 and ended on 2002-04-15.\nThe event \"COVID-19 vaccine approved\" started on 2002-01-15 and ended on 2002-01-22.\nThe event \"Panic of 1873 triggers depression\" started on 2000-11-23 and ended on 2000-12-02.\nThe event \"HIV identified\" started on 2001-06-16 and ended on 2001-06-26.\nThe event \"World Wide Web Invented\" started on 2001-11-12 and ended on 2001-12-08.\nThe event \"Rwandan Genocide begins\" started on 2002-04-27 and ended on 2002-04-27.\nThe event \"Leicester City wins Premier League\" started on 2001-03-20 and ended on 2001-04-06.\nThe event \"Shakespeare's Globe opens\" started on 2001-04-19 and ended on 2001-05-09.\nThe event \"COVID-19 pandemic declared\" started on 2001-11-04 and ended on 2001-11-08.",
+  "fact_set_relative": "The event \"Panic of 1873 triggers depression\" started on 2000-11-23 and ended on 2000-12-02.\n\"Six‑Day War begins\" surfaced 2 days after \"Panic of 1873 triggers depression\", occupying the timeline for 20 days.\n\"Panic of 1837 begins\" surfaced 13 days after \"Federal Reserve Act signed\", occupying the timeline for 28 days.\n\"Federal Reserve Act signed\" came 7 days after \"HIV identified\", lasting 26 days.\n14 days after the conclusion of \"World Wide Web Invented\", \"First image of black hole released\" began and persisted for 22 days.\n\"First vaccine for rabies\" was initiated 2 days post \"First Steam Locomotive Run\" and continued for 3 days.\nFollowing \"Nation at Risk Report Released\" by 5 days, \"Social Security Act signed\" spanned 21 days.\n\"Shakespeare's Globe opens\" surfaced 13 days after \"Leicester City wins Premier League\", occupying the timeline for 21 days.\n\"Leicester City wins Premier League\" was initiated 10 days post \"First Man on the Moon\" and continued for 18 days.\n\"Smallpox vaccine developed\" surfaced 6 days after \"COVID-19 vaccine approved\", occupying the timeline for 21 days.\nIt took 12 days after \"Shakespeare's Globe opens\" ended for \"Gutenberg Bible printed\" to commence; it ran 11 days.\nExactly 4 days elapsed between \"COVID-19 pandemic declared\" and the start of \"World Wide Web Invented\", which endured 27 days.\nExactly 16 days elapsed between \"Gutenberg Bible printed\" and the start of \"HIV identified\", which endured 11 days.\n\"Rwandan Genocide begins\" came 12 days after \"Social Security Act signed\", lasting 1 days.\n\"COVID-19 pandemic declared\" kicked off 18 days after \"First vaccine for rabies\" wrapped up and lasted 5 days.\n\"COVID-19 vaccine approved\" followed \"First image of black hole released\" by 3 days and endured 8 days.\n\"Nation at Risk Report Released\" was initiated 3 days post \"Smallpox vaccine developed\" and continued for 30 days.\nIt took 17 days after \"Panic of 1837 begins\" ended for \"First Steam Locomotive Run\" to commence; it ran 21 days.\nThe interval of 16 days between \"Luna 3 photographs Moon's far side\" and \"First Man on the Moon\" marked the start of another 11-day chapter.\n\"Abolition of Slavery in U.S.\" came 13 days after \"Six‑Day War begins\", lasting 19 days.\nExactly 14 days elapsed between \"Abolition of Slavery in U.S.\" and the start of \"Luna 3 photographs Moon's far side\", which endured 7 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "List the events in chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "What is the reverse order of the events?",
+      "arguments": {}
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "What is the 14th event chronologically?",
+      "arguments": {
+        "n": 14
+      }
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "How long did Shakespeare's Globe opens last?",
+      "arguments": {
+        "event": "Shakespeare's Globe opens"
+      }
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "Identify the longest-lasting event.",
+      "arguments": {}
+    },
+    {
+      "id": 6,
+      "templateID": "dur.shortest",
+      "question": "What event had the minimum duration?",
+      "arguments": {}
+    },
+    {
+      "id": 7,
+      "templateID": "order.first",
+      "question": "What occurred earlier, First image of black hole released or Six‑Day War begins?",
+      "arguments": {
+        "event_A": "First image of black hole released",
+        "event_B": "Six‑Day War begins"
+      }
+    },
+    {
+      "id": 8,
+      "templateID": "order.first_last",
+      "question": "What is the first and last event?",
+      "arguments": {}
+    },
+    {
+      "id": 9,
+      "templateID": "count.over_x",
+      "question": "Name events that happened over 5 times.",
+      "arguments": {
+        "x": 5
+      }
+    },
+    {
+      "id": 10,
+      "templateID": "count.same",
+      "question": "List events that occurred equally often.",
+      "arguments": {}
+    },
+    {
+      "id": 11,
+      "templateID": "int.between",
+      "question": "Interval between Panic of 1873 triggers depression end and First image of black hole released start?",
+      "arguments": {
+        "event_A": "Panic of 1873 triggers depression",
+        "event_B": "First image of black hole released"
+      }
+    },
+    {
+      "id": 12,
+      "templateID": "order.count",
+      "question": "Total number of events?",
+      "arguments": {}
+    },
+    {
+      "id": 13,
+      "templateID": "order.middle",
+      "question": "What event sits at the midpoint of the timeline?",
+      "arguments": {
+        "index": 10
+      }
+    },
+    {
+      "id": 14,
+      "templateID": "dur.average",
+      "question": "Compute the mean event duration.",
+      "arguments": {}
+    },
+    {
+      "id": 15,
+      "templateID": "dur.each_asc",
+      "question": "List events with durations in ascending order.",
+      "arguments": {}
+    },
+    {
+      "id": 16,
+      "templateID": "dur.each_desc",
+      "question": "Which events, sorted by decreasing duration, occurred?",
+      "arguments": {}
+    },
+    {
+      "id": 17,
+      "templateID": "int.between_consecutive",
+      "question": "What are the time intervals between consecutive events?",
+      "arguments": {}
+    },
+    {
+      "id": 18,
+      "templateID": "int.precedes",
+      "question": "Does COVID-19 pandemic declared occur before Abolition of Slavery in U.S.?",
+      "arguments": {
+        "event_A": "COVID-19 pandemic declared",
+        "event_B": "Abolition of Slavery in U.S."
+      }
+    },
+    {
+      "id": 19,
+      "templateID": "list.between",
+      "question": "Name events occurring between First image of black hole released and HIV identified.",
+      "arguments": {
+        "event_A": "First image of black hole released",
+        "event_B": "HIV identified"
+      }
+    }
+  ],
+  "gold_answers": {
+    "1": "Panic of 1873 triggers depression, Six‑Day War begins, Abolition of Slavery in U.S., Luna 3 photographs Moon's far side, First Man on the Moon, Leicester City wins Premier League, Shakespeare's Globe opens, Gutenberg Bible printed, HIV identified, Federal Reserve Act signed, Panic of 1837 begins, First Steam Locomotive Run, First vaccine for rabies, COVID-19 pandemic declared, World Wide Web Invented, First image of black hole released, COVID-19 vaccine approved, Smallpox vaccine developed, Nation at Risk Report Released, Social Security Act signed, Rwandan Genocide begins",
+    "2": "Rwandan Genocide begins, Social Security Act signed, Nation at Risk Report Released, Smallpox vaccine developed, COVID-19 vaccine approved, First image of black hole released, World Wide Web Invented, COVID-19 pandemic declared, First vaccine for rabies, First Steam Locomotive Run, Panic of 1837 begins, Federal Reserve Act signed, HIV identified, Gutenberg Bible printed, Shakespeare's Globe opens, Leicester City wins Premier League, First Man on the Moon, Luna 3 photographs Moon's far side, Abolition of Slavery in U.S., Six‑Day War begins, Panic of 1873 triggers depression",
+    "3": "COVID-19 pandemic declared",
+    "4": "21 days",
+    "5": "Nation at Risk Report Released",
+    "6": "Rwandan Genocide begins",
+    "7": "Six‑Day War begins",
+    "8": "Panic of 1873 triggers depression, Rwandan Genocide begins",
+    "9": "None",
+    "10": "Panic of 1873 triggers depression, Six‑Day War begins, Abolition of Slavery in U.S., Luna 3 photographs Moon's far side, First Man on the Moon, Leicester City wins Premier League, Shakespeare's Globe opens, Gutenberg Bible printed, HIV identified, Federal Reserve Act signed, Panic of 1837 begins, First Steam Locomotive Run, First vaccine for rabies, COVID-19 pandemic declared, World Wide Web Invented, First image of black hole released, COVID-19 vaccine approved, Smallpox vaccine developed, Nation at Risk Report Released, Social Security Act signed, Rwandan Genocide begins",
+    "11": "384 days",
+    "12": "21",
+    "13": "Panic of 1837 begins",
+    "14": "16 days",
+    "15": "Rwandan Genocide begins, First vaccine for rabies, COVID-19 pandemic declared, Luna 3 photographs Moon's far side, COVID-19 vaccine approved, Panic of 1873 triggers depression, First Man on the Moon, Gutenberg Bible printed, HIV identified, Leicester City wins Premier League, Abolition of Slavery in U.S., Six‑Day War begins, Shakespeare's Globe opens, First Steam Locomotive Run, Smallpox vaccine developed, Social Security Act signed, First image of black hole released, Federal Reserve Act signed, World Wide Web Invented, Panic of 1837 begins, Nation at Risk Report Released",
+    "16": "Nation at Risk Report Released, Panic of 1837 begins, World Wide Web Invented, Federal Reserve Act signed, First image of black hole released, Shakespeare's Globe opens, First Steam Locomotive Run, Smallpox vaccine developed, Social Security Act signed, Six‑Day War begins, Abolition of Slavery in U.S., Leicester City wins Premier League, First Man on the Moon, Gutenberg Bible printed, HIV identified, Panic of 1873 triggers depression, COVID-19 vaccine approved, Luna 3 photographs Moon's far side, COVID-19 pandemic declared, First vaccine for rabies, Rwandan Genocide begins",
+    "17": "1 days, 12 days, 13 days, 15 days, 9 days, 12 days, 11 days, 15 days, 6 days, 12 days, 16 days, 1 days, 17 days, 3 days, 13 days, 2 days, 5 days, 2 days, 4 days, 11 days",
+    "18": "no",
+    "19": "Federal Reserve Act signed, Panic of 1837 begins, First Steam Locomotive Run, First vaccine for rabies, COVID-19 pandemic declared, World Wide Web Invented"
+  },
+  "timeline": [
+    {
+      "name": "Panic of 1873 triggers depression",
+      "start": "2000-11-23",
+      "end": "2000-12-02",
+      "true_date": "1873-09-18"
+    },
+    {
+      "name": "Six‑Day War begins",
+      "start": "2000-12-04",
+      "end": "2000-12-23",
+      "true_date": "1967-06-05"
+    },
+    {
+      "name": "Abolition of Slavery in U.S.",
+      "start": "2001-01-05",
+      "end": "2001-01-23",
+      "true_date": "1865-12-06"
+    },
+    {
+      "name": "Luna 3 photographs Moon's far side",
+      "start": "2001-02-06",
+      "end": "2001-02-12",
+      "true_date": "1959-10-07"
+    },
+    {
+      "name": "First Man on the Moon",
+      "start": "2001-02-28",
+      "end": "2001-03-10",
+      "true_date": "1969-07-20"
+    },
+    {
+      "name": "Leicester City wins Premier League",
+      "start": "2001-03-20",
+      "end": "2001-04-06",
+      "true_date": "2016-05-02"
+    },
+    {
+      "name": "Shakespeare's Globe opens",
+      "start": "2001-04-19",
+      "end": "2001-05-09",
+      "true_date": "1599-06-12"
+    },
+    {
+      "name": "Gutenberg Bible printed",
+      "start": "2001-05-21",
+      "end": "2001-05-31",
+      "true_date": "1455-01-01"
+    },
+    {
+      "name": "HIV identified",
+      "start": "2001-06-16",
+      "end": "2001-06-26",
+      "true_date": "1983-05-20"
+    },
+    {
+      "name": "Federal Reserve Act signed",
+      "start": "2001-07-03",
+      "end": "2001-07-28",
+      "true_date": "1913-12-23"
+    },
+    {
+      "name": "Panic of 1837 begins",
+      "start": "2001-08-10",
+      "end": "2001-09-06",
+      "true_date": "1837-05-10"
+    },
+    {
+      "name": "First Steam Locomotive Run",
+      "start": "2001-09-23",
+      "end": "2001-10-13",
+      "true_date": "1804-02-21"
+    },
+    {
+      "name": "First vaccine for rabies",
+      "start": "2001-10-15",
+      "end": "2001-10-17",
+      "true_date": "1885-07-06"
+    },
+    {
+      "name": "COVID-19 pandemic declared",
+      "start": "2001-11-04",
+      "end": "2001-11-08",
+      "true_date": "2020-03-11"
+    },
+    {
+      "name": "World Wide Web Invented",
+      "start": "2001-11-12",
+      "end": "2001-12-08",
+      "true_date": "1989-03-12"
+    },
+    {
+      "name": "First image of black hole released",
+      "start": "2001-12-22",
+      "end": "2002-01-12",
+      "true_date": "2019-04-10"
+    },
+    {
+      "name": "COVID-19 vaccine approved",
+      "start": "2002-01-15",
+      "end": "2002-01-22",
+      "true_date": "2020-12-11"
+    },
+    {
+      "name": "Smallpox vaccine developed",
+      "start": "2002-01-28",
+      "end": "2002-02-17",
+      "true_date": "1796-05-14"
+    },
+    {
+      "name": "Nation at Risk Report Released",
+      "start": "2002-02-20",
+      "end": "2002-03-21",
+      "true_date": "1983-04-26"
+    },
+    {
+      "name": "Social Security Act signed",
+      "start": "2002-03-26",
+      "end": "2002-04-15",
+      "true_date": "1935-08-14"
+    },
+    {
+      "name": "Rwandan Genocide begins",
+      "start": "2002-04-27",
+      "end": "2002-04-27",
+      "true_date": "1994-04-07"
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "id": "run_0018",
+  "fact_set_direct": "The event \"Equal Rights Amendment Passed\" started on 2000-10-23 and ended on 2000-11-15.\nThe event \"First mass production line\" started on 2000-11-28 and ended on 2000-12-06.\nThe event \"First stock exchange established\" started on 2000-08-22 and ended on 2000-09-08.\nThe event \"Roe v. Wade Decision\" started on 2001-01-03 and ended on 2001-01-10.\nThe event \"Common Core Standards Released\" started on 2000-06-08 and ended on 2000-06-18.\nThe event \"First smartphone released\" started on 2000-10-06 and ended on 2000-10-08.\nThe event \"First UFC event held\" started on 2000-05-07 and ended on 2000-06-03.\nThe event \"First Transcontinental Railroad Completed\" started on 2000-09-15 and ended on 2000-09-19.\nThe event \"First Motorized Scooter Introduced\" started on 2000-06-25 and ended on 2000-06-29.\nThe event \"Dissolution of the Soviet Union\" started on 2000-07-19 and ended on 2000-08-03.\nThe event \"First Autonomous Car Tested\" started on 2000-03-13 and ended on 2000-04-04.\nThe event \"First Space Shuttle Launch\" started on 2000-12-22 and ended on 2000-12-22.\nThe event \"Pioneer 10 exits Solar System\" started on 2000-07-01 and ended on 2000-07-06.\nThe event \"Florin introduced in Florence\" started on 2000-04-22 and ended on 2000-04-29.\nThe event \"Apollo 8 orbits Moon\" started on 2000-10-17 and ended on 2000-10-18.",
+  "fact_set_relative": "The event \"First Autonomous Car Tested\" started on 2000-03-13 and ended on 2000-04-04.\n\"First Space Shuttle Launch\" followed \"First mass production line\" by 16 days and endured 1 days.\n2 days after the conclusion of \"First Motorized Scooter Introduced\", \"Pioneer 10 exits Solar System\" began and persisted for 6 days.\n\"Florin introduced in Florence\" surfaced 18 days after \"First Autonomous Car Tested\", occupying the timeline for 8 days.\n\"Roe v. Wade Decision\" surfaced 12 days after \"First Space Shuttle Launch\", occupying the timeline for 8 days.\n19 days after the conclusion of \"Dissolution of the Soviet Union\", \"First stock exchange established\" began and persisted for 18 days.\n\"Equal Rights Amendment Passed\" came 5 days after \"Apollo 8 orbits Moon\", lasting 24 days.\n7 days after the conclusion of \"Common Core Standards Released\", \"First Motorized Scooter Introduced\" began and persisted for 5 days.\n\"First mass production line\" surfaced 13 days after \"Equal Rights Amendment Passed\", occupying the timeline for 9 days.\n8 days after the conclusion of \"Florin introduced in Florence\", \"First UFC event held\" began and persisted for 28 days.\n\"First Transcontinental Railroad Completed\" came 7 days after \"First stock exchange established\", lasting 5 days.\nExactly 13 days elapsed between \"Pioneer 10 exits Solar System\" and the start of \"Dissolution of the Soviet Union\", which endured 16 days.\nThe interval of 5 days between \"First UFC event held\" and \"Common Core Standards Released\" marked the start of another 11-day chapter.\n\"First smartphone released\" came 17 days after \"First Transcontinental Railroad Completed\", lasting 3 days.\n\"Apollo 8 orbits Moon\" surfaced 9 days after \"First smartphone released\", occupying the timeline for 2 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "List the events in chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "List the events in reverse chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "Identify the 3rd event chronologically.",
+      "arguments": {
+        "n": 3
+      }
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "For how many days did Common Core Standards Released occur?",
+      "arguments": {
+        "event": "Common Core Standards Released"
+      }
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "Which event lasted the longest?",
+      "arguments": {}
+    },
+    {
+      "id": 6,
+      "templateID": "dur.shortest",
+      "question": "What event had the minimum duration?",
+      "arguments": {}
+    },
+    {
+      "id": 7,
+      "templateID": "order.first",
+      "question": "Did First smartphone released or Roe v. Wade Decision occur first?",
+      "arguments": {
+        "event_A": "First smartphone released",
+        "event_B": "Roe v. Wade Decision"
+      }
+    },
+    {
+      "id": 8,
+      "templateID": "order.first_last",
+      "question": "What is the first and last event?",
+      "arguments": {}
+    },
+    {
+      "id": 9,
+      "templateID": "count.over_x",
+      "question": "Events occurring more than 3 times?",
+      "arguments": {
+        "x": 3
+      }
+    },
+    {
+      "id": 10,
+      "templateID": "count.same",
+      "question": "Which events have the same occurrence count?",
+      "arguments": {}
+    },
+    {
+      "id": 11,
+      "templateID": "int.between",
+      "question": "How many days passed between Florin introduced in Florence ending and First Space Shuttle Launch starting?",
+      "arguments": {
+        "event_A": "Florin introduced in Florence",
+        "event_B": "First Space Shuttle Launch"
+      }
+    },
+    {
+      "id": 12,
+      "templateID": "order.count",
+      "question": "Count of events in the timeline?",
+      "arguments": {}
+    },
+    {
+      "id": 13,
+      "templateID": "order.middle",
+      "question": "Which event is in the middle of the sequence?",
+      "arguments": {
+        "index": 7
+      }
+    },
+    {
+      "id": 14,
+      "templateID": "dur.average",
+      "question": "Compute the mean event duration.",
+      "arguments": {}
+    },
+    {
+      "id": 15,
+      "templateID": "dur.each_asc",
+      "question": "List events with durations in ascending order.",
+      "arguments": {}
+    },
+    {
+      "id": 16,
+      "templateID": "dur.each_desc",
+      "question": "List events with durations in descending order.",
+      "arguments": {}
+    },
+    {
+      "id": 17,
+      "templateID": "int.between_consecutive",
+      "question": "How many days separate each successive event?",
+      "arguments": {}
+    },
+    {
+      "id": 18,
+      "templateID": "int.precedes",
+      "question": "Is Equal Rights Amendment Passed earlier than Roe v. Wade Decision?",
+      "arguments": {
+        "event_A": "Equal Rights Amendment Passed",
+        "event_B": "Roe v. Wade Decision"
+      }
+    },
+    {
+      "id": 19,
+      "templateID": "list.between",
+      "question": "What events fall between First Transcontinental Railroad Completed and Florin introduced in Florence?",
+      "arguments": {
+        "event_A": "First Transcontinental Railroad Completed",
+        "event_B": "Florin introduced in Florence"
+      }
+    }
+  ],
+  "gold_answers": {
+    "1": "First Autonomous Car Tested, Florin introduced in Florence, First UFC event held, Common Core Standards Released, First Motorized Scooter Introduced, Pioneer 10 exits Solar System, Dissolution of the Soviet Union, First stock exchange established, First Transcontinental Railroad Completed, First smartphone released, Apollo 8 orbits Moon, Equal Rights Amendment Passed, First mass production line, First Space Shuttle Launch, Roe v. Wade Decision",
+    "2": "Roe v. Wade Decision, First Space Shuttle Launch, First mass production line, Equal Rights Amendment Passed, Apollo 8 orbits Moon, First smartphone released, First Transcontinental Railroad Completed, First stock exchange established, Dissolution of the Soviet Union, Pioneer 10 exits Solar System, First Motorized Scooter Introduced, Common Core Standards Released, First UFC event held, Florin introduced in Florence, First Autonomous Car Tested",
+    "3": "First UFC event held",
+    "4": "11 days",
+    "5": "First UFC event held",
+    "6": "First Space Shuttle Launch",
+    "7": "First smartphone released",
+    "8": "First Autonomous Car Tested, Roe v. Wade Decision",
+    "9": "None",
+    "10": "First Autonomous Car Tested, Florin introduced in Florence, First UFC event held, Common Core Standards Released, First Motorized Scooter Introduced, Pioneer 10 exits Solar System, Dissolution of the Soviet Union, First stock exchange established, First Transcontinental Railroad Completed, First smartphone released, Apollo 8 orbits Moon, Equal Rights Amendment Passed, First mass production line, First Space Shuttle Launch, Roe v. Wade Decision",
+    "11": "236 days",
+    "12": "15",
+    "13": "First stock exchange established",
+    "14": "11 days",
+    "15": "First Space Shuttle Launch, Apollo 8 orbits Moon, First smartphone released, First Motorized Scooter Introduced, First Transcontinental Railroad Completed, Pioneer 10 exits Solar System, Florin introduced in Florence, Roe v. Wade Decision, First mass production line, Common Core Standards Released, Dissolution of the Soviet Union, First stock exchange established, First Autonomous Car Tested, Equal Rights Amendment Passed, First UFC event held",
+    "16": "First UFC event held, Equal Rights Amendment Passed, First Autonomous Car Tested, First stock exchange established, Dissolution of the Soviet Union, Common Core Standards Released, First mass production line, Florin introduced in Florence, Roe v. Wade Decision, Pioneer 10 exits Solar System, First Motorized Scooter Introduced, First Transcontinental Railroad Completed, First smartphone released, Apollo 8 orbits Moon, First Space Shuttle Launch",
+    "17": "17 days, 7 days, 4 days, 6 days, 1 days, 12 days, 18 days, 6 days, 16 days, 8 days, 4 days, 12 days, 15 days, 11 days",
+    "18": "yes",
+    "19": "First UFC event held, Common Core Standards Released, First Motorized Scooter Introduced, Pioneer 10 exits Solar System, Dissolution of the Soviet Union, First stock exchange established"
+  },
+  "timeline": [
+    {
+      "name": "First Autonomous Car Tested",
+      "start": "2000-03-13",
+      "end": "2000-04-04",
+      "true_date": "2010-10-01"
+    },
+    {
+      "name": "Florin introduced in Florence",
+      "start": "2000-04-22",
+      "end": "2000-04-29",
+      "true_date": "1252-01-01"
+    },
+    {
+      "name": "First UFC event held",
+      "start": "2000-05-07",
+      "end": "2000-06-03",
+      "true_date": "1993-11-12"
+    },
+    {
+      "name": "Common Core Standards Released",
+      "start": "2000-06-08",
+      "end": "2000-06-18",
+      "true_date": "2010-06-02"
+    },
+    {
+      "name": "First Motorized Scooter Introduced",
+      "start": "2000-06-25",
+      "end": "2000-06-29",
+      "true_date": "1915-01-01"
+    },
+    {
+      "name": "Pioneer 10 exits Solar System",
+      "start": "2000-07-01",
+      "end": "2000-07-06",
+      "true_date": "1972-03-02"
+    },
+    {
+      "name": "Dissolution of the Soviet Union",
+      "start": "2000-07-19",
+      "end": "2000-08-03",
+      "true_date": "1991-12-26"
+    },
+    {
+      "name": "First stock exchange established",
+      "start": "2000-08-22",
+      "end": "2000-09-08",
+      "true_date": "1602-03-20"
+    },
+    {
+      "name": "First Transcontinental Railroad Completed",
+      "start": "2000-09-15",
+      "end": "2000-09-19",
+      "true_date": "1869-05-10"
+    },
+    {
+      "name": "First smartphone released",
+      "start": "2000-10-06",
+      "end": "2000-10-08",
+      "true_date": "1994-08-16"
+    },
+    {
+      "name": "Apollo 8 orbits Moon",
+      "start": "2000-10-17",
+      "end": "2000-10-18",
+      "true_date": "1968-12-24"
+    },
+    {
+      "name": "Equal Rights Amendment Passed",
+      "start": "2000-10-23",
+      "end": "2000-11-15",
+      "true_date": "1972-03-22"
+    },
+    {
+      "name": "First mass production line",
+      "start": "2000-11-28",
+      "end": "2000-12-06",
+      "true_date": "1913-12-01"
+    },
+    {
+      "name": "First Space Shuttle Launch",
+      "start": "2000-12-22",
+      "end": "2000-12-22",
+      "true_date": "1981-04-12"
+    },
+    {
+      "name": "Roe v. Wade Decision",
+      "start": "2001-01-03",
+      "end": "2001-01-10",
+      "true_date": "1973-01-22"
+    }
+  ]
+}

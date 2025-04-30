@@ -1,0 +1,254 @@
+{
+  "id": "run_0015",
+  "fact_set_direct": "The event \"International Space Station assembled\" started on 2001-01-17 and ended on 2001-02-01.\nThe event \"First Paralympic Games held\" started on 2001-08-07 and ended on 2001-08-21.\nThe event \"First Social Media Platform Launched\" started on 2001-03-26 and ended on 2001-04-08.\nThe event \"Telephone invented\" started on 2001-02-03 and ended on 2001-02-24.\nThe event \"First successful gene therapy\" started on 2001-07-16 and ended on 2001-07-22.\nThe event \"Title IX Enacted\" started on 2001-05-11 and ended on 2001-05-14.\nThe event \"First Commercial Drone Delivery\" started on 2001-04-17 and ended on 2001-05-10.\nThe event \"Roman Roads Constructed\" started on 2001-10-10 and ended on 2001-11-06.\nThe event \"Moon Landing\" started on 2001-05-23 and ended on 2001-06-14.\nThe event \"Tom Brady wins 7th Super Bowl\" started on 2001-03-07 and ended on 2001-03-20.\nThe event \"First human in space\" started on 2001-06-22 and ended on 2001-07-07.\nThe event \"Black Lives Matter protests\" started on 2001-09-10 and ended on 2001-10-03.\nThe event \"Stethoscope invented\" started on 2000-12-14 and ended on 2001-01-04.\nThe event \"First image of black hole released\" started on 2001-08-23 and ended on 2001-08-29.\nThe event \"Leaves of Grass released\" started on 2001-11-14 and ended on 2001-11-16.",
+  "fact_set_relative": "The event \"Stethoscope invented\" started on 2000-12-14 and ended on 2001-01-04.\n\"Roman Roads Constructed\" was initiated 7 days post \"Black Lives Matter protests\" and continued for 28 days.\nExactly 1 days elapsed between \"First Commercial Drone Delivery\" and the start of \"Title IX Enacted\", which endured 4 days.\nExactly 2 days elapsed between \"International Space Station assembled\" and the start of \"Telephone invented\", which endured 22 days.\nExactly 11 days elapsed between \"Telephone invented\" and the start of \"Tom Brady wins 7th Super Bowl\", which endured 14 days.\n\"First image of black hole released\" came 2 days after \"First Paralympic Games held\", lasting 7 days.\n16 days after the conclusion of \"First successful gene therapy\", \"First Paralympic Games held\" began and persisted for 15 days.\n\"Moon Landing\" kicked off 9 days after \"Title IX Enacted\" wrapped up and lasted 23 days.\n\"International Space Station assembled\" followed \"Stethoscope invented\" by 13 days and endured 16 days.\n\"Leaves of Grass released\" was initiated 8 days post \"Roman Roads Constructed\" and continued for 3 days.\n8 days after the conclusion of \"Moon Landing\", \"First human in space\" began and persisted for 16 days.\n\"First Commercial Drone Delivery\" kicked off 9 days after \"First Social Media Platform Launched\" wrapped up and lasted 24 days.\n\"Black Lives Matter protests\" came 12 days after \"First image of black hole released\", lasting 24 days.\n\"First successful gene therapy\" followed \"First human in space\" by 9 days and endured 7 days.\n\"First Social Media Platform Launched\" followed \"Tom Brady wins 7th Super Bowl\" by 6 days and endured 14 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "List the events in chronological order.",
+      "arguments": {}
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "What is the reverse order of the events?",
+      "arguments": {}
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "Identify the 14th event chronologically.",
+      "arguments": {
+        "n": 14
+      }
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "Duration of First human in space?",
+      "arguments": {
+        "event": "First human in space"
+      }
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "Which event lasted the longest?",
+      "arguments": {}
+    },
+    {
+      "id": 6,
+      "templateID": "dur.shortest",
+      "question": "Which event lasted the shortest?",
+      "arguments": {}
+    },
+    {
+      "id": 7,
+      "templateID": "order.first",
+      "question": "Which of Title IX Enacted and Roman Roads Constructed occurred first?",
+      "arguments": {
+        "event_A": "Title IX Enacted",
+        "event_B": "Roman Roads Constructed"
+      }
+    },
+    {
+      "id": 8,
+      "templateID": "order.first_last",
+      "question": "Which events are at the start and end of the timeline?",
+      "arguments": {}
+    },
+    {
+      "id": 9,
+      "templateID": "count.over_x",
+      "question": "List events with frequency > 2.",
+      "arguments": {
+        "x": 2
+      }
+    },
+    {
+      "id": 10,
+      "templateID": "count.same",
+      "question": "Which events have the same occurrence count?",
+      "arguments": {}
+    },
+    {
+      "id": 11,
+      "templateID": "int.between",
+      "question": "Calculate days between International Space Station assembled and First successful gene therapy.",
+      "arguments": {
+        "event_A": "International Space Station assembled",
+        "event_B": "First successful gene therapy"
+      }
+    },
+    {
+      "id": 12,
+      "templateID": "order.count",
+      "question": "Count of events in the timeline?",
+      "arguments": {}
+    },
+    {
+      "id": 13,
+      "templateID": "order.middle",
+      "question": "Identify the middle event chronologically.",
+      "arguments": {
+        "index": 7
+      }
+    },
+    {
+      "id": 14,
+      "templateID": "dur.average",
+      "question": "Compute the mean event duration.",
+      "arguments": {}
+    },
+    {
+      "id": 15,
+      "templateID": "dur.each_asc",
+      "question": "Which events, sorted by increasing duration, occurred?",
+      "arguments": {}
+    },
+    {
+      "id": 16,
+      "templateID": "dur.each_desc",
+      "question": "Which events, sorted by decreasing duration, occurred?",
+      "arguments": {}
+    },
+    {
+      "id": 17,
+      "templateID": "int.between_consecutive",
+      "question": "List the days between each pair of consecutive events.",
+      "arguments": {}
+    },
+    {
+      "id": 18,
+      "templateID": "int.precedes",
+      "question": "Which comes first, First Commercial Drone Delivery or First successful gene therapy?",
+      "arguments": {
+        "event_A": "First Commercial Drone Delivery",
+        "event_B": "First successful gene therapy"
+      }
+    },
+    {
+      "id": 19,
+      "templateID": "list.between",
+      "question": "Identify events between First Commercial Drone Delivery and Tom Brady wins 7th Super Bowl.",
+      "arguments": {
+        "event_A": "First Commercial Drone Delivery",
+        "event_B": "Tom Brady wins 7th Super Bowl"
+      }
+    }
+  ],
+  "gold_answers": {
+    "1": "Stethoscope invented, International Space Station assembled, Telephone invented, Tom Brady wins 7th Super Bowl, First Social Media Platform Launched, First Commercial Drone Delivery, Title IX Enacted, Moon Landing, First human in space, First successful gene therapy, First Paralympic Games held, First image of black hole released, Black Lives Matter protests, Roman Roads Constructed, Leaves of Grass released",
+    "2": "Leaves of Grass released, Roman Roads Constructed, Black Lives Matter protests, First image of black hole released, First Paralympic Games held, First successful gene therapy, First human in space, Moon Landing, Title IX Enacted, First Commercial Drone Delivery, First Social Media Platform Launched, Tom Brady wins 7th Super Bowl, Telephone invented, International Space Station assembled, Stethoscope invented",
+    "3": "Roman Roads Constructed",
+    "4": "16 days",
+    "5": "Roman Roads Constructed",
+    "6": "Leaves of Grass released",
+    "7": "Title IX Enacted",
+    "8": "Stethoscope invented, Leaves of Grass released",
+    "9": "None",
+    "10": "Stethoscope invented, International Space Station assembled, Telephone invented, Tom Brady wins 7th Super Bowl, First Social Media Platform Launched, First Commercial Drone Delivery, Title IX Enacted, Moon Landing, First human in space, First successful gene therapy, First Paralympic Games held, First image of black hole released, Black Lives Matter protests, Roman Roads Constructed, Leaves of Grass released",
+    "11": "164 days",
+    "12": "15",
+    "13": "Moon Landing",
+    "14": "16 days",
+    "15": "Leaves of Grass released, Title IX Enacted, First successful gene therapy, First image of black hole released, Tom Brady wins 7th Super Bowl, First Social Media Platform Launched, First Paralympic Games held, International Space Station assembled, First human in space, Stethoscope invented, Telephone invented, Moon Landing, First Commercial Drone Delivery, Black Lives Matter protests, Roman Roads Constructed",
+    "16": "Roman Roads Constructed, First Commercial Drone Delivery, Black Lives Matter protests, Moon Landing, Stethoscope invented, Telephone invented, International Space Station assembled, First human in space, First Paralympic Games held, Tom Brady wins 7th Super Bowl, First Social Media Platform Launched, First successful gene therapy, First image of black hole released, Title IX Enacted, Leaves of Grass released",
+    "17": "12 days, 1 days, 10 days, 5 days, 8 days, 0 days, 8 days, 7 days, 8 days, 15 days, 1 days, 11 days, 6 days, 7 days",
+    "18": "yes",
+    "19": "First Social Media Platform Launched"
+  },
+  "timeline": [
+    {
+      "name": "Stethoscope invented",
+      "start": "2000-12-14",
+      "end": "2001-01-04",
+      "true_date": "1816-01-01"
+    },
+    {
+      "name": "International Space Station assembled",
+      "start": "2001-01-17",
+      "end": "2001-02-01",
+      "true_date": "1998-11-20"
+    },
+    {
+      "name": "Telephone invented",
+      "start": "2001-02-03",
+      "end": "2001-02-24",
+      "true_date": "1876-03-10"
+    },
+    {
+      "name": "Tom Brady wins 7th Super Bowl",
+      "start": "2001-03-07",
+      "end": "2001-03-20",
+      "true_date": "2021-02-07"
+    },
+    {
+      "name": "First Social Media Platform Launched",
+      "start": "2001-03-26",
+      "end": "2001-04-08",
+      "true_date": "1997-07-01"
+    },
+    {
+      "name": "First Commercial Drone Delivery",
+      "start": "2001-04-17",
+      "end": "2001-05-10",
+      "true_date": "2016-07-22"
+    },
+    {
+      "name": "Title IX Enacted",
+      "start": "2001-05-11",
+      "end": "2001-05-14",
+      "true_date": "1972-06-23"
+    },
+    {
+      "name": "Moon Landing",
+      "start": "2001-05-23",
+      "end": "2001-06-14",
+      "true_date": "1969-07-20"
+    },
+    {
+      "name": "First human in space",
+      "start": "2001-06-22",
+      "end": "2001-07-07",
+      "true_date": "1961-04-12"
+    },
+    {
+      "name": "First successful gene therapy",
+      "start": "2001-07-16",
+      "end": "2001-07-22",
+      "true_date": "1990-09-14"
+    },
+    {
+      "name": "First Paralympic Games held",
+      "start": "2001-08-07",
+      "end": "2001-08-21",
+      "true_date": "1960-09-18"
+    },
+    {
+      "name": "First image of black hole released",
+      "start": "2001-08-23",
+      "end": "2001-08-29",
+      "true_date": "2019-04-10"
+    },
+    {
+      "name": "Black Lives Matter protests",
+      "start": "2001-09-10",
+      "end": "2001-10-03",
+      "true_date": "2020-05-26"
+    },
+    {
+      "name": "Roman Roads Constructed",
+      "start": "2001-10-10",
+      "end": "2001-11-06",
+      "true_date": "0312-01-01"
+    },
+    {
+      "name": "Leaves of Grass released",
+      "start": "2001-11-14",
+      "end": "2001-11-16",
+      "true_date": "1855-07-04"
+    }
+  ]
+}

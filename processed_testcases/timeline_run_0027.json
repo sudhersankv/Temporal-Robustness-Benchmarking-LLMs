@@ -1,0 +1,273 @@
+{
+  "id": "run_0027",
+  "fact_set_direct": "The event \"First NBA game played\" started on 2000-04-23 and ended on 2000-05-18.\nThe event \"First 3D printer invented\" started on 2000-06-05 and ended on 2000-06-22.\nThe event \"Nixon ends gold standard\" started on 2001-01-18 and ended on 2001-02-06.\nThe event \"Equal Pay Act Signed\" started on 2000-12-13 and ended on 2000-12-19.\nThe event \"Individuals with Disabilities Education Act\" started on 2001-02-23 and ended on 2001-03-24.\nThe event \"Tom Brady wins 7th Super Bowl\" started on 2000-12-30 and ended on 2001-01-13.\nThe event \"Equal Rights Amendment Not Ratified\" started on 2000-11-07 and ended on 2000-11-07.\nThe event \"First fully autonomous car\" started on 2000-09-13 and ended on 2000-09-25.\nThe event \"Founding of the United Nations\" started on 2000-07-12 and ended on 2000-07-28.\nThe event \"First computer built\" started on 2001-04-03 and ended on 2001-04-15.\nThe event \"First coins minted\" started on 2001-05-02 and ended on 2001-05-11.\nThe event \"Facebook launched\" started on 2000-10-03 and ended on 2000-10-29.\nThe event \"First CRISPR gene edit\" started on 2000-06-23 and ended on 2000-07-10.\nThe event \"CRISPR used in humans\" started on 2000-11-18 and ended on 2000-12-03.\nThe event \"Black Lives Matter protests\" started on 2000-07-30 and ended on 2000-08-25.",
+  "fact_set_relative": "The event \"First NBA game played\" started on 2000-04-23 and ended on 2000-05-18.\nIt took 8 days after \"First fully autonomous car\" ended for \"Facebook launched\" to commence; it ran 27 days.\n11 days after the conclusion of \"Equal Rights Amendment Not Ratified\", \"CRISPR used in humans\" began and persisted for 16 days.\nIt took 19 days after \"Black Lives Matter protests\" ended for \"First fully autonomous car\" to commence; it ran 13 days.\n\"First computer built\" kicked off 10 days after \"Individuals with Disabilities Education Act\" wrapped up and lasted 13 days.\n\"First coins minted\" kicked off 17 days after \"First computer built\" wrapped up and lasted 10 days.\n\"First 3D printer invented\" surfaced 18 days after \"First NBA game played\", occupying the timeline for 18 days.\nThe interval of 11 days between \"Equal Pay Act Signed\" and \"Tom Brady wins 7th Super Bowl\" marked the start of another 15-day chapter.\n2 days after the conclusion of \"First CRISPR gene edit\", \"Founding of the United Nations\" began and persisted for 17 days.\n\"Nixon ends gold standard\" followed \"Tom Brady wins 7th Super Bowl\" by 5 days and endured 20 days.\nIt took 10 days after \"CRISPR used in humans\" ended for \"Equal Pay Act Signed\" to commence; it ran 7 days.\nIt took 1 days after \"First 3D printer invented\" ended for \"First CRISPR gene edit\" to commence; it ran 18 days.\n\"Equal Rights Amendment Not Ratified\" was initiated 9 days post \"Facebook launched\" and continued for 1 days.\n2 days after the conclusion of \"Founding of the United Nations\", \"Black Lives Matter protests\" began and persisted for 27 days.\n\"Individuals with Disabilities Education Act\" surfaced 17 days after \"Nixon ends gold standard\", occupying the timeline for 30 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "Provide the events from earliest to latest.",
+      "arguments": {},
+      "category": "event_ordering"
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "List the events in reverse chronological order.",
+      "arguments": {},
+      "category": "event_ordering"
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "Identify the 9th event chronologically.",
+      "arguments": {
+        "n": 9
+      },
+      "category": "event_ordering"
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "How long did CRISPR used in humans last?",
+      "arguments": {
+        "event": "CRISPR used in humans"
+      },
+      "category": "event_duration"
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "Identify the longest-lasting event.",
+      "arguments": {},
+      "category": "event_duration"
+    },
+    {
+      "id": 6,
+      "templateID": "dur.shortest",
+      "question": "Which event lasted the shortest?",
+      "arguments": {},
+      "category": "event_duration"
+    },
+    {
+      "id": 7,
+      "templateID": "order.first",
+      "question": "Did Founding of the United Nations or Tom Brady wins 7th Super Bowl occur first?",
+      "arguments": {
+        "event_A": "Founding of the United Nations",
+        "event_B": "Tom Brady wins 7th Super Bowl"
+      },
+      "category": "event_ordering"
+    },
+    {
+      "id": 8,
+      "templateID": "order.first_last",
+      "question": "Which events are at the start and end of the timeline?",
+      "arguments": {},
+      "category": "event_ordering"
+    },
+    {
+      "id": 9,
+      "templateID": "count.over_x",
+      "question": "Name events that happened over 2 times.",
+      "arguments": {
+        "x": 2
+      },
+      "category": "event_frequency"
+    },
+    {
+      "id": 10,
+      "templateID": "count.same",
+      "question": "Which events have the same occurrence count?",
+      "arguments": {},
+      "category": "event_frequency"
+    },
+    {
+      "id": 11,
+      "templateID": "int.between",
+      "question": "What is the duration between the end of Black Lives Matter protests and the start of Founding of the United Nations?",
+      "arguments": {
+        "event_A": "Black Lives Matter protests",
+        "event_B": "Founding of the United Nations"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 12,
+      "templateID": "order.count",
+      "question": "Total number of events?",
+      "arguments": {},
+      "category": "event_ordering"
+    },
+    {
+      "id": 13,
+      "templateID": "order.middle",
+      "question": "Which event is in the middle of the sequence?",
+      "arguments": {
+        "index": 7
+      },
+      "category": "event_ordering"
+    },
+    {
+      "id": 14,
+      "templateID": "dur.average",
+      "question": "What is the average duration of all events?",
+      "arguments": {},
+      "category": "event_duration"
+    },
+    {
+      "id": 15,
+      "templateID": "dur.each_asc",
+      "question": "Which events, sorted by increasing duration, occurred?",
+      "arguments": {},
+      "category": "event_duration"
+    },
+    {
+      "id": 16,
+      "templateID": "dur.each_desc",
+      "question": "Order the events by longest to shortest duration.",
+      "arguments": {},
+      "category": "event_duration"
+    },
+    {
+      "id": 17,
+      "templateID": "int.between_consecutive",
+      "question": "How many days separate each successive event?",
+      "arguments": {},
+      "category": "event_interval"
+    },
+    {
+      "id": 18,
+      "templateID": "int.precedes",
+      "question": "Does Founding of the United Nations occur before Tom Brady wins 7th Super Bowl?",
+      "arguments": {
+        "event_A": "Founding of the United Nations",
+        "event_B": "Tom Brady wins 7th Super Bowl"
+      },
+      "category": "event_interval"
+    },
+    {
+      "id": 19,
+      "templateID": "list.between",
+      "question": "Which events happened between First computer built and First 3D printer invented?",
+      "arguments": {
+        "event_A": "First computer built",
+        "event_B": "First 3D printer invented"
+      },
+      "category": "event_interval"
+    }
+  ],
+  "gold_answers": {
+    "1": "First NBA game played, First 3D printer invented, First CRISPR gene edit, Founding of the United Nations, Black Lives Matter protests, First fully autonomous car, Facebook launched, Equal Rights Amendment Not Ratified, CRISPR used in humans, Equal Pay Act Signed, Tom Brady wins 7th Super Bowl, Nixon ends gold standard, Individuals with Disabilities Education Act, First computer built, First coins minted",
+    "2": "First coins minted, First computer built, Individuals with Disabilities Education Act, Nixon ends gold standard, Tom Brady wins 7th Super Bowl, Equal Pay Act Signed, CRISPR used in humans, Equal Rights Amendment Not Ratified, Facebook launched, First fully autonomous car, Black Lives Matter protests, Founding of the United Nations, First CRISPR gene edit, First 3D printer invented, First NBA game played",
+    "3": "CRISPR used in humans",
+    "4": "16 days",
+    "5": "Individuals with Disabilities Education Act",
+    "6": "Equal Rights Amendment Not Ratified",
+    "7": "Founding of the United Nations",
+    "8": "First NBA game played, First coins minted",
+    "9": "None",
+    "10": "First NBA game played, First 3D printer invented, First CRISPR gene edit, Founding of the United Nations, Black Lives Matter protests, First fully autonomous car, Facebook launched, Equal Rights Amendment Not Ratified, CRISPR used in humans, Equal Pay Act Signed, Tom Brady wins 7th Super Bowl, Nixon ends gold standard, Individuals with Disabilities Education Act, First computer built, First coins minted",
+    "11": "0 days",
+    "12": "15",
+    "13": "Equal Rights Amendment Not Ratified",
+    "14": "17 days",
+    "15": "Equal Rights Amendment Not Ratified, Equal Pay Act Signed, First coins minted, First fully autonomous car, First computer built, Tom Brady wins 7th Super Bowl, CRISPR used in humans, Founding of the United Nations, First 3D printer invented, First CRISPR gene edit, Nixon ends gold standard, First NBA game played, Black Lives Matter protests, Facebook launched, Individuals with Disabilities Education Act",
+    "16": "Individuals with Disabilities Education Act, Black Lives Matter protests, Facebook launched, First NBA game played, Nixon ends gold standard, First 3D printer invented, First CRISPR gene edit, Founding of the United Nations, CRISPR used in humans, Tom Brady wins 7th Super Bowl, First fully autonomous car, First computer built, First coins minted, Equal Pay Act Signed, Equal Rights Amendment Not Ratified",
+    "17": "17 days, 0 days, 1 days, 1 days, 18 days, 7 days, 8 days, 10 days, 9 days, 10 days, 4 days, 16 days, 9 days, 16 days",
+    "18": "yes",
+    "19": "First CRISPR gene edit, Founding of the United Nations, Black Lives Matter protests, First fully autonomous car, Facebook launched, Equal Rights Amendment Not Ratified, CRISPR used in humans, Equal Pay Act Signed, Tom Brady wins 7th Super Bowl, Nixon ends gold standard, Individuals with Disabilities Education Act"
+  },
+  "timeline": [
+    {
+      "name": "First NBA game played",
+      "start": "2000-04-23",
+      "end": "2000-05-18",
+      "true_date": "1946-11-01"
+    },
+    {
+      "name": "First 3D printer invented",
+      "start": "2000-06-05",
+      "end": "2000-06-22",
+      "true_date": "1984-01-01"
+    },
+    {
+      "name": "First CRISPR gene edit",
+      "start": "2000-06-23",
+      "end": "2000-07-10",
+      "true_date": "2012-01-01"
+    },
+    {
+      "name": "Founding of the United Nations",
+      "start": "2000-07-12",
+      "end": "2000-07-28",
+      "true_date": "1945-10-24"
+    },
+    {
+      "name": "Black Lives Matter protests",
+      "start": "2000-07-30",
+      "end": "2000-08-25",
+      "true_date": "2020-05-26"
+    },
+    {
+      "name": "First fully autonomous car",
+      "start": "2000-09-13",
+      "end": "2000-09-25",
+      "true_date": "2020-12-01"
+    },
+    {
+      "name": "Facebook launched",
+      "start": "2000-10-03",
+      "end": "2000-10-29",
+      "true_date": "2004-02-04"
+    },
+    {
+      "name": "Equal Rights Amendment Not Ratified",
+      "start": "2000-11-07",
+      "end": "2000-11-07",
+      "true_date": "1982-06-30"
+    },
+    {
+      "name": "CRISPR used in humans",
+      "start": "2000-11-18",
+      "end": "2000-12-03",
+      "true_date": "2016-10-28"
+    },
+    {
+      "name": "Equal Pay Act Signed",
+      "start": "2000-12-13",
+      "end": "2000-12-19",
+      "true_date": "1963-06-10"
+    },
+    {
+      "name": "Tom Brady wins 7th Super Bowl",
+      "start": "2000-12-30",
+      "end": "2001-01-13",
+      "true_date": "2021-02-07"
+    },
+    {
+      "name": "Nixon ends gold standard",
+      "start": "2001-01-18",
+      "end": "2001-02-06",
+      "true_date": "1971-08-15"
+    },
+    {
+      "name": "Individuals with Disabilities Education Act",
+      "start": "2001-02-23",
+      "end": "2001-03-24",
+      "true_date": "1990-10-30"
+    },
+    {
+      "name": "First computer built",
+      "start": "2001-04-03",
+      "end": "2001-04-15",
+      "true_date": "1945-02-14"
+    },
+    {
+      "name": "First coins minted",
+      "start": "2001-05-02",
+      "end": "2001-05-11",
+      "true_date": "0670-01-01"
+    }
+  ]
+}

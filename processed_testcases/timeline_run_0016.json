@@ -1,0 +1,254 @@
+{
+  "id": "run_0016",
+  "fact_set_direct": "The event \"First Rugby World Cup held\" started on 2001-01-03 and ended on 2001-01-26.\nThe event \"Insulin discovered\" started on 2001-04-01 and ended on 2001-04-12.\nThe event \"First multinational crewed mission\" started on 2001-04-17 and ended on 2001-05-15.\nThe event \"Fukushima nuclear disaster\" started on 2000-11-25 and ended on 2000-12-15.\nThe event \"First image of black hole released\" started on 2001-03-05 and ended on 2001-03-12.\nThe event \"Common Core Standards Released\" started on 2000-08-30 and ended on 2000-09-15.\nThe event \"EU founded (Maastricht Treaty)\" started on 2001-03-24 and ended on 2001-03-27.\nThe event \"Me Too Movement Emerges\" started on 2000-06-16 and ended on 2000-06-28.\nThe event \"First 4G network launched\" started on 2000-08-05 and ended on 2000-08-14.\nThe event \"First NHL game played\" started on 2000-05-12 and ended on 2000-05-17.\nThe event \"Tokyo Olympics held\" started on 2000-10-04 and ended on 2000-10-07.\nThe event \"HIV identified\" started on 2001-02-08 and ended on 2001-02-27.\nThe event \"First artificial heart transplant\" started on 2000-07-14 and ended on 2000-07-16.\nThe event \"First Women's World Cup held\" started on 2000-05-28 and ended on 2000-06-15.\nThe event \"Magna Carta sealed\" started on 2000-10-20 and ended on 2000-11-15.",
+  "fact_set_relative": "The event \"First NHL game played\" started on 2000-05-12 and ended on 2000-05-17.\nExactly 19 days elapsed between \"Fukushima nuclear disaster\" and the start of \"First Rugby World Cup held\", which endured 24 days.\nFollowing \"Me Too Movement Emerges\" by 16 days, \"First artificial heart transplant\" spanned 3 days.\n\"HIV identified\" kicked off 13 days after \"First Rugby World Cup held\" wrapped up and lasted 20 days.\nExactly 1 days elapsed between \"First Women's World Cup held\" and the start of \"Me Too Movement Emerges\", which endured 13 days.\nFollowing \"First artificial heart transplant\" by 20 days, \"First 4G network launched\" spanned 10 days.\n\"First image of black hole released\" came 6 days after \"HIV identified\", lasting 8 days.\n13 days after the conclusion of \"Tokyo Olympics held\", \"Magna Carta sealed\" began and persisted for 27 days.\n10 days after the conclusion of \"Magna Carta sealed\", \"Fukushima nuclear disaster\" began and persisted for 21 days.\nThe interval of 11 days between \"First NHL game played\" and \"First Women's World Cup held\" marked the start of another 19-day chapter.\n5 days after the conclusion of \"EU founded (Maastricht Treaty)\", \"Insulin discovered\" began and persisted for 12 days.\nExactly 5 days elapsed between \"Insulin discovered\" and the start of \"First multinational crewed mission\", which endured 29 days.\nThe interval of 12 days between \"First image of black hole released\" and \"EU founded (Maastricht Treaty)\" marked the start of another 4-day chapter.\n\"Tokyo Olympics held\" came 19 days after \"Common Core Standards Released\", lasting 4 days.\nFollowing \"First 4G network launched\" by 16 days, \"Common Core Standards Released\" spanned 17 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "Provide the events from earliest to latest.",
+      "arguments": {}
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "What is the reverse order of the events?",
+      "arguments": {}
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "Which event ranks 15th in the timeline?",
+      "arguments": {
+        "n": 15
+      }
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "What was the duration of Magna Carta sealed?",
+      "arguments": {
+        "event": "Magna Carta sealed"
+      }
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "Identify the longest-lasting event.",
+      "arguments": {}
+    },
+    {
+      "id": 6,
+      "templateID": "dur.shortest",
+      "question": "Identify the shortest-lasting event.",
+      "arguments": {}
+    },
+    {
+      "id": 7,
+      "templateID": "order.first",
+      "question": "Which of First image of black hole released and Tokyo Olympics held occurred first?",
+      "arguments": {
+        "event_A": "First image of black hole released",
+        "event_B": "Tokyo Olympics held"
+      }
+    },
+    {
+      "id": 8,
+      "templateID": "order.first_last",
+      "question": "Which events are at the start and end of the timeline?",
+      "arguments": {}
+    },
+    {
+      "id": 9,
+      "templateID": "count.over_x",
+      "question": "Which events occurred more than 2 times?",
+      "arguments": {
+        "x": 2
+      }
+    },
+    {
+      "id": 10,
+      "templateID": "count.same",
+      "question": "Identify events sharing the same frequency.",
+      "arguments": {}
+    },
+    {
+      "id": 11,
+      "templateID": "int.between",
+      "question": "Days between end of Fukushima nuclear disaster and start of Me Too Movement Emerges?",
+      "arguments": {
+        "event_A": "Fukushima nuclear disaster",
+        "event_B": "Me Too Movement Emerges"
+      }
+    },
+    {
+      "id": 12,
+      "templateID": "order.count",
+      "question": "Count of events in the timeline?",
+      "arguments": {}
+    },
+    {
+      "id": 13,
+      "templateID": "order.middle",
+      "question": "Identify the middle event chronologically.",
+      "arguments": {
+        "index": 7
+      }
+    },
+    {
+      "id": 14,
+      "templateID": "dur.average",
+      "question": "Compute the mean event duration.",
+      "arguments": {}
+    },
+    {
+      "id": 15,
+      "templateID": "dur.each_asc",
+      "question": "Which events, sorted by increasing duration, occurred?",
+      "arguments": {}
+    },
+    {
+      "id": 16,
+      "templateID": "dur.each_desc",
+      "question": "Which events, sorted by decreasing duration, occurred?",
+      "arguments": {}
+    },
+    {
+      "id": 17,
+      "templateID": "int.between_consecutive",
+      "question": "What are the time intervals between consecutive events?",
+      "arguments": {}
+    },
+    {
+      "id": 18,
+      "templateID": "int.precedes",
+      "question": "Does First multinational crewed mission occur before Magna Carta sealed?",
+      "arguments": {
+        "event_A": "First multinational crewed mission",
+        "event_B": "Magna Carta sealed"
+      }
+    },
+    {
+      "id": 19,
+      "templateID": "list.between",
+      "question": "Which events happened between First multinational crewed mission and First Women's World Cup held?",
+      "arguments": {
+        "event_A": "First multinational crewed mission",
+        "event_B": "First Women's World Cup held"
+      }
+    }
+  ],
+  "gold_answers": {
+    "1": "First NHL game played, First Women's World Cup held, Me Too Movement Emerges, First artificial heart transplant, First 4G network launched, Common Core Standards Released, Tokyo Olympics held, Magna Carta sealed, Fukushima nuclear disaster, First Rugby World Cup held, HIV identified, First image of black hole released, EU founded (Maastricht Treaty), Insulin discovered, First multinational crewed mission",
+    "2": "First multinational crewed mission, Insulin discovered, EU founded (Maastricht Treaty), First image of black hole released, HIV identified, First Rugby World Cup held, Fukushima nuclear disaster, Magna Carta sealed, Tokyo Olympics held, Common Core Standards Released, First 4G network launched, First artificial heart transplant, Me Too Movement Emerges, First Women's World Cup held, First NHL game played",
+    "3": "First multinational crewed mission",
+    "4": "27 days",
+    "5": "First multinational crewed mission",
+    "6": "First artificial heart transplant",
+    "7": "Tokyo Olympics held",
+    "8": "First NHL game played, First multinational crewed mission",
+    "9": "None",
+    "10": "First NHL game played, First Women's World Cup held, Me Too Movement Emerges, First artificial heart transplant, First 4G network launched, Common Core Standards Released, Tokyo Olympics held, Magna Carta sealed, Fukushima nuclear disaster, First Rugby World Cup held, HIV identified, First image of black hole released, EU founded (Maastricht Treaty), Insulin discovered, First multinational crewed mission",
+    "11": "0 days",
+    "12": "15",
+    "13": "Magna Carta sealed",
+    "14": "14 days",
+    "15": "First artificial heart transplant, Tokyo Olympics held, EU founded (Maastricht Treaty), First NHL game played, First image of black hole released, First 4G network launched, Insulin discovered, Me Too Movement Emerges, Common Core Standards Released, First Women's World Cup held, HIV identified, Fukushima nuclear disaster, First Rugby World Cup held, Magna Carta sealed, First multinational crewed mission",
+    "16": "First multinational crewed mission, Magna Carta sealed, First Rugby World Cup held, Fukushima nuclear disaster, HIV identified, First Women's World Cup held, Common Core Standards Released, Me Too Movement Emerges, Insulin discovered, First 4G network launched, First image of black hole released, First NHL game played, Tokyo Olympics held, EU founded (Maastricht Treaty), First artificial heart transplant",
+    "17": "10 days, 0 days, 15 days, 19 days, 15 days, 18 days, 12 days, 9 days, 18 days, 12 days, 5 days, 11 days, 4 days, 4 days",
+    "18": "no",
+    "19": "Me Too Movement Emerges, First artificial heart transplant, First 4G network launched, Common Core Standards Released, Tokyo Olympics held, Magna Carta sealed, Fukushima nuclear disaster, First Rugby World Cup held, HIV identified, First image of black hole released, EU founded (Maastricht Treaty), Insulin discovered"
+  },
+  "timeline": [
+    {
+      "name": "First NHL game played",
+      "start": "2000-05-12",
+      "end": "2000-05-17",
+      "true_date": "1917-12-19"
+    },
+    {
+      "name": "First Women's World Cup held",
+      "start": "2000-05-28",
+      "end": "2000-06-15",
+      "true_date": "1991-11-16"
+    },
+    {
+      "name": "Me Too Movement Emerges",
+      "start": "2000-06-16",
+      "end": "2000-06-28",
+      "true_date": "2017-10-15"
+    },
+    {
+      "name": "First artificial heart transplant",
+      "start": "2000-07-14",
+      "end": "2000-07-16",
+      "true_date": "1982-12-02"
+    },
+    {
+      "name": "First 4G network launched",
+      "start": "2000-08-05",
+      "end": "2000-08-14",
+      "true_date": "2009-12-14"
+    },
+    {
+      "name": "Common Core Standards Released",
+      "start": "2000-08-30",
+      "end": "2000-09-15",
+      "true_date": "2010-06-02"
+    },
+    {
+      "name": "Tokyo Olympics held",
+      "start": "2000-10-04",
+      "end": "2000-10-07",
+      "true_date": "2021-07-23"
+    },
+    {
+      "name": "Magna Carta sealed",
+      "start": "2000-10-20",
+      "end": "2000-11-15",
+      "true_date": "1215-06-15"
+    },
+    {
+      "name": "Fukushima nuclear disaster",
+      "start": "2000-11-25",
+      "end": "2000-12-15",
+      "true_date": "2011-03-11"
+    },
+    {
+      "name": "First Rugby World Cup held",
+      "start": "2001-01-03",
+      "end": "2001-01-26",
+      "true_date": "1987-05-22"
+    },
+    {
+      "name": "HIV identified",
+      "start": "2001-02-08",
+      "end": "2001-02-27",
+      "true_date": "1983-05-20"
+    },
+    {
+      "name": "First image of black hole released",
+      "start": "2001-03-05",
+      "end": "2001-03-12",
+      "true_date": "2019-04-10"
+    },
+    {
+      "name": "EU founded (Maastricht Treaty)",
+      "start": "2001-03-24",
+      "end": "2001-03-27",
+      "true_date": "1993-11-01"
+    },
+    {
+      "name": "Insulin discovered",
+      "start": "2001-04-01",
+      "end": "2001-04-12",
+      "true_date": "1921-07-27"
+    },
+    {
+      "name": "First multinational crewed mission",
+      "start": "2001-04-17",
+      "end": "2001-05-15",
+      "true_date": "1975-07-17"
+    }
+  ]
+}

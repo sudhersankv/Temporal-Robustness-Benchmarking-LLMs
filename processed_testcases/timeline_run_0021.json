@@ -1,0 +1,290 @@
+{
+  "id": "run_0021",
+  "fact_set_direct": "The event \"DACA Implemented\" started on 2001-03-11 and ended on 2001-03-12.\nThe event \"American Civil War ends\" started on 2001-06-18 and ended on 2001-06-19.\nThe event \"Treaty of Versailles signed\" started on 2001-01-11 and ended on 2001-01-27.\nThe event \"First Newspaper Published\" started on 2001-07-31 and ended on 2001-08-18.\nThe event \"First 4G network launched\" started on 2000-06-19 and ended on 2000-06-30.\nThe event \"First spacewalk by Alexei Leonov\" started on 2000-12-28 and ended on 2001-01-01.\nThe event \"Sputnik 1 launched\" started on 2001-04-04 and ended on 2001-04-30.\nThe event \"No Child Left Behind Act Signed\" started on 2000-07-01 and ended on 2000-07-15.\nThe event \"Explorer 1 detects radiation belts\" started on 2000-10-15 and ended on 2000-11-04.\nThe event \"X-rays discovered\" started on 2000-08-21 and ended on 2000-09-18.\nThe event \"Title IX Enacted\" started on 2001-03-24 and ended on 2001-03-28.\nThe event \"Brown v. Board Decision\" started on 2001-05-11 and ended on 2001-06-04.\nThe event \"First blood type classification\" started on 2001-02-04 and ended on 2001-02-23.\nThe event \"Title IX Enacted\" started on 2001-10-20 and ended on 2001-11-03.\nThe event \"First private spacecraft docks with ISS\" started on 2000-09-24 and ended on 2000-09-28.\nThe event \"Establishment of the People’s Republic of China\" started on 2000-07-24 and ended on 2000-08-20.\nThe event \"Introduction of High-Speed Rail\" started on 2000-11-20 and ended on 2000-11-25.\nThe event \"Americans with Disabilities Act\" started on 2001-08-22 and ended on 2001-09-07.\nThe event \"Beowulf manuscript created\" started on 2000-11-28 and ended on 2000-12-22.\nThe event \"Apollo 11 Moon landing\" started on 2001-09-17 and ended on 2001-10-12.\nThe event \"First blood transfusion\" started on 2001-07-05 and ended on 2001-07-24.",
+  "fact_set_relative": "The event \"First 4G network launched\" started on 2000-06-19 and ended on 2000-06-30.\n\"Apollo 11 Moon landing\" came 10 days after \"Americans with Disabilities Act\", lasting 26 days.\n\"Establishment of the People’s Republic of China\" came 9 days after \"No Child Left Behind Act Signed\", lasting 28 days.\nIt took 16 days after \"First blood type classification\" ended for \"DACA Implemented\" to commence; it ran 2 days.\nFollowing \"Explorer 1 detects radiation belts\" by 16 days, \"Introduction of High-Speed Rail\" spanned 6 days.\n\"First blood type classification\" was initiated 8 days post \"Treaty of Versailles signed\" and continued for 20 days.\n\"Americans with Disabilities Act\" followed \"First Newspaper Published\" by 4 days and endured 17 days.\nThe interval of 7 days between \"First blood transfusion\" and \"First Newspaper Published\" marked the start of another 19-day chapter.\n\"Title IX Enacted\" kicked off 12 days after \"DACA Implemented\" wrapped up and lasted 5 days.\n\"Sputnik 1 launched\" followed \"Title IX Enacted\" by 7 days and endured 27 days.\n\"Title IX Enacted\" came 8 days after \"Apollo 11 Moon landing\", lasting 15 days.\nFollowing \"Establishment of the People’s Republic of China\" by 1 days, \"X-rays discovered\" spanned 29 days.\n\"Beowulf manuscript created\" followed \"Introduction of High-Speed Rail\" by 3 days and endured 25 days.\n\"No Child Left Behind Act Signed\" came 1 days after \"First 4G network launched\", lasting 15 days.\n\"Treaty of Versailles signed\" kicked off 10 days after \"First spacewalk by Alexei Leonov\" wrapped up and lasted 17 days.\n\"First private spacecraft docks with ISS\" surfaced 6 days after \"X-rays discovered\", occupying the timeline for 5 days.\n\"First blood transfusion\" was initiated 16 days post \"American Civil War ends\" and continued for 20 days.\nFollowing \"Brown v. Board Decision\" by 14 days, \"American Civil War ends\" spanned 2 days.\nThe interval of 11 days between \"Sputnik 1 launched\" and \"Brown v. Board Decision\" marked the start of another 25-day chapter.\nFollowing \"First private spacecraft docks with ISS\" by 17 days, \"Explorer 1 detects radiation belts\" spanned 21 days.\nIt took 6 days after \"Beowulf manuscript created\" ended for \"First spacewalk by Alexei Leonov\" to commence; it ran 5 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "Provide the events from earliest to latest.",
+      "arguments": {}
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "What is the reverse order of the events?",
+      "arguments": {}
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "Identify the 11th event chronologically.",
+      "arguments": {
+        "n": 11
+      }
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "What was the duration of Introduction of High-Speed Rail?",
+      "arguments": {
+        "event": "Introduction of High-Speed Rail"
+      }
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "Identify the longest-lasting event.",
+      "arguments": {}
+    },
+    {
+      "id": 6,
+      "templateID": "dur.shortest",
+      "question": "Which event lasted the shortest?",
+      "arguments": {}
+    },
+    {
+      "id": 7,
+      "templateID": "order.first",
+      "question": "Which event came first: DACA Implemented or Beowulf manuscript created?",
+      "arguments": {
+        "event_A": "DACA Implemented",
+        "event_B": "Beowulf manuscript created"
+      }
+    },
+    {
+      "id": 8,
+      "templateID": "order.first_last",
+      "question": "Which events are at the start and end of the timeline?",
+      "arguments": {}
+    },
+    {
+      "id": 9,
+      "templateID": "count.over_x",
+      "question": "Which items exceed 3 occurrences?",
+      "arguments": {
+        "x": 3
+      }
+    },
+    {
+      "id": 10,
+      "templateID": "count.same",
+      "question": "Which events have the same occurrence count?",
+      "arguments": {}
+    },
+    {
+      "id": 11,
+      "templateID": "int.between",
+      "question": "Days between end of American Civil War ends and start of Introduction of High-Speed Rail?",
+      "arguments": {
+        "event_A": "American Civil War ends",
+        "event_B": "Introduction of High-Speed Rail"
+      }
+    },
+    {
+      "id": 12,
+      "templateID": "order.count",
+      "question": "Total number of events?",
+      "arguments": {}
+    },
+    {
+      "id": 13,
+      "templateID": "order.middle",
+      "question": "Which event is in the middle of the sequence?",
+      "arguments": {
+        "index": 10
+      }
+    },
+    {
+      "id": 14,
+      "templateID": "dur.average",
+      "question": "Compute the mean event duration.",
+      "arguments": {}
+    },
+    {
+      "id": 15,
+      "templateID": "dur.each_asc",
+      "question": "Which events, sorted by increasing duration, occurred?",
+      "arguments": {}
+    },
+    {
+      "id": 16,
+      "templateID": "dur.each_desc",
+      "question": "List events with durations in descending order.",
+      "arguments": {}
+    },
+    {
+      "id": 17,
+      "templateID": "int.between_consecutive",
+      "question": "List the days between each pair of consecutive events.",
+      "arguments": {}
+    },
+    {
+      "id": 18,
+      "templateID": "int.precedes",
+      "question": "Does First private spacecraft docks with ISS precede Brown v. Board Decision?",
+      "arguments": {
+        "event_A": "First private spacecraft docks with ISS",
+        "event_B": "Brown v. Board Decision"
+      }
+    },
+    {
+      "id": 19,
+      "templateID": "list.between",
+      "question": "Which events happened between First private spacecraft docks with ISS and First blood type classification?",
+      "arguments": {
+        "event_A": "First private spacecraft docks with ISS",
+        "event_B": "First blood type classification"
+      }
+    }
+  ],
+  "gold_answers": {
+    "1": "First 4G network launched, No Child Left Behind Act Signed, Establishment of the People’s Republic of China, X-rays discovered, First private spacecraft docks with ISS, Explorer 1 detects radiation belts, Introduction of High-Speed Rail, Beowulf manuscript created, First spacewalk by Alexei Leonov, Treaty of Versailles signed, First blood type classification, DACA Implemented, Title IX Enacted, Sputnik 1 launched, Brown v. Board Decision, American Civil War ends, First blood transfusion, First Newspaper Published, Americans with Disabilities Act, Apollo 11 Moon landing, Title IX Enacted",
+    "2": "Title IX Enacted, Apollo 11 Moon landing, Americans with Disabilities Act, First Newspaper Published, First blood transfusion, American Civil War ends, Brown v. Board Decision, Sputnik 1 launched, Title IX Enacted, DACA Implemented, First blood type classification, Treaty of Versailles signed, First spacewalk by Alexei Leonov, Beowulf manuscript created, Introduction of High-Speed Rail, Explorer 1 detects radiation belts, First private spacecraft docks with ISS, X-rays discovered, Establishment of the People’s Republic of China, No Child Left Behind Act Signed, First 4G network launched",
+    "3": "First blood type classification",
+    "4": "6 days",
+    "5": "X-rays discovered",
+    "6": "DACA Implemented",
+    "7": "Beowulf manuscript created",
+    "8": "First 4G network launched, Title IX Enacted",
+    "9": "None",
+    "10": "First 4G network launched, No Child Left Behind Act Signed, Establishment of the People’s Republic of China, X-rays discovered, First private spacecraft docks with ISS, Explorer 1 detects radiation belts, Introduction of High-Speed Rail, Beowulf manuscript created, First spacewalk by Alexei Leonov, Treaty of Versailles signed, First blood type classification, DACA Implemented, Sputnik 1 launched, Brown v. Board Decision, American Civil War ends, First blood transfusion, First Newspaper Published, Americans with Disabilities Act, Apollo 11 Moon landing",
+    "11": "0 days",
+    "12": "21",
+    "13": "First blood type classification",
+    "14": "16 days",
+    "15": "DACA Implemented, American Civil War ends, First private spacecraft docks with ISS, First spacewalk by Alexei Leonov, Title IX Enacted, Introduction of High-Speed Rail, First 4G network launched, No Child Left Behind Act Signed, Title IX Enacted, Treaty of Versailles signed, Americans with Disabilities Act, First Newspaper Published, First blood type classification, First blood transfusion, Explorer 1 detects radiation belts, Beowulf manuscript created, Brown v. Board Decision, Apollo 11 Moon landing, Sputnik 1 launched, Establishment of the People’s Republic of China, X-rays discovered",
+    "16": "X-rays discovered, Establishment of the People’s Republic of China, Sputnik 1 launched, Apollo 11 Moon landing, Beowulf manuscript created, Brown v. Board Decision, Explorer 1 detects radiation belts, First blood type classification, First blood transfusion, First Newspaper Published, Treaty of Versailles signed, Americans with Disabilities Act, No Child Left Behind Act Signed, Title IX Enacted, First 4G network launched, Introduction of High-Speed Rail, First private spacecraft docks with ISS, First spacewalk by Alexei Leonov, Title IX Enacted, DACA Implemented, American Civil War ends",
+    "17": "0 days, 8 days, 0 days, 5 days, 16 days, 15 days, 2 days, 5 days, 9 days, 7 days, 15 days, 11 days, 6 days, 10 days, 13 days, 15 days, 6 days, 3 days, 9 days, 7 days",
+    "18": "yes",
+    "19": "Explorer 1 detects radiation belts, Introduction of High-Speed Rail, Beowulf manuscript created, First spacewalk by Alexei Leonov, Treaty of Versailles signed"
+  },
+  "timeline": [
+    {
+      "name": "First 4G network launched",
+      "start": "2000-06-19",
+      "end": "2000-06-30",
+      "true_date": "2009-12-14"
+    },
+    {
+      "name": "No Child Left Behind Act Signed",
+      "start": "2000-07-01",
+      "end": "2000-07-15",
+      "true_date": "2002-01-08"
+    },
+    {
+      "name": "Establishment of the People’s Republic of China",
+      "start": "2000-07-24",
+      "end": "2000-08-20",
+      "true_date": "1949-10-01"
+    },
+    {
+      "name": "X-rays discovered",
+      "start": "2000-08-21",
+      "end": "2000-09-18",
+      "true_date": "1895-11-08"
+    },
+    {
+      "name": "First private spacecraft docks with ISS",
+      "start": "2000-09-24",
+      "end": "2000-09-28",
+      "true_date": "2012-05-25"
+    },
+    {
+      "name": "Explorer 1 detects radiation belts",
+      "start": "2000-10-15",
+      "end": "2000-11-04",
+      "true_date": "1958-01-31"
+    },
+    {
+      "name": "Introduction of High-Speed Rail",
+      "start": "2000-11-20",
+      "end": "2000-11-25",
+      "true_date": "1964-10-01"
+    },
+    {
+      "name": "Beowulf manuscript created",
+      "start": "2000-11-28",
+      "end": "2000-12-22",
+      "true_date": "1000-01-01"
+    },
+    {
+      "name": "First spacewalk by Alexei Leonov",
+      "start": "2000-12-28",
+      "end": "2001-01-01",
+      "true_date": "1965-03-18"
+    },
+    {
+      "name": "Treaty of Versailles signed",
+      "start": "2001-01-11",
+      "end": "2001-01-27",
+      "true_date": "1919-06-28"
+    },
+    {
+      "name": "First blood type classification",
+      "start": "2001-02-04",
+      "end": "2001-02-23",
+      "true_date": "1901-01-01"
+    },
+    {
+      "name": "DACA Implemented",
+      "start": "2001-03-11",
+      "end": "2001-03-12",
+      "true_date": "2012-06-15"
+    },
+    {
+      "name": "Title IX Enacted",
+      "start": "2001-03-24",
+      "end": "2001-03-28",
+      "true_date": "1972-06-23"
+    },
+    {
+      "name": "Sputnik 1 launched",
+      "start": "2001-04-04",
+      "end": "2001-04-30",
+      "true_date": "1957-10-04"
+    },
+    {
+      "name": "Brown v. Board Decision",
+      "start": "2001-05-11",
+      "end": "2001-06-04",
+      "true_date": "1954-05-17"
+    },
+    {
+      "name": "American Civil War ends",
+      "start": "2001-06-18",
+      "end": "2001-06-19",
+      "true_date": "1865-04-09"
+    },
+    {
+      "name": "First blood transfusion",
+      "start": "2001-07-05",
+      "end": "2001-07-24",
+      "true_date": "1818-06-15"
+    },
+    {
+      "name": "First Newspaper Published",
+      "start": "2001-07-31",
+      "end": "2001-08-18",
+      "true_date": "1605-01-01"
+    },
+    {
+      "name": "Americans with Disabilities Act",
+      "start": "2001-08-22",
+      "end": "2001-09-07",
+      "true_date": "1990-07-26"
+    },
+    {
+      "name": "Apollo 11 Moon landing",
+      "start": "2001-09-17",
+      "end": "2001-10-12",
+      "true_date": "1969-07-20"
+    },
+    {
+      "name": "Title IX Enacted",
+      "start": "2001-10-20",
+      "end": "2001-11-03",
+      "true_date": "1972-06-23"
+    }
+  ]
+}

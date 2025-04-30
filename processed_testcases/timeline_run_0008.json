@@ -1,0 +1,230 @@
+{
+  "id": "run_0008",
+  "fact_set_direct": "The event \"Mount Tambora eruption\" started on 2000-12-09 and ended on 2000-12-15.\nThe event \"New Horizons launched to Pluto\" started on 2001-04-14 and ended on 2001-05-11.\nThe event \"First Television Broadcast\" started on 2001-06-19 and ended on 2001-06-21.\nThe event \"First Olympic Games held\" started on 2001-05-20 and ended on 2001-06-04.\nThe event \"First Email Sent\" started on 2001-01-26 and ended on 2001-02-18.\nThe event \"Leaves of Grass released\" started on 2000-11-11 and ended on 2000-12-03.\nThe event \"First Charter School Law Passed\" started on 2000-12-30 and ended on 2001-01-09.\nThe event \"Don't Ask, Don't Tell Repealed\" started on 2001-01-15 and ended on 2001-01-15.\nThe event \"Defense of Marriage Act Repealed\" started on 2001-07-19 and ended on 2001-07-20.\nThe event \"First 3D printed organ\" started on 2001-03-02 and ended on 2001-03-30.\nThe event \"Australian bushfires\" started on 2001-07-01 and ended on 2001-07-18.",
+  "fact_set_relative": "The event \"Leaves of Grass released\" started on 2000-11-11 and ended on 2000-12-03.\n\"Defense of Marriage Act Repealed\" followed \"Australian bushfires\" by 1 days and endured 2 days.\n\"First 3D printed organ\" kicked off 12 days after \"First Email Sent\" wrapped up and lasted 29 days.\nIt took 15 days after \"Mount Tambora eruption\" ended for \"First Charter School Law Passed\" to commence; it ran 11 days.\n\"Mount Tambora eruption\" came 6 days after \"Leaves of Grass released\", lasting 7 days.\n15 days after the conclusion of \"First Olympic Games held\", \"First Television Broadcast\" began and persisted for 3 days.\n\"First Email Sent\" came 11 days after \"Don't Ask, Don't Tell Repealed\", lasting 24 days.\n\"Australian bushfires\" surfaced 10 days after \"First Television Broadcast\", occupying the timeline for 18 days.\nThe interval of 15 days between \"First 3D printed organ\" and \"New Horizons launched to Pluto\" marked the start of another 28-day chapter.\nExactly 9 days elapsed between \"New Horizons launched to Pluto\" and the start of \"First Olympic Games held\", which endured 16 days.\n\"Don't Ask, Don't Tell Repealed\" kicked off 6 days after \"First Charter School Law Passed\" wrapped up and lasted 1 days.",
+  "questions": [
+    {
+      "id": 1,
+      "templateID": "order.full",
+      "question": "Provide the events from earliest to latest.",
+      "arguments": {}
+    },
+    {
+      "id": 2,
+      "templateID": "order.reverse",
+      "question": "Provide the events from latest to earliest.",
+      "arguments": {}
+    },
+    {
+      "id": 3,
+      "templateID": "order.nth",
+      "question": "Tell me the 1st event in order.",
+      "arguments": {
+        "n": 1
+      }
+    },
+    {
+      "id": 4,
+      "templateID": "dur.single",
+      "question": "For how many days did Don't Ask, Don't Tell Repealed occur?",
+      "arguments": {
+        "event": "Don't Ask, Don't Tell Repealed"
+      }
+    },
+    {
+      "id": 5,
+      "templateID": "dur.longest",
+      "question": "Which event lasted the longest?",
+      "arguments": {}
+    },
+    {
+      "id": 6,
+      "templateID": "dur.shortest",
+      "question": "What event had the minimum duration?",
+      "arguments": {}
+    },
+    {
+      "id": 7,
+      "templateID": "order.first",
+      "question": "Which event came first: Don't Ask, Don't Tell Repealed or Australian bushfires?",
+      "arguments": {
+        "event_A": "Don't Ask, Don't Tell Repealed",
+        "event_B": "Australian bushfires"
+      }
+    },
+    {
+      "id": 8,
+      "templateID": "order.first_last",
+      "question": "What is the first and last event?",
+      "arguments": {}
+    },
+    {
+      "id": 9,
+      "templateID": "count.over_x",
+      "question": "Name events that happened over 1 times.",
+      "arguments": {
+        "x": 1
+      }
+    },
+    {
+      "id": 10,
+      "templateID": "count.same",
+      "question": "List events that occurred equally often.",
+      "arguments": {}
+    },
+    {
+      "id": 11,
+      "templateID": "int.between",
+      "question": "Days between end of Leaves of Grass released and start of Mount Tambora eruption?",
+      "arguments": {
+        "event_A": "Leaves of Grass released",
+        "event_B": "Mount Tambora eruption"
+      }
+    },
+    {
+      "id": 12,
+      "templateID": "order.count",
+      "question": "Total number of events?",
+      "arguments": {}
+    },
+    {
+      "id": 13,
+      "templateID": "order.middle",
+      "question": "Identify the middle event chronologically.",
+      "arguments": {
+        "index": 5
+      }
+    },
+    {
+      "id": 14,
+      "templateID": "dur.average",
+      "question": "Compute the mean event duration.",
+      "arguments": {}
+    },
+    {
+      "id": 15,
+      "templateID": "dur.each_asc",
+      "question": "Order the events by shortest to longest duration.",
+      "arguments": {}
+    },
+    {
+      "id": 16,
+      "templateID": "dur.each_desc",
+      "question": "Order the events by longest to shortest duration.",
+      "arguments": {}
+    },
+    {
+      "id": 17,
+      "templateID": "int.between_consecutive",
+      "question": "List the days between each pair of consecutive events.",
+      "arguments": {}
+    },
+    {
+      "id": 18,
+      "templateID": "int.precedes",
+      "question": "Does First Charter School Law Passed occur before Mount Tambora eruption?",
+      "arguments": {
+        "event_A": "First Charter School Law Passed",
+        "event_B": "Mount Tambora eruption"
+      }
+    },
+    {
+      "id": 19,
+      "templateID": "list.between",
+      "question": "Identify events between First Olympic Games held and First Television Broadcast.",
+      "arguments": {
+        "event_A": "First Olympic Games held",
+        "event_B": "First Television Broadcast"
+      }
+    }
+  ],
+  "gold_answers": {
+    "1": "Leaves of Grass released, Mount Tambora eruption, First Charter School Law Passed, Don't Ask, Don't Tell Repealed, First Email Sent, First 3D printed organ, New Horizons launched to Pluto, First Olympic Games held, First Television Broadcast, Australian bushfires, Defense of Marriage Act Repealed",
+    "2": "Defense of Marriage Act Repealed, Australian bushfires, First Television Broadcast, First Olympic Games held, New Horizons launched to Pluto, First 3D printed organ, First Email Sent, Don't Ask, Don't Tell Repealed, First Charter School Law Passed, Mount Tambora eruption, Leaves of Grass released",
+    "3": "Leaves of Grass released",
+    "4": "1 days",
+    "5": "First 3D printed organ",
+    "6": "Don't Ask, Don't Tell Repealed",
+    "7": "Don't Ask, Don't Tell Repealed",
+    "8": "Leaves of Grass released, Defense of Marriage Act Repealed",
+    "9": "None",
+    "10": "Leaves of Grass released, Mount Tambora eruption, First Charter School Law Passed, Don't Ask, Don't Tell Repealed, First Email Sent, First 3D printed organ, New Horizons launched to Pluto, First Olympic Games held, First Television Broadcast, Australian bushfires, Defense of Marriage Act Repealed",
+    "11": "5 days",
+    "12": "11",
+    "13": "First 3D printed organ",
+    "14": "15 days",
+    "15": "Don't Ask, Don't Tell Repealed, Defense of Marriage Act Repealed, First Television Broadcast, Mount Tambora eruption, First Charter School Law Passed, First Olympic Games held, Australian bushfires, Leaves of Grass released, First Email Sent, New Horizons launched to Pluto, First 3D printed organ",
+    "16": "First 3D printed organ, New Horizons launched to Pluto, First Email Sent, Leaves of Grass released, Australian bushfires, First Olympic Games held, First Charter School Law Passed, Mount Tambora eruption, First Television Broadcast, Defense of Marriage Act Repealed, Don't Ask, Don't Tell Repealed",
+    "17": "5 days, 14 days, 5 days, 10 days, 11 days, 14 days, 8 days, 14 days, 9 days, 0 days",
+    "18": "no",
+    "19": "None"
+  },
+  "timeline": [
+    {
+      "name": "Leaves of Grass released",
+      "start": "2000-11-11",
+      "end": "2000-12-03",
+      "true_date": "1855-07-04"
+    },
+    {
+      "name": "Mount Tambora eruption",
+      "start": "2000-12-09",
+      "end": "2000-12-15",
+      "true_date": "1815-04-10"
+    },
+    {
+      "name": "First Charter School Law Passed",
+      "start": "2000-12-30",
+      "end": "2001-01-09",
+      "true_date": "1991-06-04"
+    },
+    {
+      "name": "Don't Ask, Don't Tell Repealed",
+      "start": "2001-01-15",
+      "end": "2001-01-15",
+      "true_date": "2011-09-20"
+    },
+    {
+      "name": "First Email Sent",
+      "start": "2001-01-26",
+      "end": "2001-02-18",
+      "true_date": "1971-10-29"
+    },
+    {
+      "name": "First 3D printed organ",
+      "start": "2001-03-02",
+      "end": "2001-03-30",
+      "true_date": "2019-04-15"
+    },
+    {
+      "name": "New Horizons launched to Pluto",
+      "start": "2001-04-14",
+      "end": "2001-05-11",
+      "true_date": "2006-01-19"
+    },
+    {
+      "name": "First Olympic Games held",
+      "start": "2001-05-20",
+      "end": "2001-06-04",
+      "true_date": "0776-07-01"
+    },
+    {
+      "name": "First Television Broadcast",
+      "start": "2001-06-19",
+      "end": "2001-06-21",
+      "true_date": "1928-07-01"
+    },
+    {
+      "name": "Australian bushfires",
+      "start": "2001-07-01",
+      "end": "2001-07-18",
+      "true_date": "2019-09-01"
+    },
+    {
+      "name": "Defense of Marriage Act Repealed",
+      "start": "2001-07-19",
+      "end": "2001-07-20",
+      "true_date": "2013-06-26"
+    }
+  ]
+}
